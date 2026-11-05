@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.0 (2026-11-05)
+
+- SKILL.md: priorities (end user first, then the standard, then the look, then the code); a first-use step that audits the project, proposes the optimal choices with recommendations and records them in DESIGN.md; a rule to reuse the stack's existing components before rewriting.
+- `architecture.md`: "Reuse before rewrite" section.
+- `bottom-sheets.md`: complete behaviour (detents half and full, drag, swipe to dismiss, scrim, keyboard, sticky actions) and how to map it to Ionic, Vaul, Vuetify, Angular Material.
+- `navigation-bar.md`: which height to build and why.
+
 ## 1.2.0 (2026-11-05)
 
 Color management, documented from the Material color pages, the material-color-utilities library and the Material Theme Builder.

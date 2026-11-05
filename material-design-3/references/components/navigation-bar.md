@@ -34,6 +34,10 @@ Breakpoint guide: compact uses a navigation bar or a modal navigation rail; medi
    - Active indicator (pill behind the icon, or behind icon and label in horizontal layout)
    - Small badge (optional, 6dp dot) or large badge (optional, 16dp with a number)
 
+## Which height to build
+
+Build the baseline 80dp bar (icon above a label, 64x32dp indicator, 12dp label) unless the product already uses the 2025 flexible bar. At 64dp the labels sit tight against the bottom edge on phones with a home indicator; the 80dp bar reads better and remains spec-compliant. Whatever the height, keep 8px side padding, equal item widths, and the labels on one line.
+
 ## Specs
 
 Flexible navigation bar (md.comp.nav-bar):

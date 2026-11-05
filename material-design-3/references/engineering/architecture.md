@@ -2,6 +2,10 @@
 
 Put every Material component in one place, drive its variants with props, and let pages only compose. Tokens live in one file, layouts live in one folder, and shared hosts (snackbar, dialog) exist once at the shell level.
 
+## Reuse before rewrite
+
+Before creating a component folder, check what the stack already provides: the framework's component library (Angular Material, Vuetify, Ionic, MUI, Quasar, Material Web), headless primitives (Radix, Headless UI, Vaul for sheets, Floating UI for menus and tooltips), and the platform (`<dialog>`, `<details>`, `popover`, native `<select>` on phones). If one of them does the job, wrap it in your component folder, map its props to the Material variants and theme it with the `--md-sys-*` tokens. Gestures, focus trapping, scroll locking, animation interruption and screen reader behaviour are where hand-written components fail; a maintained library has solved them. Rewrite only when the stack has nothing close, and then implement the complete behaviour from the component reference (for a bottom sheet: detents, drag, swipe to dismiss, scrim, keyboard), not only the visual part.
+
 ## Project tree
 
 Use this tree in any framework. Rename extensions to match (`.jsx`, `.vue`, `.svelte`, `.ts`, `.blade.php`), keep the folders.

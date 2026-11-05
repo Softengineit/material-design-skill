@@ -14,7 +14,35 @@ This skill turns the guidelines published at https://m3.material.io into rules y
 
 Everything is expressed through **design tokens** (`md.sys.color.primary`, `md.sys.shape.corner.medium`, `md.comp.filled-button.container.height`). In CSS the same tokens become custom properties (`--md-sys-color-primary`). Every file in this skill refers to these names, so code written from it stays themeable and recognisable as Material.
 
+## Priorities, in this order
+
+1. **The end user's result comes first**: ergonomics and fluidity. A screen must be usable with one thumb in a noisy place, answer the user's first question without scrolling, respond under 100 ms, never block on a gesture, and degrade cleanly (loading, empty, error, offline). When a choice helps the code but costs the user a tap or a hesitation, the user wins.
+2. **The Material standard comes before the code**: follow the guideline even when the existing code does it differently; adapt the code, not the rule. The only exceptions are written in the project's setup file (below) with a reason.
+3. **Then the look**: the page must be visibly Material and visibly cared for (hierarchy, spacing, one strong accent block, both themes).
+4. **Then the code**: reusable components, tokens, performance, metadata. Code quality serves the three points above; it never justifies a worse screen.
+
+When two of these conflict, the higher one wins, and the trade-off is said in one line in the reply.
+
 ## Workflow
+
+### First use in a project: audit, then propose, then record
+
+The first time the skill runs in a project, do not start coding. Spend the first minutes on an audit, then put the choices in front of the user with a recommendation, then write them down so later sessions do not ask again.
+
+Audit (silent, from the files): framework and version, build tool, CSS approach (plain, modules, Tailwind, CSS-in-JS, Sass), component libraries already installed (Angular Material, Vuetify, MUI, Ionic, Radix, Material Web, shadcn...), existing tokens or theme files, brand colors and fonts (logo, existing CSS, a style guide), icon set, target devices and window sizes (phone first? desktop tool?), languages and RTL, SEO needs (public site or authenticated app), existing pages that will stay as they are, accessibility or performance constraints stated anywhere (README, issues, CI).
+
+Propose, with one recommended option each and a one-line reason, using AskUserQuestion when it exists, plain text otherwise:
+- Color: source color (from the brand) and scheme variant (tonal-spot, vibrant, fidelity, neutral), with the `make_scheme.mjs` command ready to run; custom colors needed (success, warning, info).
+- Components: reuse the installed library and theme it, or build from the references; name which components come from where.
+- Navigation: bar, rail, drawer, or expanded rail per window class, given the number of destinations.
+- Typography and icons: Roboto plus Material Symbols (subset), or the brand font with the Material type scale.
+- Structure: the folder layout from `references/engineering/architecture.md`, adapted to the existing tree.
+- Delivery bar: Lighthouse and axe thresholds, the checker in CI, dark mode and contrast levels expected.
+- Scope: which existing screens migrate first (the ones users open most), which stay untouched.
+
+Record the answers in `DESIGN.md` at the project root (or in CLAUDE.md when the project uses one): source color and variant, chosen libraries, navigation pattern, fonts, exceptions to the guideline with their reasons, and the delivery bar. Later runs read this file first and skip the questions. Update it when a decision changes.
+
+If the user is not there to answer, take the recommended options, write them in `DESIGN.md` marked "to confirm", and continue.
 
 ### 0. Set up the project structure once
 
@@ -39,6 +67,8 @@ For a brand color other than the baseline purple, generate the scheme with `scri
 ### 2. Pick the components
 
 Read `references/components/_overview.md` to map a need to a component ("choose one option from a short list" -> segmented buttons or radio buttons; "temporary message" -> snackbar; "primary destination switching on phone" -> navigation bar; on desktop -> navigation rail or drawer). Then open the reference file for each component you will build. Each one follows the same structure: when to use, variants, anatomy, specs table, states, accessibility, do/don't, minimal HTML + CSS implementation, and a pointer to the component's token file.
+
+**Use what the stack already has before coding a component from scratch.** If the project already ships a component library or framework primitives that do the job (Angular Material's MatBottomSheet, Vuetify's v-bottom-sheet and v-bottom-navigation, Ionic's ion-modal with breakpoints, MUI, Vaul or Radix in React, a Lit or Web Components set, Flutter's own widgets), configure and theme that component with the `--md-sys-*` tokens instead of rewriting it. Ready-made components carry the gestures, focus management, animations and edge cases (drag to resize, swipe to dismiss, keyboard, screen readers) that a hand-written version gets wrong first; rewriting them costs days and gives a less fluid result. Write from scratch only when nothing in the stack fits, and then implement the full behaviour from the component reference, not only its look.
 
 Read the reference before writing a component, even one you know well. M3 changed many details compared to Material 2 (no raised buttons, tonal surfaces instead of shadows, 40dp button height with 16dp side padding, 56dp FAB, surface-container tiers, 3dp focus ring) and M3 Expressive (2025) changed more (button size scale xs to xl, shape morphing on press, split buttons, FAB menu, toolbars, loading indicator, spring motion).
 

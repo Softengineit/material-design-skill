@@ -131,6 +131,19 @@ Modal bottom sheet with scrim, drag handle, title and a list of actions. A frame
 
 JS: clicking the handle cycles `data-height` through `half`, `full`, then closes; clicking the scrim or pressing Escape closes; a standard sheet omits the scrim, `aria-modal` and the focus trap.
 
+## Complete behaviour, with or without a library
+
+A sheet that only slides up and closes on a button is not finished. The full behaviour, in order of importance:
+
+1. Detents: at least half (50% of the viewport) and full (viewport minus 56px so the app bar stays visible). The sheet opens at half. The handle click and ArrowUp / ArrowDown on the focused handle cycle them; ArrowDown at half closes.
+2. Drag: pointer events on the handle (`touch-action: none`, `setPointerCapture`). Dragging up grows the sheet live (no transition while dragging), dragging down translates it; on release, more than 120px down closes, more than 60px up snaps to full, more than 60px down from full snaps to half, otherwise it returns to the current detent with `--md-sys-motion-easing-emphasized` and `duration-medium2`.
+3. Dismiss: scrim tap, Escape, swipe down, close icon in the header. All four, every time.
+4. Scroll: the body scrolls inside the sheet (`overflow-y: auto`, `overscroll-behavior: contain`), the header and the action row stay fixed (sticky footer with `env(safe-area-inset-bottom)` padding).
+5. Focus: focus moves into the sheet on open and back to the trigger on close; `<dialog>` with `showModal()` gives the trap, the scrim and Escape for free.
+6. Reduced motion: no translate animation, instant open and close.
+
+With a library, map these to its API instead of coding them: Ionic `ion-modal` with `breakpoints="[0, 0.5, 1]"` and `initialBreakpoint="0.5"`; Vaul (React) `<Drawer snapPoints={[0.5, 1]}>`; Vuetify `v-bottom-sheet`; Angular Material `MatBottomSheet` (no detents, add a height toggle); Material Web has no sheet component. Theme the library component with the surface-container-low background, extra-large top corners and the 32x4px handle.
+
 ## Tokens
 
 - ../tokens/md.comp.sheet.md (bottom docked sheet, drag handle, side sheet)
