@@ -127,6 +127,17 @@ Light hex / dark hex, from `material-tokens.css`. Palette tones are in parenthes
 
 Dark theme in the CSS file is activated by `prefers-color-scheme: dark` (unless `data-theme="light"` is set on `<html>`) or by `data-theme="dark"` on `<html>`.
 
+## When the light theme looks too pale
+
+The baseline light scheme puts containers at tones 90 to 98, so a page with many cards reads as washed out, especially with a low-chroma seed (blue, grey, green). Users often call it "pale" or "flat". Keep the role structure and adjust the values:
+
+- Space out the surface tiers: surface at tone 97 or 98, surface-container-low 94, surface-container 91, surface-container-high 88, surface-container-highest 84 (the baseline uses 96, 94, 92, 90). Cards and list rows then separate from the page without shadows.
+- Raise the chroma of the accent containers by 8 to 12 points and drop them one tone (primary-container at tone 85 instead of 90, with on-primary-container at tone 15 instead of 30 to keep 4.5:1).
+- Darken outline-variant to about tone 75 so card borders and dividers show.
+- Put one block in the full accent: the most important element of the screen (a hero number, the main status card) uses `primary` as background with `on-primary` text and a `level1` shadow. Everything else stays on surface tiers. One strong block is Material; several are noise.
+- Do not fix paleness by adding shadows to every card or by using pure white cards on a grey page; that is Material 2.
+- Check dark mode after the change: the dark values usually stay as they were, since the dark baseline already has enough contrast.
+
 ## Accessibility and contrast
 
 - Material targets 4.5:1 for small text and 3:1 for large text, icons and component boundaries. Every `on-X` over `X` meets at least 3:1 by construction; most text pairs meet 4.5:1.
