@@ -55,6 +55,14 @@ Claude loads the tokens, reads the relevant component references, writes the cod
 
 The guidelines site changes a few times a year. The content here reflects m3.material.io as of November 2026. To refresh, re-run the extraction (the site serves its pages as JSON under `/_dsm/content/m3/<version>/` and its tokens under `/_dsm/data/dsdb-m3/<version>/`) and regenerate `material-tokens.css` and the `references/tokens/` files.
 
+## Contributing
+
+Corrections and framework notes are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Report a mismatch with the guidelines or a bad output with the issue templates.
+
+## Maintainer
+
+Maintained by Steve Nouyep (SEED Innovation, Yaoundé). Releases are tagged `vX.Y.Z`; each release page carries the ready-to-install `material-design-3.skill` file.
+
 ## License and attribution
 
-The reference files are written in our own words from the Material Design guidelines (https://m3.material.io, Google LLC). Token names and values are facts from the Material 3 design system. Material Design, Material You and Material Symbols are trademarks of Google LLC. The code in this repository (SKILL.md, examples, scripts) is released under the MIT License.
+The reference files are written in our own words from the Material Design guidelines (https://m3.material.io, Google LLC). Token names and values are facts from the Material 3 design system. Material Design, Material You and Material Symbols are trademarks of Google LLC. The code in this repository (SKILL.md, examples, scripts) is released under the MIT License (see [LICENSE](LICENSE)).
