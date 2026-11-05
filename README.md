@@ -23,6 +23,7 @@ material-design-3/
     examples/react-button.jsx  button, icon button, text field in React (+ react-button.css)
     examples/vue-card.vue      card in Vue 3
   scripts/
+    make_scheme.mjs            scheme generator: 45 color roles + custom colors from one source color, light/dark, 3 contrast levels
     check_material.py          static checker: hard-coded colors, sizes, radii, durations, shadows,
                                missing focus styles, icon buttons without a label, images without alt
 ```

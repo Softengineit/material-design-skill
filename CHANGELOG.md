@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0 (2026-11-05)
+
+Color management, documented from the Material color pages, the material-color-utilities library and the Material Theme Builder.
+
+- New `references/styles/color-schemes.md`: HCT and the tone-to-contrast rule, scheme variants with their hue and chroma parameters, baseline tones per role, contrast levels, custom colors (success, warning, brand) with harmonization, several schemes on one screen, role remapping, source color and brand integration, dynamic color on the web, Material 3 Expressive changes, shipping checklist.
+- New `scripts/make_scheme.mjs`: generates the 45 roles (plus custom colors) from one source color with Google's algorithm, for light, dark and the three contrast levels, as CSS or JSON, with a contrast check of every guaranteed pair.
+- SKILL.md step 1 points to the generator; hand-typed tones are no longer accepted.
+- `color.md`: section on light themes that look too pale.
+
 ## 1.1.0 (2026-11-05)
 
 Engineering layer, so the output is production-grade and not only visually Material.

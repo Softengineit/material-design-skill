@@ -155,6 +155,8 @@ The baseline light scheme puts containers at tones 90 to 98, so a page with many
 
 ## Custom scheme from a brand color
 
+Full procedure, variants and the generator script are in `color-schemes.md`. Short version:
+
 1. Take the brand hex as the source color. Optionally supply separate sources for secondary, tertiary, neutral and neutral variant.
 2. Generate the scheme with material-color-utilities (or the Material Theme Builder Figma plugin, which exports CSS, JSON, Compose, Flutter).
 3. If the result looks washed out, enable color fidelity (the `SchemeFidelity` or `SchemeContent` variant) so tones follow the input more closely; then re-check the on-X pairings.

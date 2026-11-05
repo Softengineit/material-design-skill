@@ -34,7 +34,7 @@ Start every Material project by including `assets/material-tokens.css` (or copyi
 
 In a framework that does not use plain CSS (Tailwind config, CSS-in-JS, Sass maps, Flutter `ThemeData`, Blazor theme object), translate these values into that system but keep the token names in identifiers. Never hard-code a hex color, a corner radius, a font size or a duration in component code when a token exists for it. Hard-coded values are the first thing that breaks theming and dark mode.
 
-For a brand color other than the baseline purple, generate a scheme from a seed color (see `references/styles/color.md`, section "Custom schemes") and override only the `--md-sys-color-*` variables. Component code does not change.
+For a brand color other than the baseline purple, generate the scheme with `scripts/make_scheme.mjs` (Google's own algorithm: `node scripts/make_scheme.mjs '#1e7a4a' --variant vibrant --contrast all`, after `npm i @material/material-color-utilities`) and load its output after the token file; it overrides only the `--md-sys-color-*` variables and component code does not change. Never type tones by hand. `references/styles/color-schemes.md` explains variants (tonal-spot, vibrant, fidelity, neutral...), custom colors (success, warning), contrast levels, several schemes on one screen and brand integration; `references/styles/color.md` lists the roles and their pairing rules.
 
 ### 2. Pick the components
 
@@ -114,7 +114,9 @@ Then run the delivery checklist in `references/engineering/quality.md`: Lighthou
 | --- | --- |
 | Which component for which need, categories | `references/components/_overview.md` |
 | One file per component (36) | `references/components/<name>.md` |
-| Color roles, light/dark hex, custom schemes | `references/styles/color.md` |
+| Color roles, pairing rules, light/dark hex | `references/styles/color.md` |
+| Scheme generation, variants, custom colors, contrast levels, multi-scheme, brand | `references/styles/color-schemes.md` |
+| Scheme generator (CSS, JSON, contrast check) | `scripts/make_scheme.mjs` |
 | Type scale values and usage | `references/styles/typography.md` |
 | Shape scale, per-component corners, morphing | `references/styles/shape.md` |
 | Elevation levels and tonal surfaces | `references/styles/elevation.md` |
