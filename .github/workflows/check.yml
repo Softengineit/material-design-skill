@@ -1,0 +1,36 @@
+name: Check skill
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: SKILL.md has the required frontmatter
+        run: |
+          head -1 material-design-3/SKILL.md | grep -q '^---$'
+          grep -q '^name: material-design-3$' material-design-3/SKILL.md
+          grep -q '^description: ' material-design-3/SKILL.md
+      - name: Every component in the overview has a file
+        run: |
+          cd material-design-3/references/components
+          for f in $(grep -o '[a-z-]*\.md' _overview.md | sort -u); do test -f "$f" || { echo "missing $f"; exit 1; }; done
+      - name: Examples pass the checker
+        run: python3 material-design-3/scripts/check_material.py material-design-3/assets/examples
+      - name: Component examples pass the checker
+        run: python3 material-design-3/scripts/check_material.py material-design-3/references/components
+      - name: No em or en dashes
+        run: |
+          ! grep -rP '[\x{2013}\x{2014}]' material-design-3 README.md
+      - name: Package the .skill
+        run: |
+          cd material-design-3 && zip -qr ../material-design-3.skill . -x '*.DS_Store'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: material-design-3.skill
+          path: material-design-3.skill

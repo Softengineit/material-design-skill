@@ -1,0 +1,17 @@
+name: Release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package the .skill
+        run: cd material-design-3 && zip -qr ../material-design-3.skill . -x '*.DS_Store'
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: material-design-3.skill
+          generate_release_notes: true
