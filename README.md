@@ -7,8 +7,10 @@ It was built by reading all 91 pages of https://m3.material.io (foundations, sty
 ## What is inside
 
 ```
+material-normalize/SKILL.md    the /normalize command
+material-redesign/SKILL.md     the /redesign command
 material-design-3/
-  SKILL.md                     the workflow Claude follows (tokens, components, styles, states, layout, check)
+  SKILL.md                     the workflow Claude follows (priorities, first-use audit, tokens, components, styles, states, layout, engineering, team of agents)
   references/
     components/                one file per component (36) plus _overview.md (need -> component)
     styles/                    color, typography, shape, elevation, motion, icons, spacing
@@ -33,7 +35,12 @@ material-design-3/
 
 ### Claude Code
 
-Copy the `material-design-3` folder into your project's `.claude/skills/` directory (project skill) or into `~/.claude/skills/` (personal skill). Claude Code picks it up at the next session. You can also invoke it directly with `/material-design-3`.
+Copy the three folders `material-design-3`, `material-normalize` and `material-redesign` into your project's `.claude/skills/` directory (project skills) or into `~/.claude/skills/` (personal skills). Claude Code picks them up at the next session. The two command skills need the main one next to them.
+
+Commands:
+- `/material-design-3` : the full skill (first-use audit, tokens, components, engineering layer, team of agents).
+- `/normalize` (skill `material-normalize`) : bring an existing page up to the standard while keeping its structure, content and flow; adds what is missing (states, labels, metadata, dark theme) and delivers a before/after table.
+- `/redesign` (skill `material-redesign`) : start from the mission and the data of a page, analyse coherence and flow, propose one to three options with wireframes, wait for the user's validation, then build from scratch.
 
 ### claude.ai (web, desktop, mobile)
 

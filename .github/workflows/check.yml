@@ -16,6 +16,8 @@ jobs:
           head -1 material-design-3/SKILL.md | grep -q '^---$'
           grep -q '^name: material-design-3$' material-design-3/SKILL.md
           grep -q '^description: ' material-design-3/SKILL.md
+          grep -q '^name: material-normalize$' material-normalize/SKILL.md
+          grep -q '^name: material-redesign$' material-redesign/SKILL.md
       - name: Every component in the overview has a file
         run: |
           cd material-design-3/references/components
@@ -26,7 +28,7 @@ jobs:
         run: python3 material-design-3/scripts/check_material.py material-design-3/references/components
       - name: No em or en dashes
         run: |
-          ! grep -rP '[\x{2013}\x{2014}]' material-design-3 README.md
+          ! grep -rP '[\x{2013}\x{2014}]' material-design-3 material-normalize material-redesign README.md
       - name: Package the .skill
         run: |
           cd material-design-3 && zip -qr ../material-design-3.skill . -x '*.DS_Store'

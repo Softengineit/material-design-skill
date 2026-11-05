@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (2026-11-05)
+
+- Two command skills beside the main one: `material-normalize` (/normalize: bring an existing page to the standard without changing its structure or flow, inventory first, before/after table) and `material-redesign` (/redesign: brief from mission and data, coherence and flow analysis, one to three proposals with wireframes, user validation before building, then build from scratch).
+
 ## 1.4.0 (2026-11-05)
 
 - SKILL.md: "Working as a team of agents": builder, controller and tester roles with verbatim briefs, a delivery gate (no blocking finding in either report, two rounds at most), and a report format. Works with separate agents or as sequential passes in a plain chat.
