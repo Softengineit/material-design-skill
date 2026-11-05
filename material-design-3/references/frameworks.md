@@ -119,3 +119,18 @@ for (const [role, argb] of Object.entries(scheme.toJSON())) {
 }
 ```
 Call it once at startup (and again when the user changes the seed) and nothing else in the code base changes. The library also exposes `SchemeTonalSpot`, `SchemeVibrant`, `SchemeExpressive`, `SchemeFidelity` and `SchemeMonochrome` for different looks, and a `contrastLevel` argument (0 default, 0.5 medium, 1 high).
+
+## Spring motion when the project already has an animation library
+
+Do not add an animation library just for Material. Plain CSS with the `--md-sys-motion-*` curves is the default and is enough for most screens (see `styles/motion.md`, "Web conversion of springs to curves"). When the project already ships one, pass it the M3 spring tokens so gesture-driven and interruptible motion (shape morph on press, FAB menu, sheets, expanding cards) behaves like the Android reference. Values below are the expressive scheme, damping ratio / stiffness, in the units each library expects.
+
+| Token | Framer Motion / Motion One | react-spring | Angular Animations |
+| --- | --- | --- | --- |
+| spring.fast.spatial (0.6 / 800) | `{ type: "spring", stiffness: 800, damping: 34, mass: 1 }` | `{ tension: 800, friction: 34 }` | `350ms cubic-bezier(0.42, 1.67, 0.21, 0.9)` |
+| spring.default.spatial (0.8 / 380) | `{ type: "spring", stiffness: 380, damping: 31, mass: 1 }` | `{ tension: 380, friction: 31 }` | `500ms cubic-bezier(0.38, 1.21, 0.22, 1)` |
+| spring.slow.spatial (0.8 / 200) | `{ type: "spring", stiffness: 200, damping: 23, mass: 1 }` | `{ tension: 200, friction: 23 }` | `650ms cubic-bezier(0.39, 1.29, 0.35, 0.98)` |
+| spring.fast.effects (1 / 3800) | `{ type: "spring", stiffness: 3800, damping: 123, mass: 1 }` | `{ tension: 3800, friction: 123 }` | `150ms cubic-bezier(0.31, 0.94, 0.34, 1)` |
+| spring.default.effects (1 / 1600) | `{ type: "spring", stiffness: 1600, damping: 80, mass: 1 }` | `{ tension: 1600, friction: 80 }` | `200ms cubic-bezier(0.34, 0.80, 0.34, 1)` |
+| spring.slow.effects (1 / 800) | `{ type: "spring", stiffness: 800, damping: 57, mass: 1 }` | `{ tension: 800, friction: 57 }` | `300ms cubic-bezier(0.34, 0.80, 0.34, 1)` |
+
+Damping for the libraries is derived from the ratio: damping = 2 x ratio x sqrt(stiffness x mass). Use spatial springs for position, size and shape; effects springs (ratio 1, no overshoot) for color and opacity. Svelte's built-in `spring` store takes `{ stiffness, damping }` in its own 0 to 1 scale; map fast spatial to about `{ stiffness: 0.3, damping: 0.5 }` and default spatial to `{ stiffness: 0.15, damping: 0.6 }`, then adjust by eye. Always skip the spring and use a short opacity fade when `prefers-reduced-motion` is set.
