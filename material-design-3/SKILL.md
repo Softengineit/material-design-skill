@@ -126,6 +126,44 @@ Then run the delivery checklist in `references/engineering/quality.md`: Lighthou
 - nothing is only distinguished by color (icons or text labels accompany it)
 - every list has a loading, an empty and an error state
 
+## Working as a team of agents
+
+A screen or a feature is finished only when three roles have passed on it: the builder, the controller and the tester. The builder cannot be its own judge; the other two have not seen the code being written and check the result, not the intent. Run the team at the end of a screen or a feature, not after every edit. Where the session has an Agent tool, spawn the controller and the tester as separate agents in the same turn, each with the brief below and nothing else from the conversation. Where it has none (a plain chat), do the two passes yourself in sequence, each one from its checklist only, after closing the files you wrote.
+
+The gate: nothing is delivered with a blocking finding in either report. Findings go back to the builder; the controller and the tester then re-check what changed. Two rounds at most; if blocking findings remain after that, say so to the user with the list, do not deliver anyway.
+
+### Builder brief
+
+Build the feature following this SKILL.md and `DESIGN.md`. Reuse the stack's components before writing new ones. Deliver: the code, a short `notes.md` (which references were read, what deviates from the guideline and why, what is mocked), the checker output at 0 findings, and the list of user paths the feature adds (for example: "open an order from the list, change its payment, see the confirmation").
+
+### Controller brief (to give verbatim to a fresh agent)
+
+"You review a front-end feature against Material Design 3 and this project's rules without having seen it being built. Inputs: the feature's files, `DESIGN.md`, the component references in `references/components/`, `references/styles/`, `references/engineering/`, and the builder's `notes.md`. Do not fix anything; report. Check, in this order, and give a severity (block or warn) with file and line for each finding:
+1. Right component for each need (`references/components/_overview.md`): a list where a table was needed, segmented buttons where a button group is recommended, a dialog where a sheet fits, a drawer with six items where a rail was due.
+2. Variants, sizes and anatomy per the component reference: button heights (40 small, 56 medium), chip 32, FAB 56, app bar 64, nav bar 80 or 64, text field 56, corner shapes from the shape scale, icon 24 (20 in buttons), label typescale.
+3. Brand and tokens: colors come from `--md-sys-color-*` roles in the generated scheme recorded in `DESIGN.md`, never hex; every container is paired with its on-role; fonts and sizes from the type scale; spacing on the 4px grid; icons from the chosen set.
+4. States: enabled, hover, focus (3px ring), pressed, disabled (12% / 38%), selected, error, loading, empty, error state of lists and forms.
+5. Accessibility markup: native elements, labels, aria on custom widgets, one h1, landmarks, skip link, alt text, keyboard order.
+6. Data and back end: every screen reads from a real source or from an explicit mock marked as such; no figures typed into the markup; every action has a handler and a result (success, error) the user can see; lists have pagination or virtualisation when the source can grow; no secret in the front-end.
+7. Code quality (`references/engineering/architecture.md` and `quality.md`): one component per Material component, no duplicated markup across pages, no component CSS in pages, props typed, no unused CSS, no console errors, bundle size noted.
+8. Head and performance (`metadata.md`, `performance.md`): title, description, theme-color, lang, fonts with swap, icon subset, image attributes.
+Run `python3 scripts/check_material.py` (with `--app` when the project is an authenticated app) and include its output. End with a verdict: PASS, or BLOCK with the list."
+
+### Tester brief (to give verbatim to a fresh agent)
+
+"You test a front-end feature in a real browser as its end user, without reading the code first. Inputs: the running URL (or the built HTML file), the list of user paths from the builder's `notes.md`, `DESIGN.md`, and `scripts/e2e_smoke.mjs`. Do not fix anything; report.
+1. Run `node scripts/e2e_smoke.mjs <url> --dark --out e2e-report` (Playwright). It walks the pages, clicks every control, tries each with the keyboard, flags dead controls, unreachable dialogs, console errors, overflow, small text and targets, and measures the rendered page against the visible Material rules (type scale, shape scale, color roles, 4px grid, component heights, focus ring, hover state layer). Attach `report.md`.
+2. Walk every user path from the list end to end, with a mouse on 1280px and with one thumb on 400px: can the user reach the goal, does every step give feedback, does an error show a way out, can they go back. Use Playwright or the browser tools; do not assume from the code.
+3. Walk the main path with the keyboard only, then with a screen reader if available (VoiceOver, NVDA) or with the accessibility tree: every control announced with a name and a role.
+4. Look at the screenshots at 400px and 1280px, light and dark, and judge the visible Material rules as a user would: one clear primary action, hierarchy readable at arm's length, spacing even, no pale or washed-out light theme, nothing cut or overlapping, both themes consistent, states visible (selected, disabled, error), loading and empty states present. Report what looks wrong with the screenshot name.
+5. Run Lighthouse (mobile) and axe; record the four scores and the violations.
+6. Reachability: compare what exists (routes, dialogs, buttons) with what you could reach; anything coded that no path leads to is a finding.
+End with a verdict: PASS, or BLOCK with the list, each item with the page, the device width, the theme, and how to reproduce."
+
+### Report format
+
+Both reports use one table: page or file, severity (block or warn), kind, detail, how to reproduce. Keep them in `reports/<feature>/controller.md` and `reports/<feature>/tester.md` with the screenshots; the next round reads them first.
+
 ## Language and framework notes
 
 `references/frameworks.md` explains how to apply the same tokens and component structure in each environment:
@@ -169,6 +207,7 @@ Then run the delivery checklist in `references/engineering/quality.md`: Lighthou
 | CSS custom properties, light and dark | `assets/material-tokens.css` |
 | Complete starter page and framework examples | `assets/examples/` |
 | Static checker | `scripts/check_material.py` |
+| Browser smoke test: dead controls, keyboard, reachability, visual rules, screenshots | `scripts/e2e_smoke.mjs` |
 
 The token files are large. Open `references/tokens/md.comp.<component>.md` only when you need an exact value that the component reference does not already give (for example the icon size of a small FAB or the padding of a secondary tab). Values written `→ md.sys.color.primary` mean "use that system token".
 

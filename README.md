@@ -24,6 +24,7 @@ material-design-3/
     examples/vue-card.vue      card in Vue 3
   scripts/
     make_scheme.mjs            scheme generator: 45 color roles + custom colors from one source color, light/dark, 3 contrast levels
+    e2e_smoke.mjs              browser smoke test (Playwright): dead controls, keyboard, reachability, visual rules, screenshots
     check_material.py          static checker: hard-coded colors, sizes, radii, durations, shadows,
                                missing focus styles, icon buttons without a label, images without alt
 ```

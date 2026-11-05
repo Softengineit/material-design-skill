@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0 (2026-11-05)
+
+- SKILL.md: "Working as a team of agents": builder, controller and tester roles with verbatim briefs, a delivery gate (no blocking finding in either report, two rounds at most), and a report format. Works with separate agents or as sequential passes in a plain chat.
+- New `scripts/e2e_smoke.mjs` (Playwright): walks the pages as an end user, clicks every control, tries each with the keyboard first, flags dead controls, mouse-only controls, unreachable dialogs, console errors, overflow, small text and targets, unlabeled fields, and measures the rendered page against the visible Material rules (type scale, shape scale, color roles, 4px grid, component heights, 3px focus ring, hover state layer). Screenshots at 400 and 1280px, light and dark. Report in Markdown and JSON.
+
 ## 1.3.0 (2026-11-05)
 
 - SKILL.md: priorities (end user first, then the standard, then the look, then the code); a first-use step that audits the project, proposes the optimal choices with recommendations and records them in DESIGN.md; a rule to reuse the stack's existing components before rewriting.
