@@ -1,0 +1,86 @@
+# md.comp.outlined-text-field tokens
+
+- md.comp.outlined-text-field.caret.color: → md.sys.color.primary
+- md.comp.outlined-text-field.container.height: 56dp
+- md.comp.outlined-text-field.container.shape: → md.sys.shape.corner.extra-small
+- md.comp.outlined-text-field.disabled.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.input-text.opacity: 0.38
+- md.comp.outlined-text-field.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.label-text.opacity: 0.38
+- md.comp.outlined-text-field.disabled.leading-icon.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.leading-icon.opacity: 0.38
+- md.comp.outlined-text-field.disabled.outline.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.outline.opacity: 0.12
+- md.comp.outlined-text-field.disabled.outline.width: 1dp
+- md.comp.outlined-text-field.disabled.supporting-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.supporting-text.opacity: 0.38
+- md.comp.outlined-text-field.disabled.trailing-icon.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.disabled.trailing-icon.opacity: 0.38
+- md.comp.outlined-text-field.error.focus.caret.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.focus.indicator.outline.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.focus.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.error.focus.label-text.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.focus.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.error.focus.outline.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.focus.supporting-text.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.focus.trailing-icon.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.hover.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.error.hover.label-text.color: → md.sys.color.on-error-container
+- md.comp.outlined-text-field.error.hover.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.error.hover.outline.color: → md.sys.color.on-error-container
+- md.comp.outlined-text-field.error.hover.supporting-text.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.hover.trailing-icon.color: → md.sys.color.on-error-container
+- md.comp.outlined-text-field.error.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.error.label-text.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.error.outline.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.supporting-text.color: → md.sys.color.error
+- md.comp.outlined-text-field.error.trailing-icon.color: → md.sys.color.error
+- md.comp.outlined-text-field.focus.indicator.outline.color: → md.sys.color.secondary
+- md.comp.outlined-text-field.focus.indicator.outline.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.outlined-text-field.focus.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.focus.label-text.color: → md.sys.color.primary
+- md.comp.outlined-text-field.focus.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.focus.outline.color: → md.sys.color.primary
+- md.comp.outlined-text-field.focus.outline.width: 3dp
+- md.comp.outlined-text-field.focus.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.focus.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.hover.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.hover.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.hover.outline.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.hover.outline.width: 1dp
+- md.comp.outlined-text-field.hover.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.hover.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.input-text.color: → md.sys.color.on-surface
+- md.comp.outlined-text-field.input-text.font: → md.sys.typescale.body-large.font
+- md.comp.outlined-text-field.input-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.outlined-text-field.input-text.placeholder.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.input-text.prefix.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.input-text.size: → md.sys.typescale.body-large.size
+- md.comp.outlined-text-field.input-text.suffix.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.input-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.outlined-text-field.input-text.type: composite(fontName=md.comp.outlined-text-field.input-text.font, fontWeight=md.comp.outlined-text-field.input-text.weight, fontSize=md.comp.outlined-text-field.input-text.size, fontTracking=md.comp.outlined-text-field.input-text.tracking, lineHeight=md.comp.outlined-text-field.input-text.line-height)
+- md.comp.outlined-text-field.input-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.outlined-text-field.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.label-text.font: → md.sys.typescale.body-large.font
+- md.comp.outlined-text-field.label-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.outlined-text-field.label-text.populated.line-height: → md.sys.typescale.body-small.line-height
+- md.comp.outlined-text-field.label-text.populated.size: → md.sys.typescale.body-small.size
+- md.comp.outlined-text-field.label-text.size: → md.sys.typescale.body-large.size
+- md.comp.outlined-text-field.label-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.outlined-text-field.label-text.type: composite(fontName=md.comp.outlined-text-field.label-text.font, fontWeight=md.comp.outlined-text-field.label-text.weight, fontSize=md.comp.outlined-text-field.label-text.size, fontTracking=md.comp.outlined-text-field.label-text.tracking, lineHeight=md.comp.outlined-text-field.label-text.line-height)
+- md.comp.outlined-text-field.label-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.outlined-text-field.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.leading-icon.size: 24dp
+- md.comp.outlined-text-field.outline.color: → md.sys.color.outline
+- md.comp.outlined-text-field.outline.width: 1dp
+- md.comp.outlined-text-field.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.supporting-text.font: → md.sys.typescale.body-small.font
+- md.comp.outlined-text-field.supporting-text.line-height: → md.sys.typescale.body-small.line-height
+- md.comp.outlined-text-field.supporting-text.size: → md.sys.typescale.body-small.size
+- md.comp.outlined-text-field.supporting-text.tracking: → md.sys.typescale.body-small.tracking
+- md.comp.outlined-text-field.supporting-text.type: composite(fontName=md.comp.outlined-text-field.supporting-text.font, fontWeight=md.comp.outlined-text-field.supporting-text.weight, fontSize=md.comp.outlined-text-field.supporting-text.size, fontTracking=md.comp.outlined-text-field.supporting-text.tracking, lineHeight=md.comp.outlined-text-field.supporting-text.line-height)
+- md.comp.outlined-text-field.supporting-text.weight: → md.sys.typescale.body-small.weight
+- md.comp.outlined-text-field.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.outlined-text-field.trailing-icon.size: 24dp

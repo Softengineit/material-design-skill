@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Material 3 starter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+  <!-- 1. Tokens first (copy ../material-tokens.css next to this file) -->
+  <link rel="stylesheet" href="../material-tokens.css">
+  <style>
+    /* ---------- 2. Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { color-scheme: light dark; }
+    body {
+      margin: 0;
+      background: var(--md-sys-color-surface);
+      color: var(--md-sys-color-on-surface);
+      font-family: var(--md-sys-typescale-body-large-font);
+      font-size: var(--md-sys-typescale-body-large-size);
+      line-height: var(--md-sys-typescale-body-large-line-height);
+      letter-spacing: var(--md-sys-typescale-body-large-tracking);
+    }
+    .material-symbols-outlined { font-size: 24px; width: 24px; height: 24px; display: inline-block; vertical-align: middle; }
+    .type-headline-small { font-size: var(--md-sys-typescale-headline-small-size); line-height: var(--md-sys-typescale-headline-small-line-height); font-weight: var(--md-sys-typescale-headline-small-weight); letter-spacing: var(--md-sys-typescale-headline-small-tracking); }
+    .type-title-medium { font-size: var(--md-sys-typescale-title-medium-size); line-height: var(--md-sys-typescale-title-medium-line-height); font-weight: var(--md-sys-typescale-title-medium-weight); letter-spacing: var(--md-sys-typescale-title-medium-tracking); }
+    .type-body-medium { font-size: var(--md-sys-typescale-body-medium-size); line-height: var(--md-sys-typescale-body-medium-line-height); letter-spacing: var(--md-sys-typescale-body-medium-tracking); }
+    .type-label-large { font-size: var(--md-sys-typescale-label-large-size); line-height: var(--md-sys-typescale-label-large-line-height); font-weight: var(--md-sys-typescale-label-large-weight); letter-spacing: var(--md-sys-typescale-label-large-tracking); }
+    .type-body-small { font-size: var(--md-sys-typescale-body-small-size); line-height: var(--md-sys-typescale-body-small-line-height); letter-spacing: var(--md-sys-typescale-body-small-tracking); }
+    .type-label-medium { font-size: var(--md-sys-typescale-label-medium-size); line-height: var(--md-sys-typescale-label-medium-line-height); font-weight: var(--md-sys-typescale-label-medium-weight); letter-spacing: var(--md-sys-typescale-label-medium-tracking); }
+
+    /* State layer: every interactive element gets one overlay in currentColor */
+    .state-layer { position: relative; isolation: isolate; overflow: hidden; }
+    .state-layer::before { content: ""; position: absolute; inset: 0; background: currentColor; opacity: 0; pointer-events: none; transition: opacity var(--md-sys-motion-duration-short2) var(--md-sys-motion-easing-standard); border-radius: inherit; }
+    .state-layer:hover::before { opacity: var(--md-sys-state-hover-state-layer-opacity); }
+    .state-layer:focus-visible::before { opacity: var(--md-sys-state-focus-state-layer-opacity); }
+    .state-layer:active::before { opacity: var(--md-sys-state-pressed-state-layer-opacity); }
+    /* Focus indicator: 3px ring, 2px outside the element */
+    :focus-visible { outline: var(--md-sys-state-focus-indicator-thickness) solid var(--md-sys-color-secondary); outline-offset: var(--md-sys-state-focus-indicator-outer-offset); }
+
+    /* ---------- 3. Scaffold ---------- */
+    .scaffold { display: grid; min-height: 100dvh; grid-template-rows: auto 1fr auto; grid-template-areas: "top" "body" "nav"; }
+    .top-app-bar { grid-area: top; display: flex; align-items: center; gap: 4px; height: 64px; padding: 0 4px 0 4px; background: var(--md-sys-color-surface); color: var(--md-sys-color-on-surface); position: sticky; top: 0; z-index: 2; }
+    .top-app-bar.scrolled { background: var(--md-sys-color-surface-container); }
+    .top-app-bar h1 { flex: 1; margin: 0 0 0 4px; font-size: var(--md-sys-typescale-title-large-size); line-height: var(--md-sys-typescale-title-large-line-height); font-weight: var(--md-sys-typescale-title-large-weight); }
+    .body { grid-area: body; padding: 16px; display: grid; gap: 16px; align-content: start; }
+    .nav-bar { grid-area: nav; display: flex; height: 80px; background: var(--md-sys-color-surface-container); padding: 0 8px; position: sticky; bottom: 0; }
+    .nav-rail { display: none; }
+    @media (min-width: 600px) {
+      .scaffold { grid-template-columns: 80px 1fr; grid-template-areas: "top top" "rail body"; grid-template-rows: auto 1fr; }
+      .body { padding: 24px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+      .nav-bar { display: none; }
+      .nav-rail { grid-area: rail; display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 44px 0 56px; background: var(--md-sys-color-surface); width: 80px; }
+    }
+    @media (min-width: 840px) { .body { padding: 24px; } }
+
+    /* ---------- 4. Components ---------- */
+    /* Navigation item (bar and rail share it) */
+    .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-width: 48px; min-height: 48px; padding: 12px 0 16px; background: none; border: 0; color: var(--md-sys-color-on-surface-variant); cursor: pointer; font: inherit; }
+    .nav-rail .nav-item { flex: 0 0 auto; width: 80px; height: 56px; padding: 0; }
+    .nav-item .indicator { display: grid; place-items: center; width: 64px; height: 32px; border-radius: var(--md-sys-shape-corner-full); transition: background var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard); }
+    .nav-rail .nav-item .indicator { width: 56px; }
+    .nav-item[aria-current="page"] { color: var(--md-sys-color-on-surface); }
+    .nav-item[aria-current="page"] .indicator { background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); }
+    .nav-item[aria-current="page"] .material-symbols-outlined { font-variation-settings: "FILL" 1; }
+    .nav-item:hover .indicator { background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent); }
+
+    /* Icon button: 40px visual, 48px target */
+    .icon-button { display: inline-grid; place-items: center; width: 40px; height: 40px; margin: 4px; padding: 0; border: 0; border-radius: var(--md-sys-shape-corner-full); background: transparent; color: var(--md-sys-color-on-surface-variant); cursor: pointer; }
+    .icon-button::after { content: ""; position: absolute; inset: -4px; }
+
+    /* Buttons: 40px height (small size), 16px side padding, label-large */
+    .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 16px; border: 0; border-radius: var(--md-sys-shape-corner-full); font-family: inherit; font-size: var(--md-sys-typescale-label-large-size); font-weight: var(--md-sys-typescale-label-large-weight); line-height: var(--md-sys-typescale-label-large-line-height); letter-spacing: var(--md-sys-typescale-label-large-tracking); cursor: pointer; transition: box-shadow var(--md-sys-motion-duration-short2) var(--md-sys-motion-easing-standard), border-radius var(--md-sys-motion-duration-short4) var(--md-sys-motion-easing-emphasized); }
+    .button .material-symbols-outlined { font-size: 18px; width: 18px; height: 18px; }
+    .button:active { border-radius: var(--md-sys-shape-corner-small); } /* M3 Expressive shape morph on press */
+    .button--filled { background: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary); }
+    .button--filled:hover { box-shadow: var(--md-sys-elevation-level1); }
+    .button--tonal { background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); }
+    .button--elevated { background: var(--md-sys-color-surface-container-low); color: var(--md-sys-color-primary); box-shadow: var(--md-sys-elevation-level1); }
+    .button--elevated:hover { box-shadow: var(--md-sys-elevation-level2); }
+    .button--outlined { background: transparent; color: var(--md-sys-color-on-surface-variant); border: 1px solid var(--md-sys-color-outline-variant); }
+    .button--text { background: transparent; color: var(--md-sys-color-primary); padding: 0 12px; }
+    .button:disabled, .icon-button:disabled { cursor: default; color: color-mix(in srgb, var(--md-sys-color-on-surface) 38%, transparent); box-shadow: none; }
+    .button--filled:disabled, .button--tonal:disabled, .button--elevated:disabled { background: color-mix(in srgb, var(--md-sys-color-on-surface) 12%, transparent); }
+    .button:disabled::before { display: none; }
+
+    /* FAB: 56px, large corner (16px), level 3 */
+    .fab { position: fixed; right: 16px; bottom: 96px; display: inline-grid; place-items: center; width: 56px; height: 56px; border: 0; border-radius: var(--md-sys-shape-corner-large); background: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container); box-shadow: var(--md-sys-elevation-level3); cursor: pointer; z-index: 3; }
+    .fab:hover { box-shadow: var(--md-sys-elevation-level4); }
+    @media (min-width: 600px) { .fab { bottom: 16px; right: 24px; } }
+
+    /* Cards: medium corner (12px); elevated, filled, outlined */
+    .card { display: flex; flex-direction: column; border-radius: var(--md-sys-shape-corner-medium); overflow: hidden; }
+    .card--elevated { background: var(--md-sys-color-surface-container-low); box-shadow: var(--md-sys-elevation-level1); }
+    .card--filled { background: var(--md-sys-color-surface-container-highest); }
+    .card--outlined { background: var(--md-sys-color-surface); border: 1px solid var(--md-sys-color-outline-variant); }
+    .card__media { aspect-ratio: 16 / 9; background: var(--md-sys-color-tertiary-container); }
+    .card__body { padding: 16px; display: grid; gap: 8px; }
+    .card__body p { margin: 0; color: var(--md-sys-color-on-surface-variant); }
+    .card__actions { display: flex; justify-content: flex-end; gap: 8px; padding: 0 16px 16px; }
+
+    /* Chips: 32px, small corner (8px) */
+    .chip-set { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { display: inline-flex; align-items: center; gap: 8px; height: 32px; padding: 0 16px; border: 1px solid var(--md-sys-color-outline-variant); border-radius: var(--md-sys-shape-corner-small); background: transparent; color: var(--md-sys-color-on-surface-variant); font: inherit; font-size: var(--md-sys-typescale-label-large-size); font-weight: var(--md-sys-typescale-label-large-weight); cursor: pointer; }
+    .chip .material-symbols-outlined { font-size: 18px; width: 18px; height: 18px; }
+    .chip[aria-pressed="true"] { background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); border-color: transparent; }
+    .chip::after { content: ""; position: absolute; inset: -8px 0; }
+
+    /* Outlined text field: 56px, extra-small corner (4px), floating label */
+    .text-field { position: relative; display: grid; }
+    .text-field input { height: 56px; padding: 16px; border: 1px solid var(--md-sys-color-outline); border-radius: var(--md-sys-shape-corner-extra-small); background: transparent; color: var(--md-sys-color-on-surface); font: inherit; }
+    .text-field input:hover { border-color: var(--md-sys-color-on-surface); }
+    .text-field input:focus { border: 2px solid var(--md-sys-color-primary); outline: none; padding: 15px; }
+    .text-field label { position: absolute; left: 12px; top: 16px; padding: 0 4px; background: var(--md-sys-color-surface); color: var(--md-sys-color-on-surface-variant); transition: all var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard); pointer-events: none; }
+    .text-field input:focus + label, .text-field input:not(:placeholder-shown) + label { top: -8px; font-size: var(--md-sys-typescale-body-small-size); line-height: var(--md-sys-typescale-body-small-line-height); }
+    .text-field input:focus + label { color: var(--md-sys-color-primary); }
+    .text-field .supporting { padding: 4px 16px 0; color: var(--md-sys-color-on-surface-variant); }
+    .text-field[data-error] input { border-color: var(--md-sys-color-error); }
+    .text-field[data-error] label, .text-field[data-error] .supporting { color: var(--md-sys-color-error); }
+
+    /* Switch: 52x32 track, 16px handle, 24px when on */
+    .switch { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; cursor: pointer; }
+    .switch input { appearance: none; margin: 0; width: 52px; height: 32px; border-radius: var(--md-sys-shape-corner-full); border: 2px solid var(--md-sys-color-outline); background: var(--md-sys-color-surface-container-highest); position: relative; cursor: pointer; transition: background var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard); }
+    .switch input::after { content: ""; position: absolute; top: 50%; left: 6px; width: 16px; height: 16px; border-radius: 50%; background: var(--md-sys-color-outline); transform: translateY(-50%); transition: all var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-emphasized); }
+    .switch input:checked { background: var(--md-sys-color-primary); border-color: var(--md-sys-color-primary); }
+    .switch input:checked::after { left: 22px; width: 24px; height: 24px; background: var(--md-sys-color-on-primary); }
+
+    /* Checkbox: 18px box, 48px target */
+    .checkbox { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; cursor: pointer; }
+    .checkbox input { appearance: none; margin: 0 11px; width: 18px; height: 18px; border: 2px solid var(--md-sys-color-on-surface-variant); border-radius: 2px; display: grid; place-items: center; cursor: pointer; }
+    .checkbox input:checked { background: var(--md-sys-color-primary); border-color: var(--md-sys-color-primary); }
+    .checkbox input:checked::after { content: "check"; font-family: "Material Symbols Outlined"; font-size: 16px; color: var(--md-sys-color-on-primary); }
+
+    /* Dialog: extra-large corner (28px), 24px padding, level 3, max 560px */
+    dialog { border: 0; padding: 24px; width: min(560px, calc(100vw - 32px)); border-radius: var(--md-sys-shape-corner-extra-large); background: var(--md-sys-color-surface-container-high); color: var(--md-sys-color-on-surface-variant); box-shadow: var(--md-sys-elevation-level3); }
+    dialog::backdrop { background: color-mix(in srgb, var(--md-sys-color-scrim) 32%, transparent); }
+    dialog h2 { margin: 0 0 16px; color: var(--md-sys-color-on-surface); font-size: var(--md-sys-typescale-headline-small-size); line-height: var(--md-sys-typescale-headline-small-line-height); font-weight: var(--md-sys-typescale-headline-small-weight); }
+    dialog .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 24px; }
+
+    /* Snackbar: 48px, extra-small corner, inverse surface, level 3 */
+    .snackbar { position: fixed; left: 16px; right: 16px; bottom: 96px; display: flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 8px 0 16px; border-radius: var(--md-sys-shape-corner-extra-small); background: var(--md-sys-color-inverse-surface); color: var(--md-sys-color-inverse-on-surface); box-shadow: var(--md-sys-elevation-level3); z-index: 4; transform: translateY(16px); opacity: 0; visibility: hidden; transition: all var(--md-sys-motion-duration-short4) var(--md-sys-motion-easing-emphasized); }
+    .snackbar[open] { transform: none; opacity: 1; visibility: visible; }
+    .snackbar span { flex: 1; }
+    .snackbar .button--text { color: var(--md-sys-color-inverse-primary); }
+    @media (min-width: 600px) { .snackbar { left: 104px; right: auto; bottom: 16px; min-width: 344px; max-width: 672px; } }
+
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 1ms !important; animation-duration: 1ms !important; } }
+  </style>
+</head>
+<body>
+<div class="scaffold">
+  <header class="top-app-bar" id="topbar">
+    <button class="icon-button state-layer" aria-label="Open navigation menu"><span class="material-symbols-outlined" aria-hidden="true">menu</span></button>
+    <h1>Material 3 starter</h1>
+    <button class="icon-button state-layer" id="themeToggle" aria-label="Toggle dark theme" aria-pressed="false"><span class="material-symbols-outlined" aria-hidden="true">dark_mode</span></button>
+    <button class="icon-button state-layer" aria-label="More options"><span class="material-symbols-outlined" aria-hidden="true">more_vert</span></button>
+  </header>
+
+  <nav class="nav-rail" aria-label="Main">
+    <button class="nav-item state-layer" aria-current="page"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">home</span></span><span class="type-label-medium">Home</span></button>
+    <button class="nav-item state-layer"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">search</span></span><span class="type-label-medium">Search</span></button>
+    <button class="nav-item state-layer"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">settings</span></span><span class="type-label-medium">Settings</span></button>
+  </nav>
+
+  <main class="body">
+    <section class="card card--elevated">
+      <div class="card__media" role="img" aria-label="Placeholder image"></div>
+      <div class="card__body">
+        <h2 class="type-title-medium" style="margin:0">Elevated card</h2>
+        <p class="type-body-medium">Surface-container-low background with a level 1 shadow. Use it when the card must stand out from a patterned background.</p>
+      </div>
+      <div class="card__actions">
+        <button class="button button--text state-layer">Share</button>
+        <button class="button button--filled state-layer">Open</button>
+      </div>
+    </section>
+
+    <section class="card card--filled">
+      <div class="card__body">
+        <h2 class="type-title-medium" style="margin:0">Buttons</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <button class="button button--filled state-layer"><span class="material-symbols-outlined" aria-hidden="true">add</span>Filled</button>
+          <button class="button button--tonal state-layer">Tonal</button>
+          <button class="button button--elevated state-layer">Elevated</button>
+          <button class="button button--outlined state-layer">Outlined</button>
+          <button class="button button--text state-layer">Text</button>
+          <button class="button button--filled state-layer" disabled>Disabled</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card card--outlined">
+      <div class="card__body">
+        <h2 class="type-title-medium" style="margin:0">Selection</h2>
+        <div class="chip-set" role="group" aria-label="Filters">
+          <button class="chip state-layer" aria-pressed="true"><span class="material-symbols-outlined" aria-hidden="true">check</span>Open now</button>
+          <button class="chip state-layer" aria-pressed="false">Vegetarian</button>
+          <button class="chip state-layer" aria-pressed="false">Delivery</button>
+        </div>
+        <label class="switch"><input type="checkbox" checked> <span>Notifications</span></label>
+        <label class="checkbox"><input type="checkbox"> <span>Remember me</span></label>
+      </div>
+    </section>
+
+    <section class="card card--outlined">
+      <div class="card__body">
+        <h2 class="type-title-medium" style="margin:0">Text field</h2>
+        <div class="text-field">
+          <input id="email" type="email" placeholder=" " autocomplete="email" aria-describedby="email-help">
+          <label for="email">Email</label>
+          <div id="email-help" class="supporting type-body-small">We only use it to send the receipt</div>
+        </div>
+        <div style="display:flex;justify-content:flex-end;gap:8px">
+          <button class="button button--outlined state-layer" id="openDialog">Open dialog</button>
+          <button class="button button--tonal state-layer" id="showSnack">Show snackbar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="nav-bar" aria-label="Main">
+    <button class="nav-item state-layer" aria-current="page"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">home</span></span><span class="type-label-medium">Home</span></button>
+    <button class="nav-item state-layer"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">search</span></span><span class="type-label-medium">Search</span></button>
+    <button class="nav-item state-layer"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">settings</span></span><span class="type-label-medium">Settings</span></button>
+  </nav>
+</div>
+
+<button class="fab state-layer" aria-label="Compose"><span class="material-symbols-outlined" aria-hidden="true">edit</span></button>
+
+<dialog id="dialog" aria-labelledby="dialog-title">
+  <h2 id="dialog-title">Discard draft?</h2>
+  <p class="type-body-medium" style="margin:0">Your changes will be lost. This cannot be undone.</p>
+  <div class="actions">
+    <button class="button button--text state-layer" id="cancelDialog">Cancel</button>
+    <button class="button button--text state-layer" id="confirmDialog">Discard</button>
+  </div>
+</dialog>
+
+<div class="snackbar type-body-medium" id="snackbar" role="status" aria-live="polite">
+  <span>Draft saved</span>
+  <button class="button button--text state-layer">Undo</button>
+</div>
+
+<script>
+  const root = document.documentElement;
+  const toggle = document.getElementById('themeToggle');
+  const applyTheme = (dark) => {
+    root.dataset.theme = dark ? 'dark' : 'light';
+    toggle.setAttribute('aria-pressed', String(dark));
+    toggle.querySelector('span').textContent = dark ? 'light_mode' : 'dark_mode';
+  };
+  applyTheme(matchMedia('(prefers-color-scheme: dark)').matches);
+  toggle.addEventListener('click', () => applyTheme(root.dataset.theme !== 'dark'));
+
+  const dialog = document.getElementById('dialog');
+  document.getElementById('openDialog').addEventListener('click', () => dialog.showModal());
+  document.getElementById('cancelDialog').addEventListener('click', () => dialog.close());
+  document.getElementById('confirmDialog').addEventListener('click', () => dialog.close());
+
+  const snackbar = document.getElementById('snackbar');
+  let timer;
+  document.getElementById('showSnack').addEventListener('click', () => {
+    snackbar.setAttribute('open', '');
+    clearTimeout(timer);
+    timer = setTimeout(() => snackbar.removeAttribute('open'), 4000);
+  });
+
+  document.querySelectorAll('.chip[aria-pressed]').forEach(chip => chip.addEventListener('click', () => {
+    chip.setAttribute('aria-pressed', chip.getAttribute('aria-pressed') !== 'true');
+  }));
+  document.querySelectorAll('nav').forEach(nav => nav.querySelectorAll('.nav-item').forEach(item => item.addEventListener('click', () => {
+    nav.querySelectorAll('.nav-item').forEach(i => i.removeAttribute('aria-current'));
+    item.setAttribute('aria-current', 'page');
+  })));
+  addEventListener('scroll', () => document.getElementById('topbar').classList.toggle('scrolled', scrollY > 0), { passive: true });
+</script>
+</body>
+</html>

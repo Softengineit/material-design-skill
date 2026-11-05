@@ -1,0 +1,41 @@
+# md.comp.filled-tonal-button tokens
+
+- md.comp.filled-tonal-button.container.color: → md.sys.color.secondary-container
+- md.comp.filled-tonal-button.container.elevation: → md.sys.elevation.level0
+- md.comp.filled-tonal-button.container.height: 40dp
+- md.comp.filled-tonal-button.container.shadow-color: → md.sys.color.shadow
+- md.comp.filled-tonal-button.container.shape: → md.sys.shape.corner.full
+- md.comp.filled-tonal-button.disabled.container.color: → md.sys.color.on-surface
+- md.comp.filled-tonal-button.disabled.container.elevation: → md.sys.elevation.level0
+- md.comp.filled-tonal-button.disabled.container.opacity: 0.12
+- md.comp.filled-tonal-button.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.filled-tonal-button.disabled.label-text.opacity: 0.38
+- md.comp.filled-tonal-button.focus.container.elevation: → md.sys.elevation.level0
+- md.comp.filled-tonal-button.focus.indicator.color: → md.sys.color.secondary
+- md.comp.filled-tonal-button.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.filled-tonal-button.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.filled-tonal-button.focus.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.filled-tonal-button.hover.container.elevation: → md.sys.elevation.level1
+- md.comp.filled-tonal-button.hover.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.filled-tonal-button.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.filled-tonal-button.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.filled-tonal-button.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.filled-tonal-button.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.filled-tonal-button.label-text.type: composite(fontName=md.comp.filled-tonal-button.label-text.font, fontWeight=md.comp.filled-tonal-button.label-text.weight, fontSize=md.comp.filled-tonal-button.label-text.size, fontTracking=md.comp.filled-tonal-button.label-text.tracking, lineHeight=md.comp.filled-tonal-button.label-text.line-height)
+- md.comp.filled-tonal-button.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.filled-tonal-button.pressed.container.elevation: → md.sys.elevation.level0
+- md.comp.filled-tonal-button.pressed.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.filled-tonal-button.with-icon.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.filled-tonal-button.with-icon.disabled.icon.opacity: 0.38
+- md.comp.filled-tonal-button.with-icon.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.with-icon.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.with-icon.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-button.with-icon.icon.size: 18dp
+- md.comp.filled-tonal-button.with-icon.pressed.icon.color: → md.sys.color.on-secondary-container

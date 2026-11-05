@@ -1,0 +1,38 @@
+# md.comp.search-view tokens
+
+- md.comp.search-view.contained.background.color: → md.sys.color.surface-container-low
+- md.comp.search-view.contained.docked.bar-results.gap: → md.sys.measurement.space25
+- md.comp.search-view.contained.docked.bar.shape: → md.sys.shape.corner.full
+- md.comp.search-view.contained.docked.results.shape: → md.sys.shape.corner.medium
+- md.comp.search-view.contained.full-screen.bar.container.height: 56dp
+- md.comp.search-view.contained.icon-label.gap: → md.sys.measurement.space50
+- md.comp.search-view.contained.leading-margin: → md.sys.measurement.space150
+- md.comp.search-view.contained.trailing-margin: → md.sys.measurement.space150
+- md.comp.search-view.container.color: → md.sys.color.surface-container-high
+- md.comp.search-view.container.elevation: → md.sys.elevation.level3
+- md.comp.search-view.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.search-view.divider.color: → md.sys.color.outline
+- md.comp.search-view.docked.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.search-view.docked.header.container.height: 56dp
+- md.comp.search-view.full-screen.container.shape: → md.sys.shape.corner.none
+- md.comp.search-view.full-screen.header.container.height: 72dp
+- md.comp.search-view.header.input-text.color: → md.sys.color.on-surface
+- md.comp.search-view.header.input-text.font: → md.sys.typescale.body-large.font
+- md.comp.search-view.header.input-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.search-view.header.input-text.size: → md.sys.typescale.body-large.size
+- md.comp.search-view.header.input-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.search-view.header.input-text.type: composite(fontName=md.comp.search-view.header.input-text.font, fontWeight=md.comp.search-view.header.input-text.weight, fontSize=md.comp.search-view.header.input-text.size, fontTracking=md.comp.search-view.header.input-text.tracking, lineHeight=md.comp.search-view.header.input-text.line-height)
+- md.comp.search-view.header.input-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.search-view.header.leading-icon.color: → md.sys.color.on-surface
+- md.comp.search-view.header.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.search-view.header.supporting-text.font: → md.sys.typescale.body-large.font
+- md.comp.search-view.header.supporting-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.search-view.header.supporting-text.size: → md.sys.typescale.body-large.size
+- md.comp.search-view.header.supporting-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.search-view.header.supporting-text.type: composite(fontName=md.comp.search-view.header.supporting-text.font, fontWeight=md.comp.search-view.header.supporting-text.weight, fontSize=md.comp.search-view.header.supporting-text.size, fontTracking=md.comp.search-view.header.supporting-text.tracking, lineHeight=md.comp.search-view.header.supporting-text.line-height)
+- md.comp.search-view.header.supporting-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.search-view.header.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.search-view.leading-icon.leading-icon-label-space: → md.sys.measurement.space200
+- md.comp.search-view.leading-space: → md.sys.measurement.space200
+- md.comp.search-view.trailing-icon.label-trailing-icon-space: → md.sys.measurement.space200
+- md.comp.search-view.trailing-space: → md.sys.measurement.space200

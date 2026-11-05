@@ -1,0 +1,54 @@
+# md.comp.navigation-bar tokens
+
+- md.comp.navigation-bar.active-indicator.color: → md.sys.color.secondary-container
+- md.comp.navigation-bar.active-indicator.height: 32dp
+- md.comp.navigation-bar.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.navigation-bar.active-indicator.width: 64dp
+- md.comp.navigation-bar.active.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-bar.active.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-bar.active.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-bar.active.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.label-text.weight: → md.sys.typescale.label-medium.weight.prominent
+- md.comp.navigation-bar.active.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-bar.active.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.active.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.badge.color: → md.sys.color.error
+- md.comp.navigation-bar.badge.shape: rounded_corners 3dp
+- md.comp.navigation-bar.badge.size: 6dp
+- md.comp.navigation-bar.container.color: → md.sys.color.surface-container
+- md.comp.navigation-bar.container.elevation: → md.sys.elevation.level2
+- md.comp.navigation-bar.container.height: 80dp
+- md.comp.navigation-bar.container.shadow-color: → md.sys.color.shadow
+- md.comp.navigation-bar.container.shape: → md.sys.shape.corner.none
+- md.comp.navigation-bar.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.navigation-bar.focus.indicator.color: → md.sys.color.secondary
+- md.comp.navigation-bar.focus.indicator.outline.offset: → md.sys.state.focus-indicator.inner-offset
+- md.comp.navigation-bar.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.navigation-bar.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.navigation-bar.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.navigation-bar.icon.size: 24dp
+- md.comp.navigation-bar.inactive.focus.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.hover.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.icon.color: → md.sys.color.on-surface-variant
+- md.comp.navigation-bar.inactive.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.navigation-bar.inactive.pressed.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.inactive.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-bar.label-text.font: → md.sys.typescale.label-medium.font
+- md.comp.navigation-bar.label-text.line-height: → md.sys.typescale.label-medium.line-height
+- md.comp.navigation-bar.label-text.size: → md.sys.typescale.label-medium.size
+- md.comp.navigation-bar.label-text.tracking: → md.sys.typescale.label-medium.tracking
+- md.comp.navigation-bar.label-text.type: composite(fontName=md.comp.navigation-bar.label-text.font, fontWeight=md.comp.navigation-bar.label-text.weight, fontSize=md.comp.navigation-bar.label-text.size, fontTracking=md.comp.navigation-bar.label-text.tracking, lineHeight=md.comp.navigation-bar.label-text.line-height)
+- md.comp.navigation-bar.label-text.weight: → md.sys.typescale.label-medium.weight
+- md.comp.navigation-bar.large-badge.color: → md.sys.color.error
+- md.comp.navigation-bar.large-badge.shape: rounded_corners 8dp
+- md.comp.navigation-bar.large-badge.size: 16dp
+- md.comp.navigation-bar.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

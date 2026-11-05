@@ -1,0 +1,73 @@
+# md.comp.navigation-rail tokens
+
+- md.comp.navigation-rail.active-indicator.color: → md.sys.color.secondary-container
+- md.comp.navigation-rail.active-indicator.height: 32dp
+- md.comp.navigation-rail.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.navigation-rail.active-indicator.width: 56dp
+- md.comp.navigation-rail.active.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-rail.active.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-rail.active.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-rail.active.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.label-text.weight: → md.sys.typescale.label-medium.weight.prominent
+- md.comp.navigation-rail.active.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.navigation-rail.active.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.active.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.badge.color: → md.sys.color.error
+- md.comp.navigation-rail.badge.shape: rounded_corners 3dp
+- md.comp.navigation-rail.badge.size: 6dp
+- md.comp.navigation-rail.container.color: → md.sys.color.surface
+- md.comp.navigation-rail.container.elevation: → md.sys.elevation.level0
+- md.comp.navigation-rail.container.shape: → md.sys.shape.corner.none
+- md.comp.navigation-rail.container.width: 80dp
+- md.comp.navigation-rail.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.navigation-rail.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.navigation-rail.icon.size: 24dp
+- md.comp.navigation-rail.inactive.focus.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.hover.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.icon.color: → md.sys.color.on-surface-variant
+- md.comp.navigation-rail.inactive.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.navigation-rail.inactive.pressed.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.inactive.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.label-text.font: → md.sys.typescale.label-medium.font
+- md.comp.navigation-rail.label-text.font-family: → md.sys.typescale.label-medium.font
+- md.comp.navigation-rail.label-text.font-size: → md.sys.typescale.label-medium.size
+- md.comp.navigation-rail.label-text.letter-spacing: → md.sys.typescale.label-medium.tracking
+- md.comp.navigation-rail.label-text.line-height: → md.sys.typescale.label-medium.line-height
+- md.comp.navigation-rail.label-text.size: → md.sys.typescale.label-medium.size
+- md.comp.navigation-rail.label-text.tracking: → md.sys.typescale.label-medium.tracking
+- md.comp.navigation-rail.label-text.type: composite(fontName=md.comp.navigation-rail.label-text.font, fontWeight=md.comp.navigation-rail.label-text.weight, fontSize=md.comp.navigation-rail.label-text.size, fontTracking=md.comp.navigation-rail.label-text.tracking, lineHeight=md.comp.navigation-rail.label-text.line-height)
+- md.comp.navigation-rail.label-text.weight: → md.sys.typescale.label-medium.weight
+- md.comp.navigation-rail.large-badge-label.color: → md.sys.color.on-error
+- md.comp.navigation-rail.large-badge-label.font: → md.sys.typescale.label-small.font
+- md.comp.navigation-rail.large-badge-label.font-family: → md.sys.typescale.label-small.font
+- md.comp.navigation-rail.large-badge-label.line-height: → md.sys.typescale.label-small.line-height
+- md.comp.navigation-rail.large-badge-label.size: → md.sys.typescale.label-small.size
+- md.comp.navigation-rail.large-badge-label.tracking: → md.sys.typescale.label-small.tracking
+- md.comp.navigation-rail.large-badge-label.type: composite(fontName=md.comp.navigation-rail.large-badge-label.font, fontWeight=md.comp.navigation-rail.large-badge-label.weight, fontSize=md.comp.navigation-rail.large-badge-label.size, fontTracking=md.comp.navigation-rail.large-badge-label.tracking, lineHeight=md.comp.navigation-rail.large-badge-label.line-height)
+- md.comp.navigation-rail.large-badge-label.weight: → md.sys.typescale.label-small.weight
+- md.comp.navigation-rail.large-badge.color: → md.sys.color.error
+- md.comp.navigation-rail.large-badge.shape: rounded_corners 8dp
+- md.comp.navigation-rail.large-badge.size: 16dp
+- md.comp.navigation-rail.menu.focus.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.navigation-rail.menu.hover.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.navigation-rail.menu.icon.color: → md.sys.color.on-surface-variant
+- md.comp.navigation-rail.menu.icon.size: 24dp
+- md.comp.navigation-rail.menu.pressed.icon.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.navigation-rail.menu.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.navigation-rail.no-label.active-indicator.height: 56dp
+- md.comp.navigation-rail.no-label.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.navigation-rail.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

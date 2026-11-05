@@ -1,0 +1,24 @@
+# md.comp.date-input tokens
+
+- md.comp.date-input.modal.container.color: → md.sys.color.surface-container-high
+- md.comp.date-input.modal.container.elevation: → md.sys.elevation.level3
+- md.comp.date-input.modal.container.height: 512dp
+- md.comp.date-input.modal.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.date-input.modal.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.date-input.modal.container.width: 328dp
+- md.comp.date-input.modal.header.container.height: 120dp
+- md.comp.date-input.modal.header.container.width: 328dp
+- md.comp.date-input.modal.header.headline.color: → md.sys.color.on-surface-variant
+- md.comp.date-input.modal.header.headline.font: → md.sys.typescale.headline-large.font
+- md.comp.date-input.modal.header.headline.line-height: → md.sys.typescale.headline-large.line-height
+- md.comp.date-input.modal.header.headline.size: → md.sys.typescale.headline-large.size
+- md.comp.date-input.modal.header.headline.tracking: → md.sys.typescale.headline-large.tracking
+- md.comp.date-input.modal.header.headline.type: composite(fontName=md.comp.date-input.modal.header.headline.font, fontWeight=md.comp.date-input.modal.header.headline.weight, fontSize=md.comp.date-input.modal.header.headline.size, fontTracking=md.comp.date-input.modal.header.headline.tracking, lineHeight=md.comp.date-input.modal.header.headline.line-height)
+- md.comp.date-input.modal.header.headline.weight: → md.sys.typescale.headline-large.weight
+- md.comp.date-input.modal.header.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.date-input.modal.header.supporting-text.font: → md.sys.typescale.label-large.font
+- md.comp.date-input.modal.header.supporting-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.date-input.modal.header.supporting-text.size: → md.sys.typescale.label-large.size
+- md.comp.date-input.modal.header.supporting-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.date-input.modal.header.supporting-text.type: composite(fontName=md.comp.date-input.modal.header.supporting-text.font, fontWeight=md.comp.date-input.modal.header.supporting-text.weight, fontSize=md.comp.date-input.modal.header.supporting-text.size, fontTracking=md.comp.date-input.modal.header.supporting-text.tracking, lineHeight=md.comp.date-input.modal.header.supporting-text.line-height)
+- md.comp.date-input.modal.header.supporting-text.weight: → md.sys.typescale.label-large.weight

@@ -1,0 +1,109 @@
+# md.comp.filter-chip tokens
+
+- md.comp.filter-chip.container.height: 32dp
+- md.comp.filter-chip.container.shadow-color: → md.sys.color.shadow
+- md.comp.filter-chip.container.shape: → md.sys.shape.corner.small
+- md.comp.filter-chip.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.filter-chip.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.filter-chip.disabled.label-text.opacity: 0.38
+- md.comp.filter-chip.dragged.container.elevation: → md.sys.elevation.level4
+- md.comp.filter-chip.elevated.container.elevation: → md.sys.elevation.level1
+- md.comp.filter-chip.elevated.container.shadow-color: → md.sys.color.shadow
+- md.comp.filter-chip.elevated.disabled.container.color: → md.sys.color.on-surface
+- md.comp.filter-chip.elevated.disabled.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.elevated.disabled.container.opacity: 0.12
+- md.comp.filter-chip.elevated.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.filter-chip.elevated.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.filter-chip.elevated.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.filter-chip.elevated.selected.container.color: → md.sys.color.secondary-container
+- md.comp.filter-chip.elevated.unselected.container.color: → md.sys.color.surface-container-low
+- md.comp.filter-chip.flat.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.flat.disabled.selected.container.color: → md.sys.color.on-surface
+- md.comp.filter-chip.flat.disabled.selected.container.opacity: 0.12
+- md.comp.filter-chip.flat.disabled.unselected.outline.color: → md.sys.color.on-surface
+- md.comp.filter-chip.flat.disabled.unselected.outline.opacity: 0.12
+- md.comp.filter-chip.flat.selected.container.color: → md.sys.color.secondary-container
+- md.comp.filter-chip.flat.selected.focus.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.flat.selected.hover.container.elevation: → md.sys.elevation.level1
+- md.comp.filter-chip.flat.selected.outline.width: 0dp
+- md.comp.filter-chip.flat.selected.pressed.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.flat.unselected.focus.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.flat.unselected.focus.outline.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.flat.unselected.hover.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.flat.unselected.outline.color: → md.sys.color.outline-variant
+- md.comp.filter-chip.flat.unselected.outline.width: 1dp
+- md.comp.filter-chip.flat.unselected.pressed.container.elevation: → md.sys.elevation.level0
+- md.comp.filter-chip.focus.indicator.color: → md.sys.color.secondary
+- md.comp.filter-chip.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.filter-chip.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.filter-chip.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.filter-chip.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.filter-chip.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.filter-chip.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.filter-chip.label-text.type: composite(fontName=md.comp.filter-chip.label-text.font, fontWeight=md.comp.filter-chip.label-text.weight, fontSize=md.comp.filter-chip.label-text.size, fontTracking=md.comp.filter-chip.label-text.tracking, lineHeight=md.comp.filter-chip.label-text.line-height)
+- md.comp.filter-chip.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.filter-chip.selected.dragged.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.dragged.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.filter-chip.selected.focus.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.filter-chip.selected.hover.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.filter-chip.selected.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.pressed.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.selected.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.selected.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.filter-chip.unselected.dragged.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.dragged.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.filter-chip.unselected.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.filter-chip.unselected.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.filter-chip.unselected.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.unselected.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.unselected.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.filter-chip.with-icon.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.filter-chip.with-icon.disabled.icon.opacity: 0.38
+- md.comp.filter-chip.with-icon.icon.size: 18dp
+- md.comp.filter-chip.with-icon.selected.dragged.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-icon.selected.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-icon.selected.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-icon.selected.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-icon.selected.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-icon.unselected.dragged.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-icon.unselected.focus.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-icon.unselected.hover.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-icon.unselected.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-icon.unselected.pressed.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-leading-icon.disabled.leading-icon.color: → md.sys.color.on-surface
+- md.comp.filter-chip.with-leading-icon.disabled.leading-icon.opacity: 0.38
+- md.comp.filter-chip.with-leading-icon.leading-icon.unselected.color: → md.sys.color.primary
+- md.comp.filter-chip.with-leading-icon.selected.dragged.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-leading-icon.selected.focus.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-leading-icon.selected.hover.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-leading-icon.selected.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-leading-icon.selected.pressed.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-leading-icon.unselected.dragged.leading-icon.color: → md.sys.color.primary
+- md.comp.filter-chip.with-leading-icon.unselected.focus.leading-icon.color: → md.sys.color.primary
+- md.comp.filter-chip.with-leading-icon.unselected.hover.leading-icon.color: → md.sys.color.primary
+- md.comp.filter-chip.with-leading-icon.unselected.leading-icon.color: → md.sys.color.primary
+- md.comp.filter-chip.with-leading-icon.unselected.pressed.leading-icon.color: → md.sys.color.primary
+- md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.color: → md.sys.color.on-surface
+- md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.opacity: 0.38
+- md.comp.filter-chip.with-trailing-icon.selected.dragged.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-trailing-icon.selected.focus.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-trailing-icon.selected.hover.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-trailing-icon.selected.pressed.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-trailing-icon.selected.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.filter-chip.with-trailing-icon.trailing-icon.unselected.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-trailing-icon.unselected.dragged.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-trailing-icon.unselected.focus.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-trailing-icon.unselected.hover.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-trailing-icon.unselected.pressed.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.filter-chip.with-trailing-icon.unselected.trailing-icon.color: → md.sys.color.on-surface-variant

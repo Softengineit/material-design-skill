@@ -1,0 +1,1359 @@
+# md.sys.typescale tokens
+
+- md.sys.typescale.body-large:
+    - composite(fontName=md.sys.typescale.body-large.font, fontWeight=md.sys.typescale.body-large.weight, fontSize=md.sys.typescale.body-large.size, fontTracking=md.sys.typescale.body-large.tracking, lineHeight=md.sys.typescale.body-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.body-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.body-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-large.font, fontWeight=md.sys.typescale.body-large.weight, fontSize=md.sys.typescale.body-large.size, fontTracking=md.sys.typescale.body-large.tracking, lineHeight=md.sys.typescale.body-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.body-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.body-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-large.font, fontWeight=md.sys.typescale.body-large.weight, fontSize=md.sys.typescale.body-large.size, fontTracking=md.sys.typescale.body-large.tracking, lineHeight=md.sys.typescale.body-large.line-height)
+- md.sys.typescale.body-large.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.body-large.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.body-large.font: → md.ref.typeface.plain
+- md.sys.typescale.body-large.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.body-large.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.body-large.line-height: 24pt
+- md.sys.typescale.body-large.opsz:
+    - {"tag": "opsz", "value": 16}  [Font: Variable]
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.body-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.body-large.size: 16pt
+- md.sys.typescale.body-large.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.body-large.tracking:
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0pt
+- md.sys.typescale.body-large.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.body-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.body-large.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.body-medium:
+    - composite(fontName=md.sys.typescale.body-medium.font, fontWeight=md.sys.typescale.body-medium.weight, fontSize=md.sys.typescale.body-medium.size, fontTracking=md.sys.typescale.body-medium.tracking, lineHeight=md.sys.typescale.body-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.body-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.body-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-medium.font, fontWeight=md.sys.typescale.body-medium.weight, fontSize=md.sys.typescale.body-medium.size, fontTracking=md.sys.typescale.body-medium.tracking, lineHeight=md.sys.typescale.body-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.body-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.body-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-medium.font, fontWeight=md.sys.typescale.body-medium.weight, fontSize=md.sys.typescale.body-medium.size, fontTracking=md.sys.typescale.body-medium.tracking, lineHeight=md.sys.typescale.body-medium.line-height)
+- md.sys.typescale.body-medium.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.body-medium.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.body-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.body-medium.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.body-medium.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.body-medium.line-height: 20pt
+- md.sys.typescale.body-medium.opsz:
+    - {"tag": "opsz", "value": 14}  [Font: Variable]
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.body-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.body-medium.size: 14pt
+- md.sys.typescale.body-medium.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.body-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0.25pt
+    - 0pt
+- md.sys.typescale.body-medium.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.body-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.body-medium.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.body-small:
+    - composite(fontName=md.sys.typescale.body-small.font, fontWeight=md.sys.typescale.body-small.weight, fontSize=md.sys.typescale.body-small.size, fontTracking=md.sys.typescale.body-small.tracking, lineHeight=md.sys.typescale.body-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.body-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.body-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-small.font, fontWeight=md.sys.typescale.body-small.weight, fontSize=md.sys.typescale.body-small.size, fontTracking=md.sys.typescale.body-small.tracking, lineHeight=md.sys.typescale.body-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.body-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.body-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.body-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.body-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.body-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.body-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.body-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.body-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.body-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.body-small.font, fontWeight=md.sys.typescale.body-small.weight, fontSize=md.sys.typescale.body-small.size, fontTracking=md.sys.typescale.body-small.tracking, lineHeight=md.sys.typescale.body-small.line-height)
+- md.sys.typescale.body-small.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.body-small.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.body-small.font: → md.ref.typeface.plain
+- md.sys.typescale.body-small.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.body-small.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.body-small.line-height: 16pt
+- md.sys.typescale.body-small.opsz:
+    - {"tag": "opsz", "value": 12}  [Font: Variable]
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.body-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.body-small.size: 12pt
+- md.sys.typescale.body-small.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.body-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0.4pt
+    - 0.1pt
+- md.sys.typescale.body-small.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.body-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.body-small.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.display-large:
+    - composite(fontName=md.sys.typescale.display-large.font, fontWeight=md.sys.typescale.display-large.weight, fontSize=md.sys.typescale.display-large.size, fontTracking=md.sys.typescale.display-large.tracking, lineHeight=md.sys.typescale.display-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.display-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.display-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-large.font, fontWeight=md.sys.typescale.display-large.weight, fontSize=md.sys.typescale.display-large.size, fontTracking=md.sys.typescale.display-large.tracking, lineHeight=md.sys.typescale.display-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.display-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.display-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-large.font, fontWeight=md.sys.typescale.display-large.weight, fontSize=md.sys.typescale.display-large.size, fontTracking=md.sys.typescale.display-large.tracking, lineHeight=md.sys.typescale.display-large.line-height)
+- md.sys.typescale.display-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.display-large.fill: {"tag": "FILL"}
+- md.sys.typescale.display-large.font: → md.ref.typeface.brand
+- md.sys.typescale.display-large.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.display-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.display-large.line-height: 64pt
+- md.sys.typescale.display-large.opsz:
+    - {"tag": "opsz", "value": 57}  [Font: Variable]
+    - {"tag": "opsz", "value": 57}
+- md.sys.typescale.display-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.display-large.size: 57pt
+- md.sys.typescale.display-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.display-large.tracking:
+    - 0pt  [Font: Variable]
+    - -0.25pt
+    - 0pt
+- md.sys.typescale.display-large.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.display-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.display-large.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.display-medium:
+    - composite(fontName=md.sys.typescale.display-medium.font, fontWeight=md.sys.typescale.display-medium.weight, fontSize=md.sys.typescale.display-medium.size, fontTracking=md.sys.typescale.display-medium.tracking, lineHeight=md.sys.typescale.display-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.display-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.display-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-medium.grad'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-medium.hexp'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-medium.opsz'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-medium.crsv'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-medium.font, fontWeight=md.sys.typescale.display-medium.weight, fontSize=md.sys.typescale.display-medium.size, fontTracking=md.sys.typescale.display-medium.tracking, lineHeight=md.sys.typescale.display-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.display-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.display-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-medium.font, fontWeight=md.sys.typescale.display-medium.weight, fontSize=md.sys.typescale.display-medium.size, fontTracking=md.sys.typescale.display-medium.tracking, lineHeight=md.sys.typescale.display-medium.line-height)
+- md.sys.typescale.display-medium.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.display-medium.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.display-medium.font: → md.ref.typeface.brand
+- md.sys.typescale.display-medium.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.display-medium.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.display-medium.line-height: 52pt
+- md.sys.typescale.display-medium.opsz:
+    - {"tag": "opsz", "value": 45}  [Font: Variable]
+    - {"tag": "opsz", "value": 45}
+- md.sys.typescale.display-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.display-medium.size: 45pt
+- md.sys.typescale.display-medium.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.display-medium.tracking: 0pt
+- md.sys.typescale.display-medium.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.display-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.display-medium.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.display-small:
+    - composite(fontName=md.sys.typescale.display-small.font, fontWeight=md.sys.typescale.display-small.weight, fontSize=md.sys.typescale.display-small.size, fontTracking=md.sys.typescale.display-small.tracking, lineHeight=md.sys.typescale.display-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.display-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.display-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-small.opsz'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-small.rond'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-small.grad'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-small.font, fontWeight=md.sys.typescale.display-small.weight, fontSize=md.sys.typescale.display-small.size, fontTracking=md.sys.typescale.display-small.tracking, lineHeight=md.sys.typescale.display-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.display-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.display-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.display-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.display-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.display-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.display-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.display-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.display-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.display-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.display-small.font, fontWeight=md.sys.typescale.display-small.weight, fontSize=md.sys.typescale.display-small.size, fontTracking=md.sys.typescale.display-small.tracking, lineHeight=md.sys.typescale.display-small.line-height)
+- md.sys.typescale.display-small.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.display-small.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.display-small.font: → md.ref.typeface.brand
+- md.sys.typescale.display-small.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.display-small.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.display-small.line-height: 44pt
+- md.sys.typescale.display-small.opsz:
+    - {"tag": "opsz", "value": 36}  [Font: Variable]
+    - {"tag": "opsz", "value": 36}
+- md.sys.typescale.display-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.display-small.size: 36pt
+- md.sys.typescale.display-small.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.display-small.tracking: 0pt
+- md.sys.typescale.display-small.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.display-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.display-small.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.emphasized.body-large:
+    - composite(fontName=md.sys.typescale.emphasized.body-large.font, fontWeight=md.sys.typescale.emphasized.body-large.weight, fontSize=md.sys.typescale.emphasized.body-large.size, fontTracking=md.sys.typescale.emphasized.body-large.tracking, lineHeight=md.sys.typescale.emphasized.body-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.body-large.font, fontWeight=md.sys.typescale.emphasized.body-large.weight, fontSize=md.sys.typescale.emphasized.body-large.size, fontTracking=md.sys.typescale.emphasized.body-large.tracking, lineHeight=md.sys.typescale.emphasized.body-large.line-height)
+- md.sys.typescale.emphasized.body-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.body-large.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.body-large.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.body-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.body-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.body-large.line-height: 24pt
+- md.sys.typescale.emphasized.body-large.opsz: {"tag": "opsz", "value": 16}
+- md.sys.typescale.emphasized.body-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.body-large.size: 16pt
+- md.sys.typescale.emphasized.body-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.body-large.tracking:
+    - 0  [Font: Variable]
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0pt
+- md.sys.typescale.emphasized.body-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.body-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.body-large.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.body-medium:
+    - composite(fontName=md.sys.typescale.emphasized.body-medium.font, fontWeight=md.sys.typescale.emphasized.body-medium.weight, fontSize=md.sys.typescale.emphasized.body-medium.size, fontTracking=md.sys.typescale.emphasized.body-medium.tracking, lineHeight=md.sys.typescale.emphasized.body-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.body-medium.font, fontWeight=md.sys.typescale.emphasized.body-medium.weight, fontSize=md.sys.typescale.emphasized.body-medium.size, fontTracking=md.sys.typescale.emphasized.body-medium.tracking, lineHeight=md.sys.typescale.emphasized.body-medium.line-height)
+- md.sys.typescale.emphasized.body-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.body-medium.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.body-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.body-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.body-medium.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.body-medium.line-height: 20pt
+- md.sys.typescale.emphasized.body-medium.opsz: {"tag": "opsz", "value": 14}
+- md.sys.typescale.emphasized.body-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.body-medium.size: 14pt
+- md.sys.typescale.emphasized.body-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.body-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0.25pt
+    - 0pt
+- md.sys.typescale.emphasized.body-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.body-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.body-medium.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.body-small:
+    - composite(fontName=md.sys.typescale.emphasized.body-small.font, fontWeight=md.sys.typescale.emphasized.body-small.weight, fontSize=md.sys.typescale.emphasized.body-small.size, fontTracking=md.sys.typescale.emphasized.body-small.tracking, lineHeight=md.sys.typescale.emphasized.body-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.body-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.body-small.font, fontWeight=md.sys.typescale.emphasized.body-small.weight, fontSize=md.sys.typescale.emphasized.body-small.size, fontTracking=md.sys.typescale.emphasized.body-small.tracking, lineHeight=md.sys.typescale.emphasized.body-small.line-height)
+- md.sys.typescale.emphasized.body-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.body-small.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.body-small.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.body-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.body-small.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.body-small.line-height: 16pt
+- md.sys.typescale.emphasized.body-small.opsz: {"tag": "opsz", "value": 12}
+- md.sys.typescale.emphasized.body-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.body-small.size: 12pt
+- md.sys.typescale.emphasized.body-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.body-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0.4pt
+    - 0pt
+- md.sys.typescale.emphasized.body-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.body-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.body-small.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.display-large:
+    - composite(fontName=md.sys.typescale.emphasized.display-large.font, fontWeight=md.sys.typescale.emphasized.display-large.weight, fontSize=md.sys.typescale.emphasized.display-large.size, fontTracking=md.sys.typescale.emphasized.display-large.tracking, lineHeight=md.sys.typescale.emphasized.display-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.wdth'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.fill'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.slnt'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.grad'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-large.font, fontWeight=md.sys.typescale.emphasized.display-large.weight, fontSize=md.sys.typescale.emphasized.display-large.size, fontTracking=md.sys.typescale.emphasized.display-large.tracking, lineHeight=md.sys.typescale.emphasized.display-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-large.font, fontWeight=md.sys.typescale.emphasized.display-large.weight, fontSize=md.sys.typescale.emphasized.display-large.size, fontTracking=md.sys.typescale.emphasized.display-large.tracking, lineHeight=md.sys.typescale.emphasized.display-large.line-height)
+- md.sys.typescale.emphasized.display-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.display-large.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.display-large.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.display-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.display-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.display-large.line-height: 64pt
+- md.sys.typescale.emphasized.display-large.opsz: {"tag": "opsz", "value": 57}
+- md.sys.typescale.emphasized.display-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.display-large.size: 57pt
+- md.sys.typescale.emphasized.display-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.display-large.tracking:
+    - 0pt  [Font: Variable]
+    - -0.25pt
+    - 0pt
+- md.sys.typescale.emphasized.display-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.display-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.display-large.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.display-medium:
+    - composite(fontName=md.sys.typescale.emphasized.display-medium.font, fontWeight=md.sys.typescale.emphasized.display-medium.weight, fontSize=md.sys.typescale.emphasized.display-medium.size, fontTracking=md.sys.typescale.emphasized.display-medium.tracking, lineHeight=md.sys.typescale.emphasized.display-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.wdth'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.fill'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.slnt'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.grad'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.hexp'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.crsv'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-medium.font, fontWeight=md.sys.typescale.emphasized.display-medium.weight, fontSize=md.sys.typescale.emphasized.display-medium.size, fontTracking=md.sys.typescale.emphasized.display-medium.tracking, lineHeight=md.sys.typescale.emphasized.display-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-medium.font, fontWeight=md.sys.typescale.emphasized.display-medium.weight, fontSize=md.sys.typescale.emphasized.display-medium.size, fontTracking=md.sys.typescale.emphasized.display-medium.tracking, lineHeight=md.sys.typescale.emphasized.display-medium.line-height)
+- md.sys.typescale.emphasized.display-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.display-medium.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.display-medium.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.display-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.display-medium.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.display-medium.line-height: 52pt
+- md.sys.typescale.emphasized.display-medium.opsz: {"tag": "opsz", "value": 45}
+- md.sys.typescale.emphasized.display-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.display-medium.size: 45pt
+- md.sys.typescale.emphasized.display-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.display-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.display-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.display-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.display-medium.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.display-small:
+    - composite(fontName=md.sys.typescale.emphasized.display-small.font, fontWeight=md.sys.typescale.emphasized.display-small.weight, fontSize=md.sys.typescale.emphasized.display-small.size, fontTracking=md.sys.typescale.emphasized.display-small.tracking, lineHeight=md.sys.typescale.emphasized.display-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.wdth'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.fill'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-small.font, fontWeight=md.sys.typescale.emphasized.display-small.weight, fontSize=md.sys.typescale.emphasized.display-small.size, fontTracking=md.sys.typescale.emphasized.display-small.tracking, lineHeight=md.sys.typescale.emphasized.display-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.display-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.display-small.font, fontWeight=md.sys.typescale.emphasized.display-small.weight, fontSize=md.sys.typescale.emphasized.display-small.size, fontTracking=md.sys.typescale.emphasized.display-small.tracking, lineHeight=md.sys.typescale.emphasized.display-small.line-height)
+- md.sys.typescale.emphasized.display-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.display-small.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.display-small.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.display-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.display-small.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.display-small.line-height: 44pt
+- md.sys.typescale.emphasized.display-small.opsz: {"tag": "opsz", "value": 36}
+- md.sys.typescale.emphasized.display-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.display-small.size: 36pt
+- md.sys.typescale.emphasized.display-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.display-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.display-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.display-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.display-small.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.headline-large:
+    - composite(fontName=md.sys.typescale.emphasized.headline-large.font, fontWeight=md.sys.typescale.emphasized.headline-large.weight, fontSize=md.sys.typescale.emphasized.headline-large.size, fontTracking=md.sys.typescale.emphasized.headline-large.tracking, lineHeight=md.sys.typescale.emphasized.headline-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.wdth'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.fill'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.grad'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.wght'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.rond'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-large.font, fontWeight=md.sys.typescale.emphasized.headline-large.weight, fontSize=md.sys.typescale.emphasized.headline-large.size, fontTracking=md.sys.typescale.emphasized.headline-large.tracking, lineHeight=md.sys.typescale.emphasized.headline-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-large.font, fontWeight=md.sys.typescale.emphasized.headline-large.weight, fontSize=md.sys.typescale.emphasized.headline-large.size, fontTracking=md.sys.typescale.emphasized.headline-large.tracking, lineHeight=md.sys.typescale.emphasized.headline-large.line-height)
+- md.sys.typescale.emphasized.headline-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.headline-large.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.headline-large.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.headline-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.headline-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.headline-large.line-height: 40pt
+- md.sys.typescale.emphasized.headline-large.opsz: {"tag": "opsz", "value": 32}
+- md.sys.typescale.emphasized.headline-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.headline-large.size: 32pt
+- md.sys.typescale.emphasized.headline-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.headline-large.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.headline-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.headline-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.headline-large.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.headline-medium:
+    - composite(fontName=md.sys.typescale.emphasized.headline-medium.font, fontWeight=md.sys.typescale.emphasized.headline-medium.weight, fontSize=md.sys.typescale.emphasized.headline-medium.size, fontTracking=md.sys.typescale.emphasized.headline-medium.tracking, lineHeight=md.sys.typescale.emphasized.headline-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-medium.font, fontWeight=md.sys.typescale.emphasized.headline-medium.weight, fontSize=md.sys.typescale.emphasized.headline-medium.size, fontTracking=md.sys.typescale.emphasized.headline-medium.tracking, lineHeight=md.sys.typescale.emphasized.headline-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.wght'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.slnt'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.wdth'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-medium.font, fontWeight=md.sys.typescale.emphasized.headline-medium.weight, fontSize=md.sys.typescale.emphasized.headline-medium.size, fontTracking=md.sys.typescale.emphasized.headline-medium.tracking, lineHeight=md.sys.typescale.emphasized.headline-medium.line-height)
+- md.sys.typescale.emphasized.headline-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.headline-medium.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.headline-medium.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.headline-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.headline-medium.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.headline-medium.line-height: 36pt
+- md.sys.typescale.emphasized.headline-medium.opsz: {"tag": "opsz", "value": 28}
+- md.sys.typescale.emphasized.headline-medium.rond:
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.headline-medium.size: 28pt
+- md.sys.typescale.emphasized.headline-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.headline-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.headline-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.headline-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.headline-medium.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.headline-small:
+    - composite(fontName=md.sys.typescale.emphasized.headline-small.font, fontWeight=md.sys.typescale.emphasized.headline-small.weight, fontSize=md.sys.typescale.emphasized.headline-small.size, fontTracking=md.sys.typescale.emphasized.headline-small.tracking, lineHeight=md.sys.typescale.emphasized.headline-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-small.font, fontWeight=md.sys.typescale.emphasized.headline-small.weight, fontSize=md.sys.typescale.emphasized.headline-small.size, fontTracking=md.sys.typescale.emphasized.headline-small.tracking, lineHeight=md.sys.typescale.emphasized.headline-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.wght'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.wdth'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.headline-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.headline-small.font, fontWeight=md.sys.typescale.emphasized.headline-small.weight, fontSize=md.sys.typescale.emphasized.headline-small.size, fontTracking=md.sys.typescale.emphasized.headline-small.tracking, lineHeight=md.sys.typescale.emphasized.headline-small.line-height)
+- md.sys.typescale.emphasized.headline-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.headline-small.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.headline-small.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.headline-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.headline-small.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.headline-small.line-height: 32pt
+- md.sys.typescale.emphasized.headline-small.opsz: {"tag": "opsz", "value": 24}
+- md.sys.typescale.emphasized.headline-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.headline-small.size: 24pt
+- md.sys.typescale.emphasized.headline-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.headline-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.headline-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.headline-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.headline-small.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.label-large:
+    - composite(fontName=md.sys.typescale.emphasized.label-large.font, fontWeight=md.sys.typescale.emphasized.label-large.weight, fontSize=md.sys.typescale.emphasized.label-large.size, fontTracking=md.sys.typescale.emphasized.label-large.tracking, lineHeight=md.sys.typescale.emphasized.label-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.label-large.font, fontWeight=md.sys.typescale.emphasized.label-large.weight, fontSize=md.sys.typescale.emphasized.label-large.size, fontTracking=md.sys.typescale.emphasized.label-large.tracking, lineHeight=md.sys.typescale.emphasized.label-large.line-height)
+- md.sys.typescale.emphasized.label-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.label-large.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.label-large.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.label-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.label-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.label-large.line-height: 20pt
+- md.sys.typescale.emphasized.label-large.opsz: {"tag": "opsz", "value": 14}
+- md.sys.typescale.emphasized.label-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.label-large.size: 14pt
+- md.sys.typescale.emphasized.label-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.label-large.tracking:
+    - 0pt  [Font: Variable]
+    - 0.1pt
+    - 0pt
+- md.sys.typescale.emphasized.label-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.label-large.weight: → md.ref.typeface.weight-bold
+- md.sys.typescale.emphasized.label-large.wght: {"tag": "wght", "value": 600}
+- md.sys.typescale.emphasized.label-medium:
+    - composite(fontName=md.sys.typescale.emphasized.label-medium.font, fontWeight=md.sys.typescale.emphasized.label-medium.weight, fontSize=md.sys.typescale.emphasized.label-medium.size, fontTracking=md.sys.typescale.emphasized.label-medium.tracking, lineHeight=md.sys.typescale.emphasized.label-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.label-medium.font, fontWeight=md.sys.typescale.emphasized.label-medium.weight, fontSize=md.sys.typescale.emphasized.label-medium.size, fontTracking=md.sys.typescale.emphasized.label-medium.tracking, lineHeight=md.sys.typescale.emphasized.label-medium.line-height)
+- md.sys.typescale.emphasized.label-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.label-medium.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.label-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.label-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.label-medium.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.label-medium.line-height: 16pt
+- md.sys.typescale.emphasized.label-medium.opsz: {"tag": "opsz", "value": 12}
+- md.sys.typescale.emphasized.label-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.label-medium.size: 12pt
+- md.sys.typescale.emphasized.label-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.label-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0.1pt
+- md.sys.typescale.emphasized.label-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.label-medium.weight: → md.ref.typeface.weight-bold
+- md.sys.typescale.emphasized.label-medium.wght: {"tag": "wght", "value": 600}
+- md.sys.typescale.emphasized.label-small:
+    - composite(fontName=md.sys.typescale.emphasized.label-small.font, fontWeight=md.sys.typescale.emphasized.label-small.weight, fontSize=md.sys.typescale.emphasized.label-small.size, fontTracking=md.sys.typescale.emphasized.label-small.tracking, lineHeight=md.sys.typescale.emphasized.label-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.label-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.label-small.font, fontWeight=md.sys.typescale.emphasized.label-small.weight, fontSize=md.sys.typescale.emphasized.label-small.size, fontTracking=md.sys.typescale.emphasized.label-small.tracking, lineHeight=md.sys.typescale.emphasized.label-small.line-height)
+- md.sys.typescale.emphasized.label-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.label-small.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.label-small.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.label-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.label-small.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.label-small.line-height: 16pt
+- md.sys.typescale.emphasized.label-small.opsz: {"tag": "opsz", "value": 11}
+- md.sys.typescale.emphasized.label-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.label-small.size: 11pt
+- md.sys.typescale.emphasized.label-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.label-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0.1pt
+- md.sys.typescale.emphasized.label-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.label-small.weight: → md.ref.typeface.weight-bold
+- md.sys.typescale.emphasized.label-small.wght: {"tag": "wght", "value": 600}
+- md.sys.typescale.emphasized.title-large:
+    - composite(fontName=md.sys.typescale.emphasized.title-large.font, fontWeight=md.sys.typescale.emphasized.title-large.weight, fontSize=md.sys.typescale.emphasized.title-large.size, fontTracking=md.sys.typescale.emphasized.title-large.tracking, lineHeight=md.sys.typescale.emphasized.title-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.title-large.font, fontWeight=md.sys.typescale.emphasized.title-large.weight, fontSize=md.sys.typescale.emphasized.title-large.size, fontTracking=md.sys.typescale.emphasized.title-large.tracking, lineHeight=md.sys.typescale.emphasized.title-large.line-height)
+- md.sys.typescale.emphasized.title-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.title-large.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.title-large.font: → md.ref.typeface.brand
+- md.sys.typescale.emphasized.title-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.title-large.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.title-large.line-height: 28pt
+- md.sys.typescale.emphasized.title-large.opsz: {"tag": "opsz", "value": 22}
+- md.sys.typescale.emphasized.title-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.title-large.size: 22pt
+- md.sys.typescale.emphasized.title-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.title-large.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+- md.sys.typescale.emphasized.title-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.title-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.emphasized.title-large.wght: {"tag": "wght", "value": 500}
+- md.sys.typescale.emphasized.title-medium:
+    - composite(fontName=md.sys.typescale.emphasized.title-medium.font, fontWeight=md.sys.typescale.emphasized.title-medium.weight, fontSize=md.sys.typescale.emphasized.title-medium.size, fontTracking=md.sys.typescale.emphasized.title-medium.tracking, lineHeight=md.sys.typescale.emphasized.title-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.title-medium.font, fontWeight=md.sys.typescale.emphasized.title-medium.weight, fontSize=md.sys.typescale.emphasized.title-medium.size, fontTracking=md.sys.typescale.emphasized.title-medium.tracking, lineHeight=md.sys.typescale.emphasized.title-medium.line-height)
+- md.sys.typescale.emphasized.title-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.title-medium.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.title-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.title-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.title-medium.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.title-medium.line-height: 24pt
+- md.sys.typescale.emphasized.title-medium.opsz: {"tag": "opsz", "value": 16}
+- md.sys.typescale.emphasized.title-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.title-medium.size: 16pt
+- md.sys.typescale.emphasized.title-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.title-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0.15pt
+    - 0pt
+- md.sys.typescale.emphasized.title-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.title-medium.weight: → md.ref.typeface.weight-bold
+- md.sys.typescale.emphasized.title-medium.wght: {"tag": "wght", "value": 600}
+- md.sys.typescale.emphasized.title-small:
+    - composite(fontName=md.sys.typescale.emphasized.title-small.font, fontWeight=md.sys.typescale.emphasized.title-small.weight, fontSize=md.sys.typescale.emphasized.title-small.size, fontTracking=md.sys.typescale.emphasized.title-small.tracking, lineHeight=md.sys.typescale.emphasized.title-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.emphasized.title-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.emphasized.title-small.font, fontWeight=md.sys.typescale.emphasized.title-small.weight, fontSize=md.sys.typescale.emphasized.title-small.size, fontTracking=md.sys.typescale.emphasized.title-small.tracking, lineHeight=md.sys.typescale.emphasized.title-small.line-height)
+- md.sys.typescale.emphasized.title-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.emphasized.title-small.fill: {"tag": "FILL"}
+- md.sys.typescale.emphasized.title-small.font: → md.ref.typeface.plain
+- md.sys.typescale.emphasized.title-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.emphasized.title-small.hexp: {"tag": "HEXP"}
+- md.sys.typescale.emphasized.title-small.line-height: 20pt
+- md.sys.typescale.emphasized.title-small.opsz: {"tag": "opsz", "value": 14}
+- md.sys.typescale.emphasized.title-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND", "value": 100}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.emphasized.title-small.size: 14pt
+- md.sys.typescale.emphasized.title-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.emphasized.title-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0.1pt
+    - 0pt
+- md.sys.typescale.emphasized.title-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.emphasized.title-small.weight: → md.ref.typeface.weight-bold
+- md.sys.typescale.emphasized.title-small.wght: {"tag": "wght", "value": 600}
+- md.sys.typescale.headline-large:
+    - composite(fontName=md.sys.typescale.headline-large.font, fontWeight=md.sys.typescale.headline-large.weight, fontSize=md.sys.typescale.headline-large.size, fontTracking=md.sys.typescale.headline-large.tracking, lineHeight=md.sys.typescale.headline-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.headline-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-large.font, fontWeight=md.sys.typescale.headline-large.weight, fontSize=md.sys.typescale.headline-large.size, fontTracking=md.sys.typescale.headline-large.tracking, lineHeight=md.sys.typescale.headline-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.headline-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-large.font, fontWeight=md.sys.typescale.headline-large.weight, fontSize=md.sys.typescale.headline-large.size, fontTracking=md.sys.typescale.headline-large.tracking, lineHeight=md.sys.typescale.headline-large.line-height)
+- md.sys.typescale.headline-large.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.headline-large.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.headline-large.font: → md.ref.typeface.brand
+- md.sys.typescale.headline-large.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.headline-large.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.headline-large.line-height: 40pt
+- md.sys.typescale.headline-large.opsz:
+    - {"tag": "opsz", "value": 32}  [Font: Variable]
+    - {"tag": "opsz", "value": 32}
+- md.sys.typescale.headline-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.headline-large.size: 32pt
+- md.sys.typescale.headline-large.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.headline-large.tracking: 0pt
+- md.sys.typescale.headline-large.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.headline-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.headline-large.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.headline-medium:
+    - composite(fontName=md.sys.typescale.headline-medium.font, fontWeight=md.sys.typescale.headline-medium.weight, fontSize=md.sys.typescale.headline-medium.size, fontTracking=md.sys.typescale.headline-medium.tracking, lineHeight=md.sys.typescale.headline-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.headline-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-medium.font, fontWeight=md.sys.typescale.headline-medium.weight, fontSize=md.sys.typescale.headline-medium.size, fontTracking=md.sys.typescale.headline-medium.tracking, lineHeight=md.sys.typescale.headline-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-medium.wdth'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-medium.grad'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.headline-medium.wght'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-medium.font, fontWeight=md.sys.typescale.headline-medium.weight, fontSize=md.sys.typescale.headline-medium.size, fontTracking=md.sys.typescale.headline-medium.tracking, lineHeight=md.sys.typescale.headline-medium.line-height)
+- md.sys.typescale.headline-medium.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.headline-medium.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.headline-medium.font: → md.ref.typeface.brand
+- md.sys.typescale.headline-medium.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.headline-medium.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.headline-medium.line-height: 36pt
+- md.sys.typescale.headline-medium.opsz:
+    - {"tag": "opsz", "value": 28}  [Font: Variable]
+    - {"tag": "opsz", "value": 28}
+- md.sys.typescale.headline-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.headline-medium.size: 28pt
+- md.sys.typescale.headline-medium.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.headline-medium.tracking: 0pt
+- md.sys.typescale.headline-medium.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.headline-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.headline-medium.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.headline-small:
+    - composite(fontName=md.sys.typescale.headline-small.font, fontWeight=md.sys.typescale.headline-small.weight, fontSize=md.sys.typescale.headline-small.size, fontTracking=md.sys.typescale.headline-small.tracking, lineHeight=md.sys.typescale.headline-small.line-height, variationAxes={'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-small.crsv'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.headline-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-small.rond'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-small.font, fontWeight=md.sys.typescale.headline-small.weight, fontSize=md.sys.typescale.headline-small.size, fontTracking=md.sys.typescale.headline-small.tracking, lineHeight=md.sys.typescale.headline-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.headline-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.headline-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.headline-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.headline-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.headline-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.headline-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.headline-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.headline-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.headline-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.headline-small.font, fontWeight=md.sys.typescale.headline-small.weight, fontSize=md.sys.typescale.headline-small.size, fontTracking=md.sys.typescale.headline-small.tracking, lineHeight=md.sys.typescale.headline-small.line-height)
+- md.sys.typescale.headline-small.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.headline-small.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.headline-small.font: → md.ref.typeface.brand
+- md.sys.typescale.headline-small.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.headline-small.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.headline-small.line-height: 32pt
+- md.sys.typescale.headline-small.opsz:
+    - {"tag": "opsz", "value": 24}  [Font: Variable]
+    - {"tag": "opsz", "value": 24}
+- md.sys.typescale.headline-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.headline-small.size: 24pt
+- md.sys.typescale.headline-small.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.headline-small.tracking: 0pt
+- md.sys.typescale.headline-small.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.headline-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.headline-small.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.label-large:
+    - composite(fontName=md.sys.typescale.label-large.font, fontWeight=md.sys.typescale.label-large.weight, fontSize=md.sys.typescale.label-large.size, fontTracking=md.sys.typescale.label-large.tracking, lineHeight=md.sys.typescale.label-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.label-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.label-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-large-fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-large.font, fontWeight=md.sys.typescale.label-large.weight, fontSize=md.sys.typescale.label-large.size, fontTracking=md.sys.typescale.label-large.tracking, lineHeight=md.sys.typescale.label-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.label-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.label-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-large-fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-large.font, fontWeight=md.sys.typescale.label-large.weight, fontSize=md.sys.typescale.label-large.size, fontTracking=md.sys.typescale.label-large.tracking, lineHeight=md.sys.typescale.label-large.line-height)
+- md.sys.typescale.label-large-fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.label-large.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.label-large.font: → md.ref.typeface.plain
+- md.sys.typescale.label-large.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.label-large.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.label-large.line-height: 20pt
+- md.sys.typescale.label-large.opsz:
+    - {"tag": "opsz", "value": 14}  [Font: Variable]
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.label-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.label-large.size: 14pt
+- md.sys.typescale.label-large.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.label-large.tracking:
+    - 0pt  [Font: Variable]
+    - 0.1pt
+    - 0pt
+- md.sys.typescale.label-large.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.label-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.label-large.weight.prominent: → md.ref.typeface.weight-bold
+- md.sys.typescale.label-large.wght:
+    - {"tag": "wght", "value": 500}  [Font: Variable]
+    - {"tag": "wght", "value": 500}
+- md.sys.typescale.label-medium:
+    - composite(fontName=md.sys.typescale.label-medium.font, fontWeight=md.sys.typescale.label-medium.weight, fontSize=md.sys.typescale.label-medium.size, fontTracking=md.sys.typescale.label-medium.tracking, lineHeight=md.sys.typescale.label-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.label-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.label-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-medium.font, fontWeight=md.sys.typescale.label-medium.weight, fontSize=md.sys.typescale.label-medium.size, fontTracking=md.sys.typescale.label-medium.tracking, lineHeight=md.sys.typescale.label-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.label-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.label-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-medium.font, fontWeight=md.sys.typescale.label-medium.weight, fontSize=md.sys.typescale.label-medium.size, fontTracking=md.sys.typescale.label-medium.tracking, lineHeight=md.sys.typescale.label-medium.line-height)
+- md.sys.typescale.label-medium.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.label-medium.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.label-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.label-medium.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.label-medium.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.label-medium.line-height: 16pt
+- md.sys.typescale.label-medium.opsz:
+    - {"tag": "opsz", "value": 12}  [Font: Variable]
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.label-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.label-medium.size: 12pt
+- md.sys.typescale.label-medium.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.label-medium.text-transform: {"textTransform": "TEXT_TRANSFORM_NONE"}
+- md.sys.typescale.label-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0.1pt
+- md.sys.typescale.label-medium.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.label-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.label-medium.weight.prominent: → md.ref.typeface.weight-bold
+- md.sys.typescale.label-medium.wght:
+    - {"tag": "wght", "value": 500}  [Font: Variable]
+    - {"tag": "wght", "value": 500}
+- md.sys.typescale.label-small:
+    - composite(fontName=md.sys.typescale.label-small.font, fontWeight=md.sys.typescale.label-small.weight, fontSize=md.sys.typescale.label-small.size, fontTracking=md.sys.typescale.label-small.tracking, lineHeight=md.sys.typescale.label-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.label-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.label-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-small.font, fontWeight=md.sys.typescale.label-small.weight, fontSize=md.sys.typescale.label-small.size, fontTracking=md.sys.typescale.label-small.tracking, lineHeight=md.sys.typescale.label-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.label-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.label-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.label-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.label-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.label-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.label-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.label-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.label-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.label-small.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.label-small.font, fontWeight=md.sys.typescale.label-small.weight, fontSize=md.sys.typescale.label-small.size, fontTracking=md.sys.typescale.label-small.tracking, lineHeight=md.sys.typescale.label-small.line-height)
+- md.sys.typescale.label-small.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.label-small.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.label-small.font: → md.ref.typeface.plain
+- md.sys.typescale.label-small.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.label-small.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.label-small.line-height: 16pt
+- md.sys.typescale.label-small.opsz:
+    - {"tag": "opsz", "value": 11}  [Font: Variable]
+    - {"tag": "opsz", "value": 11}
+- md.sys.typescale.label-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.label-small.size: 11pt
+- md.sys.typescale.label-small.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.label-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0.5pt
+    - 0.1pt
+- md.sys.typescale.label-small.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.label-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.label-small.wght:
+    - {"tag": "wght", "value": 500}  [Font: Variable]
+    - {"tag": "wght", "value": 500}
+- md.sys.typescale.title-large:
+    - composite(fontName=md.sys.typescale.title-large.font, fontWeight=md.sys.typescale.title-large.weight, fontSize=md.sys.typescale.title-large.size, fontTracking=md.sys.typescale.title-large.tracking, lineHeight=md.sys.typescale.title-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.title-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.title-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-large.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-large.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-large.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-large.font, fontWeight=md.sys.typescale.title-large.weight, fontSize=md.sys.typescale.title-large.size, fontTracking=md.sys.typescale.title-large.tracking, lineHeight=md.sys.typescale.title-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.title-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.title-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-large.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-large.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-large.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-large.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-large.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-large.font, fontWeight=md.sys.typescale.title-large.weight, fontSize=md.sys.typescale.title-large.size, fontTracking=md.sys.typescale.title-large.tracking, lineHeight=md.sys.typescale.title-large.line-height)
+- md.sys.typescale.title-large.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.title-large.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.title-large.font: → md.ref.typeface.brand
+- md.sys.typescale.title-large.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.title-large.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.title-large.line-height: 28pt
+- md.sys.typescale.title-large.opsz:
+    - {"tag": "opsz", "value": 22}  [Font: Variable]
+    - {"tag": "opsz", "value": 22}
+- md.sys.typescale.title-large.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.title-large.size: 22pt
+- md.sys.typescale.title-large.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.title-large.tracking: 0pt
+- md.sys.typescale.title-large.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.title-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.title-large.wght:
+    - {"tag": "wght", "value": 400}  [Font: Variable]
+    - {"tag": "wght", "value": 400}
+- md.sys.typescale.title-medium:
+    - composite(fontName=md.sys.typescale.title-medium.font, fontWeight=md.sys.typescale.title-medium.weight, fontSize=md.sys.typescale.title-medium.size, fontTracking=md.sys.typescale.title-medium.tracking, lineHeight=md.sys.typescale.title-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.title-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.title-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-medium.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-medium.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-medium.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-medium.font, fontWeight=md.sys.typescale.title-medium.weight, fontSize=md.sys.typescale.title-medium.size, fontTracking=md.sys.typescale.title-medium.tracking, lineHeight=md.sys.typescale.title-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.title-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.title-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-medium.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-medium.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-medium.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-medium.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-medium.hexp'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-medium.font, fontWeight=md.sys.typescale.title-medium.weight, fontSize=md.sys.typescale.title-medium.size, fontTracking=md.sys.typescale.title-medium.tracking, lineHeight=md.sys.typescale.title-medium.line-height)
+- md.sys.typescale.title-medium.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.title-medium.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.title-medium.font: → md.ref.typeface.plain
+- md.sys.typescale.title-medium.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.title-medium.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.title-medium.line-height: 24pt
+- md.sys.typescale.title-medium.opsz:
+    - {"tag": "opsz", "value": 16}  [Font: Variable]
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.title-medium.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.title-medium.size: 16pt
+- md.sys.typescale.title-medium.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.title-medium.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+    - 0.15pt
+- md.sys.typescale.title-medium.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.title-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.title-medium.wght:
+    - {"tag": "wght", "value": 500}  [Font: Variable]
+    - {"tag": "wght", "value": 500}
+- md.sys.typescale.title-small:
+    - composite(fontName=md.sys.typescale.title-small.font, fontWeight=md.sys.typescale.title-small.weight, fontSize=md.sys.typescale.title-small.size, fontTracking=md.sys.typescale.title-small.tracking, lineHeight=md.sys.typescale.title-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.title-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.title-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-small.crsv'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-small.hexp'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-small.fill'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-small.font, fontWeight=md.sys.typescale.title-small.weight, fontSize=md.sys.typescale.title-small.size, fontTracking=md.sys.typescale.title-small.tracking, lineHeight=md.sys.typescale.title-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.title-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.title-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.title-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.title-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.title-small.crsv'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.title-small.slnt'}, 'FILL': {'axisValueTokenName': 'md.sys.typescale.title-small.fill'}, 'HEXP': {'axisValueTokenName': 'md.sys.typescale.title-small.hexp'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.title-small.opsz'}})  [Font: Variable]
+    - composite(fontName=md.sys.typescale.title-small.font, fontWeight=md.sys.typescale.title-small.weight, fontSize=md.sys.typescale.title-small.size, fontTracking=md.sys.typescale.title-small.tracking, lineHeight=md.sys.typescale.title-small.line-height)
+- md.sys.typescale.title-small.crsv:
+    - {"tag": "CRSV"}  [Font: Variable]
+    - {"tag": "CRSV"}
+- md.sys.typescale.title-small.fill:
+    - {"tag": "FILL"}  [Font: Variable]
+    - {"tag": "FILL"}
+- md.sys.typescale.title-small.font: → md.ref.typeface.plain
+- md.sys.typescale.title-small.grad:
+    - {"tag": "GRAD"}  [Font: Variable]
+    - {"tag": "GRAD"}
+- md.sys.typescale.title-small.hexp:
+    - {"tag": "HEXP"}  [Font: Variable]
+    - {"tag": "HEXP"}
+- md.sys.typescale.title-small.line-height: 20pt
+- md.sys.typescale.title-small.opsz:
+    - {"tag": "opsz", "value": 14}  [Font: Variable]
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.title-small.rond:
+    - {"tag": "ROND"}  [Font: Variable]
+    - {"tag": "ROND"}
+- md.sys.typescale.title-small.size: 14pt
+- md.sys.typescale.title-small.slnt:
+    - {"tag": "slnt"}  [Font: Variable]
+    - {"tag": "slnt"}
+- md.sys.typescale.title-small.tracking:
+    - 0pt  [Font: Variable]
+    - 0pt
+    - 0.1pt
+- md.sys.typescale.title-small.wdth:
+    - {"tag": "wdth", "value": 100}  [Font: Variable]
+    - {"tag": "wdth", "value": 100}
+- md.sys.typescale.title-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.title-small.wght:
+    - {"tag": "wght", "value": 500}  [Font: Variable]
+    - {"tag": "wght", "value": 500}
+- md.sys.typescale.variable.body-large: composite(fontName=md.sys.typescale.variable.body-large.font, fontWeight=md.sys.typescale.variable.body-large.weight, fontSize=md.sys.typescale.variable.body-large.size, fontTracking=md.sys.typescale.variable.body-large.tracking, lineHeight=md.sys.typescale.variable.body-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.body-large.crsv'}})
+- md.sys.typescale.variable.body-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.body-large.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.body-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.body-large.line-height: 24pt
+- md.sys.typescale.variable.body-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.variable.body-large.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.body-large.size: 16pt
+- md.sys.typescale.variable.body-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.body-large.tracking: 0pt
+- md.sys.typescale.variable.body-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.body-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.body-large.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.body-medium: composite(fontName=md.sys.typescale.variable.body-medium.font, fontWeight=md.sys.typescale.variable.body-medium.weight, fontSize=md.sys.typescale.variable.body-medium.size, fontTracking=md.sys.typescale.variable.body-medium.tracking, lineHeight=md.sys.typescale.variable.body-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.body-medium.crsv'}})
+- md.sys.typescale.variable.body-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.body-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.body-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.body-medium.line-height: 20pt
+- md.sys.typescale.variable.body-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.body-medium.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.body-medium.size: 14pt
+- md.sys.typescale.variable.body-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.body-medium.tracking: 0pt
+- md.sys.typescale.variable.body-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.body-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.body-medium.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.body-small: composite(fontName=md.sys.typescale.variable.body-small.font, fontWeight=md.sys.typescale.variable.body-small.weight, fontSize=md.sys.typescale.variable.body-small.size, fontTracking=md.sys.typescale.variable.body-small.tracking, lineHeight=md.sys.typescale.variable.body-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.body-small.crsv'}})
+- md.sys.typescale.variable.body-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.body-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.body-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.body-small.line-height: 16pt
+- md.sys.typescale.variable.body-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.variable.body-small.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.body-small.size: 12pt
+- md.sys.typescale.variable.body-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.body-small.tracking: 0pt
+- md.sys.typescale.variable.body-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.body-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.body-small.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.display-large: composite(fontName=md.sys.typescale.variable.display-large.font, fontWeight=md.sys.typescale.variable.display-large.weight, fontSize=md.sys.typescale.variable.display-large.size, fontTracking=md.sys.typescale.variable.display-large.tracking, lineHeight=md.sys.typescale.variable.display-large.line-height, variationAxes={'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.slnt'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.wght'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.display-large.crsv'}})
+- md.sys.typescale.variable.display-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.display-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.display-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.display-large.line-height: 64pt
+- md.sys.typescale.variable.display-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 57}
+- md.sys.typescale.variable.display-large.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.display-large.size: 57pt
+- md.sys.typescale.variable.display-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.display-large.tracking: 0pt
+- md.sys.typescale.variable.display-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.display-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.display-large.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.display-medium: composite(fontName=md.sys.typescale.variable.display-medium.font, fontWeight=md.sys.typescale.variable.display-medium.weight, fontSize=md.sys.typescale.variable.display-medium.size, fontTracking=md.sys.typescale.variable.display-medium.tracking, lineHeight=md.sys.typescale.variable.display-medium.line-height, variationAxes={'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.slnt'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.wght'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.display-medium.crsv'}})
+- md.sys.typescale.variable.display-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.display-medium.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.display-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.display-medium.line-height: 52pt
+- md.sys.typescale.variable.display-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 45}
+- md.sys.typescale.variable.display-medium.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.display-medium.size: 45pt
+- md.sys.typescale.variable.display-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.display-medium.tracking: 0pt
+- md.sys.typescale.variable.display-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.display-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.display-medium.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.display-small: composite(fontName=md.sys.typescale.variable.display-small.font, fontWeight=md.sys.typescale.variable.display-small.weight, fontSize=md.sys.typescale.variable.display-small.size, fontTracking=md.sys.typescale.variable.display-small.tracking, lineHeight=md.sys.typescale.variable.display-small.line-height, variationAxes={'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.slnt'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.wght'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.display-small.crsv'}})
+- md.sys.typescale.variable.display-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.display-small.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.display-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.display-small.line-height: 44pt
+- md.sys.typescale.variable.display-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 36}
+- md.sys.typescale.variable.display-small.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.display-small.size: 36pt
+- md.sys.typescale.variable.display-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.display-small.tracking: 0pt
+- md.sys.typescale.variable.display-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.display-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.display-small.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.emphasized.body-large: composite(fontName=md.sys.typescale.variable.emphasized.body-large.font, fontWeight=md.sys.typescale.variable.emphasized.body-large.weight, fontSize=md.sys.typescale.variable.emphasized.body-large.size, fontTracking=md.sys.typescale.variable.emphasized.body-large.tracking, lineHeight=md.sys.typescale.variable.emphasized.body-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-large.crsv'}})
+- md.sys.typescale.variable.emphasized.body-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.body-large.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.body-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.body-large.line-height: 24pt
+- md.sys.typescale.variable.emphasized.body-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.variable.emphasized.body-large.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.body-large.size: 16pt
+- md.sys.typescale.variable.emphasized.body-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.body-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.body-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.body-large.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.body-medium: composite(fontName=md.sys.typescale.variable.emphasized.body-medium.font, fontWeight=md.sys.typescale.variable.emphasized.body-medium.weight, fontSize=md.sys.typescale.variable.emphasized.body-medium.size, fontTracking=md.sys.typescale.variable.emphasized.body-medium.tracking, lineHeight=md.sys.typescale.variable.emphasized.body-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-medium.crsv'}})
+- md.sys.typescale.variable.emphasized.body-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.body-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.body-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.body-medium.line-height: 20pt
+- md.sys.typescale.variable.emphasized.body-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.emphasized.body-medium.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.body-medium.size: 14pt
+- md.sys.typescale.variable.emphasized.body-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.body-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.body-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.body-medium.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.body-small: composite(fontName=md.sys.typescale.variable.emphasized.body-small.font, fontWeight=md.sys.typescale.variable.emphasized.body-small.weight, fontSize=md.sys.typescale.variable.emphasized.body-small.size, fontTracking=md.sys.typescale.variable.emphasized.body-small.tracking, lineHeight=md.sys.typescale.variable.emphasized.body-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.body-small.crsv'}})
+- md.sys.typescale.variable.emphasized.body-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.body-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.body-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.body-small.line-height: 16pt
+- md.sys.typescale.variable.emphasized.body-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.variable.emphasized.body-small.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.body-small.size: 12pt
+- md.sys.typescale.variable.emphasized.body-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.body-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.body-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.body-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.body-small.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.display-large: composite(fontName=md.sys.typescale.variable.emphasized.display-large.font, fontWeight=md.sys.typescale.variable.emphasized.display-large.weight, fontSize=md.sys.typescale.variable.emphasized.display-large.size, fontTracking=md.sys.typescale.variable.emphasized.display-large.tracking, lineHeight=md.sys.typescale.variable.emphasized.display-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-large.crsv'}})
+- md.sys.typescale.variable.emphasized.display-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.display-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.display-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.display-large.line-height: 64pt
+- md.sys.typescale.variable.emphasized.display-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 57}
+- md.sys.typescale.variable.emphasized.display-large.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.display-large.size: 57pt
+- md.sys.typescale.variable.emphasized.display-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.display-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.display-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.display-large.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.display-medium: composite(fontName=md.sys.typescale.variable.emphasized.display-medium.font, fontWeight=md.sys.typescale.variable.emphasized.display-medium.weight, fontSize=md.sys.typescale.variable.emphasized.display-medium.size, fontTracking=md.sys.typescale.variable.emphasized.display-medium.tracking, lineHeight=md.sys.typescale.variable.emphasized.display-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-medium.crsv'}})
+- md.sys.typescale.variable.emphasized.display-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.display-medium.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.display-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.display-medium.line-height: 52pt
+- md.sys.typescale.variable.emphasized.display-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 45}
+- md.sys.typescale.variable.emphasized.display-medium.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.display-medium.size: 45pt
+- md.sys.typescale.variable.emphasized.display-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.display-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.display-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.display-medium.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.display-small: composite(fontName=md.sys.typescale.variable.emphasized.display-small.font, fontWeight=md.sys.typescale.variable.emphasized.display-small.weight, fontSize=md.sys.typescale.variable.emphasized.display-small.size, fontTracking=md.sys.typescale.variable.emphasized.display-small.tracking, lineHeight=md.sys.typescale.variable.emphasized.display-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.display-small.crsv'}})
+- md.sys.typescale.variable.emphasized.display-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.display-small.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.display-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.display-small.line-height: 44pt
+- md.sys.typescale.variable.emphasized.display-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 36}
+- md.sys.typescale.variable.emphasized.display-small.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.display-small.size: 36pt
+- md.sys.typescale.variable.emphasized.display-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.display-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.display-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.display-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.display-small.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.headline-large: composite(fontName=md.sys.typescale.variable.emphasized.headline-large.font, fontWeight=md.sys.typescale.variable.emphasized.headline-large.weight, fontSize=md.sys.typescale.variable.emphasized.headline-large.size, fontTracking=md.sys.typescale.variable.emphasized.headline-large.tracking, lineHeight=md.sys.typescale.variable.emphasized.headline-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-large.crsv'}})
+- md.sys.typescale.variable.emphasized.headline-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.headline-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.headline-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.headline-large.line-height: 40pt
+- md.sys.typescale.variable.emphasized.headline-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 32}
+- md.sys.typescale.variable.emphasized.headline-large.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.headline-large.size: 32pt
+- md.sys.typescale.variable.emphasized.headline-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.headline-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.headline-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.headline-large.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.headline-medium: composite(fontName=md.sys.typescale.variable.emphasized.headline-medium.font, fontWeight=md.sys.typescale.variable.emphasized.headline-medium.weight, fontSize=md.sys.typescale.variable.emphasized.headline-medium.size, fontTracking=md.sys.typescale.variable.emphasized.headline-medium.tracking, lineHeight=md.sys.typescale.variable.emphasized.headline-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.wght'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.slnt'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.wdth'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-medium.crsv'}})
+- md.sys.typescale.variable.emphasized.headline-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.headline-medium.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.headline-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.headline-medium.line-height: 36pt
+- md.sys.typescale.variable.emphasized.headline-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 28}
+- md.sys.typescale.variable.emphasized.headline-medium.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.headline-medium.size: 28pt
+- md.sys.typescale.variable.emphasized.headline-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.headline-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.headline-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.headline-medium.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.headline-small: composite(fontName=md.sys.typescale.variable.emphasized.headline-small.font, fontWeight=md.sys.typescale.variable.emphasized.headline-small.weight, fontSize=md.sys.typescale.variable.emphasized.headline-small.size, fontTracking=md.sys.typescale.variable.emphasized.headline-small.tracking, lineHeight=md.sys.typescale.variable.emphasized.headline-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.wght'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.wdth'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.headline-small.crsv'}})
+- md.sys.typescale.variable.emphasized.headline-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.headline-small.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.headline-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.headline-small.line-height: 32pt
+- md.sys.typescale.variable.emphasized.headline-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 24}
+- md.sys.typescale.variable.emphasized.headline-small.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.headline-small.size: 24pt
+- md.sys.typescale.variable.emphasized.headline-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.headline-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.headline-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.headline-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.headline-small.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.label-large: composite(fontName=md.sys.typescale.variable.emphasized.label-large.font, fontWeight=md.sys.typescale.variable.emphasized.label-large.weight, fontSize=md.sys.typescale.variable.emphasized.label-large.size, fontTracking=md.sys.typescale.variable.emphasized.label-large.tracking, lineHeight=md.sys.typescale.variable.emphasized.label-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-large.crsv'}})
+- md.sys.typescale.variable.emphasized.label-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.label-large.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.label-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.label-large.line-height: 20pt
+- md.sys.typescale.variable.emphasized.label-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.emphasized.label-large.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.label-large.size: 14pt
+- md.sys.typescale.variable.emphasized.label-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.label-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.label-large.weight: → md.ref.typeface.weight-semibold
+- md.sys.typescale.variable.emphasized.label-large.wght: → md.ref.typeface.variable.wght-semibold
+- md.sys.typescale.variable.emphasized.label-medium: composite(fontName=md.sys.typescale.variable.emphasized.label-medium.font, fontWeight=md.sys.typescale.variable.emphasized.label-medium.weight, fontSize=md.sys.typescale.variable.emphasized.label-medium.size, fontTracking=md.sys.typescale.variable.emphasized.label-medium.tracking, lineHeight=md.sys.typescale.variable.emphasized.label-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-medium.crsv'}})
+- md.sys.typescale.variable.emphasized.label-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.label-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.label-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.label-medium.line-height: 16pt
+- md.sys.typescale.variable.emphasized.label-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.variable.emphasized.label-medium.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.label-medium.size: 12pt
+- md.sys.typescale.variable.emphasized.label-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.label-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.label-medium.weight: → md.ref.typeface.weight-semibold
+- md.sys.typescale.variable.emphasized.label-medium.wght: → md.ref.typeface.variable.wght-semibold
+- md.sys.typescale.variable.emphasized.label-small: composite(fontName=md.sys.typescale.variable.emphasized.label-small.font, fontWeight=md.sys.typescale.variable.emphasized.label-small.weight, fontSize=md.sys.typescale.variable.emphasized.label-small.size, fontTracking=md.sys.typescale.variable.emphasized.label-small.tracking, lineHeight=md.sys.typescale.variable.emphasized.label-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.label-small.crsv'}})
+- md.sys.typescale.variable.emphasized.label-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.label-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.label-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.label-small.line-height: 16pt
+- md.sys.typescale.variable.emphasized.label-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 11}
+- md.sys.typescale.variable.emphasized.label-small.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.label-small.size: 11pt
+- md.sys.typescale.variable.emphasized.label-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.label-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.label-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.label-small.weight: → md.ref.typeface.weight-semibold
+- md.sys.typescale.variable.emphasized.label-small.wght: → md.ref.typeface.variable.wght-semibold
+- md.sys.typescale.variable.emphasized.title-large: composite(fontName=md.sys.typescale.variable.emphasized.title-large.font, fontWeight=md.sys.typescale.variable.emphasized.title-large.weight, fontSize=md.sys.typescale.variable.emphasized.title-large.size, fontTracking=md.sys.typescale.variable.emphasized.title-large.tracking, lineHeight=md.sys.typescale.variable.emphasized.title-large.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-large.crsv'}})
+- md.sys.typescale.variable.emphasized.title-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.title-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.emphasized.title-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.title-large.line-height: 28pt
+- md.sys.typescale.variable.emphasized.title-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 22}
+- md.sys.typescale.variable.emphasized.title-large.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.title-large.size: 22pt
+- md.sys.typescale.variable.emphasized.title-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.title-large.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.title-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.emphasized.title-large.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.emphasized.title-medium: composite(fontName=md.sys.typescale.variable.emphasized.title-medium.font, fontWeight=md.sys.typescale.variable.emphasized.title-medium.weight, fontSize=md.sys.typescale.variable.emphasized.title-medium.size, fontTracking=md.sys.typescale.variable.emphasized.title-medium.tracking, lineHeight=md.sys.typescale.variable.emphasized.title-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-medium.crsv'}})
+- md.sys.typescale.variable.emphasized.title-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.title-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.title-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.title-medium.line-height: 24pt
+- md.sys.typescale.variable.emphasized.title-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.variable.emphasized.title-medium.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.title-medium.size: 16pt
+- md.sys.typescale.variable.emphasized.title-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.title-medium.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.title-medium.weight: → md.ref.typeface.weight-semibold
+- md.sys.typescale.variable.emphasized.title-medium.wght: → md.ref.typeface.variable.wght-semibold
+- md.sys.typescale.variable.emphasized.title-small: composite(fontName=md.sys.typescale.variable.emphasized.title-small.font, fontWeight=md.sys.typescale.variable.emphasized.title-small.weight, fontSize=md.sys.typescale.variable.emphasized.title-small.size, fontTracking=md.sys.typescale.variable.emphasized.title-small.tracking, lineHeight=md.sys.typescale.variable.emphasized.title-small.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.wdth'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.wght'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.opsz'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.grad'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.rond'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.emphasized.title-small.crsv'}})
+- md.sys.typescale.variable.emphasized.title-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.emphasized.title-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.emphasized.title-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.emphasized.title-small.line-height: 20pt
+- md.sys.typescale.variable.emphasized.title-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.emphasized.title-small.rond: → md.ref.typeface.emphasized.rond
+- md.sys.typescale.variable.emphasized.title-small.size: 14pt
+- md.sys.typescale.variable.emphasized.title-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.emphasized.title-small.tracking: 0pt
+- md.sys.typescale.variable.emphasized.title-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.emphasized.title-small.weight: → md.ref.typeface.weight-semibold
+- md.sys.typescale.variable.emphasized.title-small.wght: → md.ref.typeface.variable.wght-semibold
+- md.sys.typescale.variable.headline-large: composite(fontName=md.sys.typescale.variable.headline-large.font, fontWeight=md.sys.typescale.variable.headline-large.weight, fontSize=md.sys.typescale.variable.headline-large.size, fontTracking=md.sys.typescale.variable.headline-large.tracking, lineHeight=md.sys.typescale.variable.headline-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.headline-large.crsv'}})
+- md.sys.typescale.variable.headline-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.headline-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.headline-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.headline-large.line-height: 40pt
+- md.sys.typescale.variable.headline-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 32}
+- md.sys.typescale.variable.headline-large.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.headline-large.size: 32pt
+- md.sys.typescale.variable.headline-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.headline-large.tracking: 0pt
+- md.sys.typescale.variable.headline-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.headline-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.headline-large.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.headline-medium: composite(fontName=md.sys.typescale.variable.headline-medium.font, fontWeight=md.sys.typescale.variable.headline-medium.weight, fontSize=md.sys.typescale.variable.headline-medium.size, fontTracking=md.sys.typescale.variable.headline-medium.tracking, lineHeight=md.sys.typescale.variable.headline-medium.line-height, variationAxes={'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.wdth'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.grad'}, 'wght': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.wght'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.headline-medium.crsv'}})
+- md.sys.typescale.variable.headline-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.headline-medium.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.headline-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.headline-medium.line-height: 36pt
+- md.sys.typescale.variable.headline-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 28}
+- md.sys.typescale.variable.headline-medium.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.headline-medium.size: 28pt
+- md.sys.typescale.variable.headline-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.headline-medium.tracking: 0pt
+- md.sys.typescale.variable.headline-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.headline-medium.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.headline-medium.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.headline-small: composite(fontName=md.sys.typescale.variable.headline-small.font, fontWeight=md.sys.typescale.variable.headline-small.weight, fontSize=md.sys.typescale.variable.headline-small.size, fontTracking=md.sys.typescale.variable.headline-small.tracking, lineHeight=md.sys.typescale.variable.headline-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.headline-small.crsv'}})
+- md.sys.typescale.variable.headline-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.headline-small.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.headline-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.headline-small.line-height: 32pt
+- md.sys.typescale.variable.headline-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 24}
+- md.sys.typescale.variable.headline-small.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.headline-small.size: 24pt
+- md.sys.typescale.variable.headline-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.headline-small.tracking: 0pt
+- md.sys.typescale.variable.headline-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.headline-small.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.headline-small.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.label-large: composite(fontName=md.sys.typescale.variable.label-large.font, fontWeight=md.sys.typescale.variable.label-large.weight, fontSize=md.sys.typescale.variable.label-large.size, fontTracking=md.sys.typescale.variable.label-large.tracking, lineHeight=md.sys.typescale.variable.label-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.label-large.crsv'}})
+- md.sys.typescale.variable.label-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.label-large.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.label-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.label-large.line-height: 20pt
+- md.sys.typescale.variable.label-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.label-large.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.label-large.size: 14pt
+- md.sys.typescale.variable.label-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.label-large.tracking: 0pt
+- md.sys.typescale.variable.label-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.label-large.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.label-large.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.label-medium: composite(fontName=md.sys.typescale.variable.label-medium.font, fontWeight=md.sys.typescale.variable.label-medium.weight, fontSize=md.sys.typescale.variable.label-medium.size, fontTracking=md.sys.typescale.variable.label-medium.tracking, lineHeight=md.sys.typescale.variable.label-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.label-medium.crsv'}})
+- md.sys.typescale.variable.label-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.label-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.label-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.label-medium.line-height: 16pt
+- md.sys.typescale.variable.label-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 12}
+- md.sys.typescale.variable.label-medium.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.label-medium.size: 12pt
+- md.sys.typescale.variable.label-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.label-medium.tracking: 0pt
+- md.sys.typescale.variable.label-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.label-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.label-medium.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.label-small: composite(fontName=md.sys.typescale.variable.label-small.font, fontWeight=md.sys.typescale.variable.label-small.weight, fontSize=md.sys.typescale.variable.label-small.size, fontTracking=md.sys.typescale.variable.label-small.tracking, lineHeight=md.sys.typescale.variable.label-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.label-small.crsv'}})
+- md.sys.typescale.variable.label-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.label-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.label-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.label-small.line-height: 16pt
+- md.sys.typescale.variable.label-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 11}
+- md.sys.typescale.variable.label-small.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.label-small.size: 11pt
+- md.sys.typescale.variable.label-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.label-small.tracking: 0pt
+- md.sys.typescale.variable.label-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.label-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.label-small.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.title-large: composite(fontName=md.sys.typescale.variable.title-large.font, fontWeight=md.sys.typescale.variable.title-large.weight, fontSize=md.sys.typescale.variable.title-large.size, fontTracking=md.sys.typescale.variable.title-large.tracking, lineHeight=md.sys.typescale.variable.title-large.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.title-large.crsv'}})
+- md.sys.typescale.variable.title-large.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.title-large.font: → md.ref.typeface.variable.brand
+- md.sys.typescale.variable.title-large.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.title-large.line-height: 28pt
+- md.sys.typescale.variable.title-large.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 22}
+- md.sys.typescale.variable.title-large.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.title-large.size: 22pt
+- md.sys.typescale.variable.title-large.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.title-large.tracking: 0pt
+- md.sys.typescale.variable.title-large.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.title-large.weight: → md.ref.typeface.weight-regular
+- md.sys.typescale.variable.title-large.wght: → md.ref.typeface.variable.wght-regular
+- md.sys.typescale.variable.title-medium: composite(fontName=md.sys.typescale.variable.title-medium.font, fontWeight=md.sys.typescale.variable.title-medium.weight, fontSize=md.sys.typescale.variable.title-medium.size, fontTracking=md.sys.typescale.variable.title-medium.tracking, lineHeight=md.sys.typescale.variable.title-medium.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.rond'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.opsz'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.slnt'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.title-medium.crsv'}})
+- md.sys.typescale.variable.title-medium.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.title-medium.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.title-medium.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.title-medium.line-height: 24pt
+- md.sys.typescale.variable.title-medium.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 16}
+- md.sys.typescale.variable.title-medium.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.title-medium.size: 16pt
+- md.sys.typescale.variable.title-medium.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.title-medium.tracking: 0pt
+- md.sys.typescale.variable.title-medium.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.title-medium.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.title-medium.wght: → md.ref.typeface.variable.wght-medium
+- md.sys.typescale.variable.title-small: composite(fontName=md.sys.typescale.variable.title-small.font, fontWeight=md.sys.typescale.variable.title-small.weight, fontSize=md.sys.typescale.variable.title-small.size, fontTracking=md.sys.typescale.variable.title-small.tracking, lineHeight=md.sys.typescale.variable.title-small.line-height, variationAxes={'wght': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.wght'}, 'GRAD': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.grad'}, 'wdth': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.wdth'}, 'ROND': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.rond'}, 'slnt': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.slnt'}, 'opsz': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.opsz'}, 'CRSV': {'axisValueTokenName': 'md.sys.typescale.variable.title-small.crsv'}})
+- md.sys.typescale.variable.title-small.crsv: {"tag": "CRSV"}
+- md.sys.typescale.variable.title-small.font: → md.ref.typeface.variable.plain
+- md.sys.typescale.variable.title-small.grad: {"tag": "GRAD"}
+- md.sys.typescale.variable.title-small.line-height: 20pt
+- md.sys.typescale.variable.title-small.opsz:
+    - undefined
+    - {"tag": "opsz", "value": 14}
+- md.sys.typescale.variable.title-small.rond: {"tag": "ROND"}
+- md.sys.typescale.variable.title-small.size: 14pt
+- md.sys.typescale.variable.title-small.slnt: {"tag": "slnt"}
+- md.sys.typescale.variable.title-small.tracking: 0pt
+- md.sys.typescale.variable.title-small.wdth: {"tag": "wdth", "value": 100}
+- md.sys.typescale.variable.title-small.weight: → md.ref.typeface.weight-medium
+- md.sys.typescale.variable.title-small.wght: → md.ref.typeface.variable.wght-medium

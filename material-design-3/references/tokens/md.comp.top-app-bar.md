@@ -1,0 +1,74 @@
+# md.comp.top-app-bar tokens
+
+- md.comp.top-app-bar.large.container.color: → md.sys.color.surface
+- md.comp.top-app-bar.large.container.elevation: → md.sys.elevation.level0
+- md.comp.top-app-bar.large.container.height: 152dp
+- md.comp.top-app-bar.large.container.shape: → md.sys.shape.corner.none
+- md.comp.top-app-bar.large.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.top-app-bar.large.headline.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.large.headline.font: → md.sys.typescale.headline-medium.font
+- md.comp.top-app-bar.large.headline.line-height: → md.sys.typescale.headline-medium.line-height
+- md.comp.top-app-bar.large.headline.size: → md.sys.typescale.headline-medium.size
+- md.comp.top-app-bar.large.headline.tracking: → md.sys.typescale.headline-medium.tracking
+- md.comp.top-app-bar.large.headline.type: composite(fontName=md.comp.top-app-bar.large.headline.font, fontWeight=md.comp.top-app-bar.large.headline.weight, fontSize=md.comp.top-app-bar.large.headline.size, fontTracking=md.comp.top-app-bar.large.headline.tracking, lineHeight=md.comp.top-app-bar.large.headline.line-height)
+- md.comp.top-app-bar.large.headline.weight: → md.sys.typescale.headline-medium.weight
+- md.comp.top-app-bar.large.leading-icon.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.large.leading-icon.size: 24dp
+- md.comp.top-app-bar.large.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.top-app-bar.large.trailing-icon.size: 24dp
+- md.comp.top-app-bar.medium.container.color: → md.sys.color.surface
+- md.comp.top-app-bar.medium.container.elevation: → md.sys.elevation.level0
+- md.comp.top-app-bar.medium.container.height: 112dp
+- md.comp.top-app-bar.medium.container.shape: → md.sys.shape.corner.none
+- md.comp.top-app-bar.medium.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.top-app-bar.medium.headline.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.medium.headline.font: → md.sys.typescale.headline-small.font
+- md.comp.top-app-bar.medium.headline.line-height: → md.sys.typescale.headline-small.line-height
+- md.comp.top-app-bar.medium.headline.size: → md.sys.typescale.headline-small.size
+- md.comp.top-app-bar.medium.headline.tracking: → md.sys.typescale.headline-small.tracking
+- md.comp.top-app-bar.medium.headline.type: composite(fontName=md.comp.top-app-bar.medium.headline.font, fontWeight=md.comp.top-app-bar.medium.headline.weight, fontSize=md.comp.top-app-bar.medium.headline.size, fontTracking=md.comp.top-app-bar.medium.headline.tracking, lineHeight=md.comp.top-app-bar.medium.headline.line-height)
+- md.comp.top-app-bar.medium.headline.weight: → md.sys.typescale.headline-small.weight
+- md.comp.top-app-bar.medium.leading-icon.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.medium.leading-icon.size: 24dp
+- md.comp.top-app-bar.medium.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.top-app-bar.medium.trailing-icon.size: 24dp
+- md.comp.top-app-bar.small.centered.avatar.shape: → md.sys.shape.corner.full
+- md.comp.top-app-bar.small.centered.avatar.size: 30dp
+- md.comp.top-app-bar.small.centered.container.color: → md.sys.color.surface
+- md.comp.top-app-bar.small.centered.container.elevation: → md.sys.elevation.level0
+- md.comp.top-app-bar.small.centered.container.height: 64dp
+- md.comp.top-app-bar.small.centered.container.shape: → md.sys.shape.corner.none
+- md.comp.top-app-bar.small.centered.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.top-app-bar.small.centered.headline.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.small.centered.headline.font: → md.sys.typescale.title-large.font
+- md.comp.top-app-bar.small.centered.headline.line-height: → md.sys.typescale.title-large.line-height
+- md.comp.top-app-bar.small.centered.headline.size: → md.sys.typescale.title-large.size
+- md.comp.top-app-bar.small.centered.headline.tracking: → md.sys.typescale.title-large.tracking
+- md.comp.top-app-bar.small.centered.headline.type: composite(fontName=md.comp.top-app-bar.small.centered.headline.font, fontWeight=md.comp.top-app-bar.small.centered.headline.weight, fontSize=md.comp.top-app-bar.small.centered.headline.size, fontTracking=md.comp.top-app-bar.small.centered.headline.tracking, lineHeight=md.comp.top-app-bar.small.centered.headline.line-height)
+- md.comp.top-app-bar.small.centered.headline.weight: → md.sys.typescale.title-large.weight
+- md.comp.top-app-bar.small.centered.leading-icon.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.small.centered.leading-icon.size: 24dp
+- md.comp.top-app-bar.small.centered.on-scroll.container.color: → md.sys.color.surface-container
+- md.comp.top-app-bar.small.centered.on-scroll.container.elevation: → md.sys.elevation.level2
+- md.comp.top-app-bar.small.centered.on-scroll.container.shadow-color: → md.sys.color.shadow
+- md.comp.top-app-bar.small.centered.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.top-app-bar.small.centered.trailing-icon.size: 24dp
+- md.comp.top-app-bar.small.container.color: → md.sys.color.surface
+- md.comp.top-app-bar.small.container.elevation: → md.sys.elevation.level0
+- md.comp.top-app-bar.small.container.height: 64dp
+- md.comp.top-app-bar.small.container.shape: → md.sys.shape.corner.none
+- md.comp.top-app-bar.small.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.top-app-bar.small.headline.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.small.headline.font: → md.sys.typescale.title-large.font
+- md.comp.top-app-bar.small.headline.line-height: → md.sys.typescale.title-large.line-height
+- md.comp.top-app-bar.small.headline.size: → md.sys.typescale.title-large.size
+- md.comp.top-app-bar.small.headline.tracking: → md.sys.typescale.title-large.tracking
+- md.comp.top-app-bar.small.headline.type: composite(fontName=md.comp.top-app-bar.small.headline.font, fontWeight=md.comp.top-app-bar.small.headline.weight, fontSize=md.comp.top-app-bar.small.headline.size, fontTracking=md.comp.top-app-bar.small.headline.tracking, lineHeight=md.comp.top-app-bar.small.headline.line-height)
+- md.comp.top-app-bar.small.headline.weight: → md.sys.typescale.title-large.weight
+- md.comp.top-app-bar.small.leading-icon.color: → md.sys.color.on-surface
+- md.comp.top-app-bar.small.leading-icon.size: 24dp
+- md.comp.top-app-bar.small.on-scroll.container.color: → md.sys.color.surface-container
+- md.comp.top-app-bar.small.on-scroll.container.elevation: → md.sys.elevation.level2
+- md.comp.top-app-bar.small.on-scroll.container.shadow-color: → md.sys.color.shadow
+- md.comp.top-app-bar.small.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.top-app-bar.small.trailing-icon.size: 24dp

@@ -1,0 +1,31 @@
+# md.fab.surface tokens
+
+- md.fab.surface.small.container.color: → md.sys.color.surface-container-high
+- md.fab.surface.small.container.elevation: → md.sys.elevation.level3
+- md.fab.surface.small.container.height: 40dp
+- md.fab.surface.small.container.shadow-color: → md.sys.color.shadow
+- md.fab.surface.small.container.shape: → md.sys.shape.corner.medium
+- md.fab.surface.small.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.fab.surface.small.container.width: 40dp
+- md.fab.surface.small.focus.container.elevation: → md.sys.elevation.level3
+- md.fab.surface.small.focus.icon.color: → md.sys.color.primary
+- md.fab.surface.small.focus.indicator.color: → md.sys.color.secondary
+- md.fab.surface.small.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.fab.surface.small.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.fab.surface.small.focus.state-layer.color: → md.sys.color.primary
+- md.fab.surface.small.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.fab.surface.small.hover.container.elevation: → md.sys.elevation.level4
+- md.fab.surface.small.hover.icon.color: → md.sys.color.primary
+- md.fab.surface.small.hover.state-layer.color: → md.sys.color.primary
+- md.fab.surface.small.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.fab.surface.small.icon.color: → md.sys.color.primary
+- md.fab.surface.small.icon.size: 24dp
+- md.fab.surface.small.lowered.container.color: → md.sys.color.surface-container-low
+- md.fab.surface.small.lowered.container.elevation: → md.sys.elevation.level1
+- md.fab.surface.small.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.fab.surface.small.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.fab.surface.small.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.fab.surface.small.pressed.container.elevation: → md.sys.elevation.level3
+- md.fab.surface.small.pressed.icon.color: → md.sys.color.primary
+- md.fab.surface.small.pressed.state-layer.color: → md.sys.color.primary
+- md.fab.surface.small.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

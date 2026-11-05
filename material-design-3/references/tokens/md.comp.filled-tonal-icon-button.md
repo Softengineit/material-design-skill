@@ -1,0 +1,41 @@
+# md.comp.filled-tonal-icon-button tokens
+
+- md.comp.filled-tonal-icon-button.container.color: → md.sys.color.secondary-container
+- md.comp.filled-tonal-icon-button.container.height: 40dp
+- md.comp.filled-tonal-icon-button.container.shape: → md.sys.shape.corner.full
+- md.comp.filled-tonal-icon-button.container.size: 40dp
+- md.comp.filled-tonal-icon-button.container.width: 40dp
+- md.comp.filled-tonal-icon-button.disabled.container.color: → md.sys.color.on-surface
+- md.comp.filled-tonal-icon-button.disabled.container.opacity: 0.12
+- md.comp.filled-tonal-icon-button.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.filled-tonal-icon-button.disabled.icon.opacity: 0.38
+- md.comp.filled-tonal-icon-button.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.focus.indicator.color: → md.sys.color.secondary
+- md.comp.filled-tonal-icon-button.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.filled-tonal-icon-button.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.filled-tonal-icon-button.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.filled-tonal-icon-button.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.filled-tonal-icon-button.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.icon.size: 24dp
+- md.comp.filled-tonal-icon-button.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.filled-tonal-icon-button.selected.container.color: → md.sys.color.secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.selected.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.filled-tonal-icon-button.toggle.unselected.focus.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.hover.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.pressed.icon.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.toggle.unselected.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.filled-tonal-icon-button.unselected.container.color: → md.sys.color.surface-container-highest

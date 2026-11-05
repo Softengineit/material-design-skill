@@ -1,0 +1,359 @@
+# md.ref.palette tokens
+
+- md.ref.palette.black: #000000
+- md.ref.palette.blue-variant0: #000000
+- md.ref.palette.blue-variant10: #001F2D
+- md.ref.palette.blue-variant100: #FFFFFF
+- md.ref.palette.blue-variant20: #003549
+- md.ref.palette.blue-variant30: #004D68
+- md.ref.palette.blue-variant40: #006788
+- md.ref.palette.blue-variant50: #0081A8
+- md.ref.palette.blue-variant60: #009DC9
+- md.ref.palette.blue-variant70: #00BBEA
+- md.ref.palette.blue-variant80: #67D4FF
+- md.ref.palette.blue-variant90: #BDE9FF
+- md.ref.palette.blue-variant95: #E0F4FF
+- md.ref.palette.blue-variant98: #F4FAFF
+- md.ref.palette.blue0: #000000
+- md.ref.palette.blue10: #001944
+- md.ref.palette.blue100: #FFFFFF
+- md.ref.palette.blue20: #012C6F
+- md.ref.palette.blue30: #04409F
+- md.ref.palette.blue40: #1157CE
+- md.ref.palette.blue50: #3271EA
+- md.ref.palette.blue60: #4E8FF8
+- md.ref.palette.blue70: #76ACFF
+- md.ref.palette.blue80: #A1C9FF
+- md.ref.palette.blue90: #D0E4FF
+- md.ref.palette.blue95: #E7F2FF
+- md.ref.palette.blue98: #F5FAFF
+- md.ref.palette.cyan0: #000000
+- md.ref.palette.cyan10: #001F26
+- md.ref.palette.cyan100: #FFFFFF
+- md.ref.palette.cyan20: #003641
+- md.ref.palette.cyan30: #004E5D
+- md.ref.palette.cyan40: #00687C
+- md.ref.palette.cyan50: #00839B
+- md.ref.palette.cyan60: #009EBB
+- md.ref.palette.cyan70: #00BBDF
+- md.ref.palette.cyan80: #60D5F3
+- md.ref.palette.cyan90: #ACEDFF
+- md.ref.palette.cyan95: #D8F6FF
+- md.ref.palette.cyan98: #F0FBFF
+- md.ref.palette.error0: #000000
+- md.ref.palette.error10: #410E0B
+- md.ref.palette.error100: #FFFFFF
+- md.ref.palette.error20: #601410
+- md.ref.palette.error30: #8C1D18
+- md.ref.palette.error40: #B3261E
+- md.ref.palette.error50: #DC362E
+- md.ref.palette.error60: #E46962
+- md.ref.palette.error70: #EC928E
+- md.ref.palette.error80: #F2B8B5
+- md.ref.palette.error90: #F9DEDC
+- md.ref.palette.error95: #FCEEEE
+- md.ref.palette.error98: #FFF8F7
+- md.ref.palette.error99: #FFFBF9
+- md.ref.palette.green0: #000000
+- md.ref.palette.green10: #002110
+- md.ref.palette.green100: #FFFFFF
+- md.ref.palette.green20: #00381F
+- md.ref.palette.green30: #00522C
+- md.ref.palette.green40: #006C35
+- md.ref.palette.green50: #128937
+- md.ref.palette.green60: #1AA64A
+- md.ref.palette.green70: #44C265
+- md.ref.palette.green80: #80DA88
+- md.ref.palette.green90: #BEEFBB
+- md.ref.palette.green95: #DDF8D8
+- md.ref.palette.green98: #F2FCEF
+- md.ref.palette.grey-variant0: #000000
+- md.ref.palette.grey-variant10: #191D1C
+- md.ref.palette.grey-variant100: #FFFFFF
+- md.ref.palette.grey-variant20: #2D312F
+- md.ref.palette.grey-variant30: #444746
+- md.ref.palette.grey-variant40: #5C5F5E
+- md.ref.palette.grey-variant50: #747775
+- md.ref.palette.grey-variant60: #8E918F
+- md.ref.palette.grey-variant70: #A9ACAA
+- md.ref.palette.grey-variant80: #C4C7C5
+- md.ref.palette.grey-variant90: #E1E3E1
+- md.ref.palette.grey-variant95: #EFF2EF
+- md.ref.palette.grey-variant98: #F7FAF7
+- md.ref.palette.grey0: #000000
+- md.ref.palette.grey10: #1B1B1C
+- md.ref.palette.grey100: #FFFFFF
+- md.ref.palette.grey20: #303030
+- md.ref.palette.grey30: #474747
+- md.ref.palette.grey40: #5E5E5E
+- md.ref.palette.grey50: #777777
+- md.ref.palette.grey60: #919191
+- md.ref.palette.grey70: #ABABAB
+- md.ref.palette.grey80: #C7C7C7
+- md.ref.palette.grey90: #E3E3E3
+- md.ref.palette.grey95: #F2F2F2
+- md.ref.palette.grey98: #F9F9F9
+- md.ref.palette.neutral-variant0: #000000
+- md.ref.palette.neutral-variant10:
+    - #1D1A22
+    - #191D1C
+- md.ref.palette.neutral-variant100: #FFFFFF
+- md.ref.palette.neutral-variant20:
+    - #322F37
+    - #2D312F
+- md.ref.palette.neutral-variant30:
+    - #49454F
+    - #444746
+- md.ref.palette.neutral-variant40:
+    - #605D66
+    - #5C5F5E
+- md.ref.palette.neutral-variant50:
+    - #79747E
+    - #747775
+- md.ref.palette.neutral-variant60:
+    - #938F99
+    - #8E918F
+- md.ref.palette.neutral-variant70:
+    - #AEA9B4
+    - #A9ACAA
+- md.ref.palette.neutral-variant80:
+    - #CAC4D0
+    - #C4C7C5
+- md.ref.palette.neutral-variant90:
+    - #E7E0EC
+    - #E1E3E1
+- md.ref.palette.neutral-variant95:
+    - #F5EEFA
+    - #EFF2EF
+- md.ref.palette.neutral-variant98:
+    - #FDF7FF
+    - #F7FAF7
+- md.ref.palette.neutral-variant99:
+    - #FFFBFE
+    - #FAFDFB
+- md.ref.palette.neutral0: #000000
+- md.ref.palette.neutral10:
+    - #1D1B20
+    - #1F1F1F
+- md.ref.palette.neutral100: #FFFFFF
+- md.ref.palette.neutral12: #211F26
+- md.ref.palette.neutral17: #2B2930
+- md.ref.palette.neutral20:
+    - #322F35
+    - #303030
+- md.ref.palette.neutral22: #36343B
+- md.ref.palette.neutral24: #3B383E
+- md.ref.palette.neutral30:
+    - #48464C
+    - #474747
+- md.ref.palette.neutral4: #0F0D13
+- md.ref.palette.neutral40:
+    - #605D64
+    - #5E5E5E
+- md.ref.palette.neutral50:
+    - #79767D
+    - #757575
+- md.ref.palette.neutral6: #141218
+- md.ref.palette.neutral60:
+    - #938F96
+    - #8F8F8F
+- md.ref.palette.neutral70:
+    - #AEA9B1
+    - #ABABAB
+- md.ref.palette.neutral80:
+    - #CAC5CD
+    - #C7C7C7
+- md.ref.palette.neutral87: #DED8E1
+- md.ref.palette.neutral90:
+    - #E6E0E9
+    - #E3E3E3
+- md.ref.palette.neutral92: #ECE6F0
+- md.ref.palette.neutral94: #F3EDF7
+- md.ref.palette.neutral95:
+    - #F5EFF7
+    - #F2F2F2
+- md.ref.palette.neutral96: #F7F2FA
+- md.ref.palette.neutral98: #FEF7FF
+- md.ref.palette.neutral99:
+    - #FFFBFF
+    - #FDFCFB
+- md.ref.palette.orange0: #000000
+- md.ref.palette.orange10: #321200
+- md.ref.palette.orange100: #FFFFFF
+- md.ref.palette.orange20: #522302
+- md.ref.palette.orange30: #753403
+- md.ref.palette.orange40: #9A4600
+- md.ref.palette.orange50: #C05A01
+- md.ref.palette.orange60: #E86E00
+- md.ref.palette.orange70: #FF8D41
+- md.ref.palette.orange80: #FFB683
+- md.ref.palette.orange90: #FFDCC3
+- md.ref.palette.orange95: #FFEDE1
+- md.ref.palette.orange98: #FFF8F4
+- md.ref.palette.pink0: #000000
+- md.ref.palette.pink10: #3D0023
+- md.ref.palette.pink100: #FFFFFF
+- md.ref.palette.pink20: #620438
+- md.ref.palette.pink30: #8D0053
+- md.ref.palette.pink40: #B60D6E
+- md.ref.palette.pink50: #DC258D
+- md.ref.palette.pink60: #F94AAB
+- md.ref.palette.pink70: #FF7DD2
+- md.ref.palette.pink80: #FFAEE4
+- md.ref.palette.pink90: #FFD8EF
+- md.ref.palette.pink95: #FFECF6
+- md.ref.palette.pink98: #FFF7FC
+- md.ref.palette.primary0: #000000
+- md.ref.palette.primary10:
+    - #21005D
+    - #041E49
+- md.ref.palette.primary100: #FFFFFF
+- md.ref.palette.primary20:
+    - #381E72
+    - #062E6F
+- md.ref.palette.primary30:
+    - #4F378B
+    - #0842A0
+- md.ref.palette.primary40:
+    - #6750A4
+    - #0B57D0
+- md.ref.palette.primary50:
+    - #7F67BE
+    - #1B6EF3
+- md.ref.palette.primary60:
+    - #9A82DB
+    - #4C8DF6
+- md.ref.palette.primary70:
+    - #B69DF8
+    - #7CACF8
+- md.ref.palette.primary80:
+    - #D0BCFF
+    - #A8C7FA
+- md.ref.palette.primary90:
+    - #EADDFF
+    - #D3E3FD
+- md.ref.palette.primary95:
+    - #F6EDFF
+    - #ECF3FE
+- md.ref.palette.primary98:
+    - #FEF7FF
+    - #F7F9FF
+- md.ref.palette.primary99:
+    - #FFFBFE
+    - #FAFBFF
+- md.ref.palette.purple0: #000000
+- md.ref.palette.purple10: #280255
+- md.ref.palette.purple100: #FFFFFF
+- md.ref.palette.purple20: #400B84
+- md.ref.palette.purple30: #5629A4
+- md.ref.palette.purple40: #7438D2
+- md.ref.palette.purple50: #9254EA
+- md.ref.palette.purple60: #AD72FF
+- md.ref.palette.purple70: #C597FF
+- md.ref.palette.purple80: #D9BAFD
+- md.ref.palette.purple90: #EEDCFE
+- md.ref.palette.purple95: #F7ECFE
+- md.ref.palette.purple98: #FDF8FF
+- md.ref.palette.red0: #000000
+- md.ref.palette.red10: #3A0907
+- md.ref.palette.red100: #FFFFFF
+- md.ref.palette.red20: #60150F
+- md.ref.palette.red30: #8A1A16
+- md.ref.palette.red40: #B3251E
+- md.ref.palette.red50: #DB372D
+- md.ref.palette.red60: #F55E57
+- md.ref.palette.red70: #FF8983
+- md.ref.palette.red80: #FFB3AE
+- md.ref.palette.red90: #FFDADC
+- md.ref.palette.red95: #FFECEE
+- md.ref.palette.red98: #FFF8F8
+- md.ref.palette.secondary0: #000000
+- md.ref.palette.secondary10:
+    - #1D192B
+    - #001D35
+- md.ref.palette.secondary100: #FFFFFF
+- md.ref.palette.secondary20:
+    - #332D41
+    - #003355
+- md.ref.palette.secondary30:
+    - #4A4458
+    - #004A77
+- md.ref.palette.secondary40:
+    - #625B71
+    - #00639B
+- md.ref.palette.secondary50:
+    - #7A7289
+    - #047DB7
+- md.ref.palette.secondary60:
+    - #958DA5
+    - #3998D3
+- md.ref.palette.secondary70:
+    - #B0A7C0
+    - #5AB3F0
+- md.ref.palette.secondary80:
+    - #CCC2DC
+    - #7FCFFF
+- md.ref.palette.secondary90:
+    - #E8DEF8
+    - #C2E7FF
+- md.ref.palette.secondary95:
+    - #F6EDFF
+    - #DFF3FF
+- md.ref.palette.secondary98:
+    - #FEF7FF
+    - #F4FAFF
+- md.ref.palette.secondary99:
+    - #FFFBFE
+    - #F7FCFF
+- md.ref.palette.tertiary0: #000000
+- md.ref.palette.tertiary10:
+    - #31111D
+    - #072711
+- md.ref.palette.tertiary100: #FFFFFF
+- md.ref.palette.tertiary20:
+    - #492532
+    - #0A3818
+- md.ref.palette.tertiary30:
+    - #633B48
+    - #0F5223
+- md.ref.palette.tertiary40:
+    - #7D5260
+    - #146C2E
+- md.ref.palette.tertiary50:
+    - #986977
+    - #198639
+- md.ref.palette.tertiary60:
+    - #B58392
+    - #1EA446
+- md.ref.palette.tertiary70:
+    - #D29DAC
+    - #37BE5F
+- md.ref.palette.tertiary80:
+    - #EFB8C8
+    - #6DD58C
+- md.ref.palette.tertiary90:
+    - #FFD8E4
+    - #C4EED0
+- md.ref.palette.tertiary95:
+    - #FFECF1
+    - #E7F8ED
+- md.ref.palette.tertiary98:
+    - #FFF8F8
+    - #ECFEF2
+- md.ref.palette.tertiary99:
+    - #FFFBFA
+    - #F2FFEE
+- md.ref.palette.white: #FFFFFF
+- md.ref.palette.yellow0: #000000
+- md.ref.palette.yellow10: #2F1400
+- md.ref.palette.yellow100: #FFFFFF
+- md.ref.palette.yellow20: #4D2600
+- md.ref.palette.yellow30: #6D3A01
+- md.ref.palette.yellow40: #8F4E06
+- md.ref.palette.yellow50: #B16300
+- md.ref.palette.yellow60: #D37B00
+- md.ref.palette.yellow70: #EF9800
+- md.ref.palette.yellow80: #FCBD00
+- md.ref.palette.yellow90: #FFE07C
+- md.ref.palette.yellow95: #FFF2B4
+- md.ref.palette.yellow98: #FFFADE

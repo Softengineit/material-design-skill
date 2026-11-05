@@ -1,0 +1,109 @@
+# md.comp.input-chip tokens
+
+- md.comp.input-chip.container.elevation: → md.sys.elevation.level0
+- md.comp.input-chip.container.height: 32dp
+- md.comp.input-chip.container.shape: → md.sys.shape.corner.small
+- md.comp.input-chip.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.input-chip.disabled.label-text.opacity: 0.38
+- md.comp.input-chip.disabled.outline.color: → md.sys.color.on-surface
+- md.comp.input-chip.disabled.outline.opacity: 0.12
+- md.comp.input-chip.disabled.selected.container.color: → md.sys.color.on-surface
+- md.comp.input-chip.disabled.selected.container.opacity: 0.12
+- md.comp.input-chip.disabled.unselected.outline.color: → md.sys.color.on-surface
+- md.comp.input-chip.disabled.unselected.outline.opacity: 0.12
+- md.comp.input-chip.dragged.container.elevation: → md.sys.elevation.level4
+- md.comp.input-chip.dragged.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.dragged.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.input-chip.focus.indicator.color: → md.sys.color.secondary
+- md.comp.input-chip.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.input-chip.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.input-chip.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.focus.outline.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.input-chip.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.input-chip.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.input-chip.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.input-chip.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.input-chip.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.input-chip.label-text.type: composite(fontName=md.comp.input-chip.label-text.font, fontWeight=md.comp.input-chip.label-text.weight, fontSize=md.comp.input-chip.label-text.size, fontTracking=md.comp.input-chip.label-text.tracking, lineHeight=md.comp.input-chip.label-text.line-height)
+- md.comp.input-chip.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.input-chip.outline.color: → md.sys.color.outline
+- md.comp.input-chip.outline.width: 1dp
+- md.comp.input-chip.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.input-chip.selected.container.color: → md.sys.color.secondary-container
+- md.comp.input-chip.selected.dragged.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.dragged.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.input-chip.selected.focus.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.input-chip.selected.hover.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.input-chip.selected.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.outline.width: 0dp
+- md.comp.input-chip.selected.pressed.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.selected.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.input-chip.unselected.dragged.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.dragged.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.input-chip.unselected.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.focus.outline.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.input-chip.unselected.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.input-chip.unselected.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.outline.color: → md.sys.color.outline-variant
+- md.comp.input-chip.unselected.outline.width: 1dp
+- md.comp.input-chip.unselected.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.unselected.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.input-chip.with-avatar.avatar.shape: → md.sys.shape.corner.full
+- md.comp.input-chip.with-avatar.avatar.size: 24dp
+- md.comp.input-chip.with-avatar.disabled.avatar.opacity: 0.38
+- md.comp.input-chip.with-leading-icon.disabled.leading-icon.color: → md.sys.color.on-surface
+- md.comp.input-chip.with-leading-icon.disabled.leading-icon.opacity: 0.38
+- md.comp.input-chip.with-leading-icon.dragged.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.focus.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.hover.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.leading-icon.size: 18dp
+- md.comp.input-chip.with-leading-icon.pressed.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.selected.dragged.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.with-leading-icon.selected.focus.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.selected.hover.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.selected.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.selected.pressed.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.unselected.dragged.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.unselected.focus.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.unselected.hover.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-leading-icon.unselected.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-leading-icon.unselected.pressed.leading-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.color: → md.sys.color.on-surface
+- md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.opacity: 0.38
+- md.comp.input-chip.with-trailing-icon.dragged.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.focus.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.hover.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.pressed.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.selected.dragged.trailing-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-trailing-icon.selected.focus.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.with-trailing-icon.selected.hover.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.with-trailing-icon.selected.pressed.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.with-trailing-icon.selected.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.input-chip.with-trailing-icon.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.trailing-icon.size: 18dp
+- md.comp.input-chip.with-trailing-icon.unselected.dragged.trailing-icon.color: → md.sys.color.primary
+- md.comp.input-chip.with-trailing-icon.unselected.focus.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.unselected.hover.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.unselected.pressed.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.input-chip.with-trailing-icon.unselected.trailing-icon.color: → md.sys.color.on-surface-variant

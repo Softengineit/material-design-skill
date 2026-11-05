@@ -1,0 +1,102 @@
+# md.ref.typeface tokens
+
+- md.ref.typeface.body-large.line-height:
+    - 41pt  [Language height: Extra large]
+    - 31pt  [Language height: Large]
+    - 27pt  [Language height: Medium]
+    - 24pt
+- md.ref.typeface.body-medium.line-height:
+    - 35pt  [Language height: Extra large]
+    - 26pt  [Language height: Large]
+    - 23pt  [Language height: Medium]
+    - 20pt
+- md.ref.typeface.body-small.line-height:
+    - 30pt  [Language height: Extra large]
+    - 21pt  [Language height: Large]
+    - 18pt  [Language height: Medium]
+    - 16pt
+- md.ref.typeface.brand:
+    - Roboto Flex  [Font: Variable]
+    - Roboto
+    - Google Sans
+- md.ref.typeface.display-large.line-height:
+    - 120pt  [Language height: Extra large]
+    - 89pt  [Language height: Large]
+    - 73pt  [Language height: Medium]
+    - 64pt
+- md.ref.typeface.display-medium.line-height:
+    - 99pt  [Language height: Extra large]
+    - 71pt  [Language height: Large]
+    - 56pt  [Language height: Medium]
+    - 52pt
+- md.ref.typeface.display-small.line-height:
+    - 80pt  [Language height: Extra large]
+    - 57pt  [Language height: Large]
+    - 47pt  [Language height: Medium]
+    - 44pt
+- md.ref.typeface.emphasized.rond:
+    - {"tag": "ROND"}
+    - {"tag": "ROND", "value": 100}
+- md.ref.typeface.headline-large.line-height:
+    - 75pt  [Language height: Extra large]
+    - 50pt  [Language height: Large]
+    - 42pt  [Language height: Medium]
+    - 40pt
+- md.ref.typeface.headline-medium.line-height:
+    - 66pt  [Language height: Extra large]
+    - 45pt  [Language height: Large]
+    - 38pt  [Language height: Medium]
+    - 36pt
+- md.ref.typeface.headline-small.line-height:
+    - 59pt  [Language height: Extra large]
+    - 41pt  [Language height: Large]
+    - 35pt  [Language height: Medium]
+    - 32pt
+- md.ref.typeface.label-large.line-height:
+    - 36pt  [Language height: Extra large]
+    - 26pt  [Language height: Large]
+    - 23pt  [Language height: Medium]
+    - 20pt
+- md.ref.typeface.label-medium.line-height:
+    - 30pt  [Language height: Extra large]
+    - 21pt  [Language height: Large]
+    - 18pt  [Language height: Medium]
+    - 16pt
+- md.ref.typeface.label-small.line-height:
+    - 29pt  [Language height: Extra large]
+    - 21pt  [Language height: Large]
+    - 18pt  [Language height: Medium]
+    - 16pt
+- md.ref.typeface.plain:
+    - Roboto Flex  [Font: Variable]
+    - Roboto
+    - Google Sans Text
+- md.ref.typeface.title-large.line-height:
+    - 53pt  [Language height: Extra large]
+    - 36pt  [Language height: Large]
+    - 31pt  [Language height: Medium]
+    - 28pt
+- md.ref.typeface.title-medium.line-height:
+    - 42pt  [Language height: Extra large]
+    - 31pt  [Language height: Large]
+    - 27pt  [Language height: Medium]
+    - 24pt
+- md.ref.typeface.title-small.line-height:
+    - 36pt  [Language height: Extra large]
+    - 26pt  [Language height: Large]
+    - 23pt  [Language height: Medium]
+    - 20pt
+- md.ref.typeface.variable.brand:
+    - Roboto Flex
+    - Google Sans Flex
+- md.ref.typeface.variable.plain:
+    - Roboto Flex
+    - Google Sans Flex
+- md.ref.typeface.variable.wght-bold: {"tag": "wght", "value": 700}
+- md.ref.typeface.variable.wght-medium: {"tag": "wght", "value": 500}
+- md.ref.typeface.variable.wght-regular: {"tag": "wght", "value": 400}
+- md.ref.typeface.variable.wght-semibold: {"tag": "wght", "value": 600}
+- md.ref.typeface.weight-bold: 700
+- md.ref.typeface.weight-medium: 500
+- md.ref.typeface.weight-regular: 400
+- md.ref.typeface.weight-semibold: 600

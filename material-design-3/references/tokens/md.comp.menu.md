@@ -1,0 +1,51 @@
+# md.comp.menu tokens
+
+- md.comp.menu.cascading-menu-indicator.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.cascading-menu-indicator.icon.size: 24dp
+- md.comp.menu.container.color: → md.sys.color.surface-container
+- md.comp.menu.container.elevation: → md.sys.elevation.level2
+- md.comp.menu.container.shadow-color: → md.sys.color.shadow
+- md.comp.menu.container.shape: → md.sys.shape.corner.extra-small
+- md.comp.menu.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.menu.divider.color: → md.sys.color.surface-variant
+- md.comp.menu.divider.height: 1dp
+- md.comp.menu.focus.indicator.color: → md.sys.color.secondary
+- md.comp.menu.focus.indicator.outline.offset: → md.sys.state.focus-indicator.inner-offset
+- md.comp.menu.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.menu.list-item.container.height: 48dp
+- md.comp.menu.list-item.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.disabled.label-text.opacity: 0.38
+- md.comp.menu.list-item.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.menu.list-item.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.menu.list-item.label-text.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.menu.list-item.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.menu.list-item.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.menu.list-item.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.menu.list-item.label-text.type: composite(fontName=md.comp.menu.list-item.label-text.font, fontWeight=md.comp.menu.list-item.label-text.weight, fontSize=md.comp.menu.list-item.label-text.size, fontTracking=md.comp.menu.list-item.label-text.tracking, lineHeight=md.comp.menu.list-item.label-text.line-height)
+- md.comp.menu.list-item.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.menu.list-item.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.menu.list-item.selected.container.color: → md.sys.color.secondary-container
+- md.comp.menu.list-item.selected.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.menu.list-item.selected.with-leading-icon.leading-icon.color: → md.sys.color.on-secondary-container
+- md.comp.menu.list-item.selected.with-leading-icon.trailing-icon.color: → md.sys.color.on-secondary-container
+- md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.opacity: 0.38
+- md.comp.menu.list-item.with-leading-icon.focus.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-leading-icon.hover.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-leading-icon.leading-icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-leading-icon.leading-icon.size: 24dp
+- md.comp.menu.list-item.with-leading-icon.pressed.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.color: → md.sys.color.on-surface
+- md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.opacity: 0.38
+- md.comp.menu.list-item.with-trailing-icon.focus.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-trailing-icon.hover.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-trailing-icon.pressed.icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-trailing-icon.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.menu.list-item.with-trailing-icon.trailing-icon.size: 24dp

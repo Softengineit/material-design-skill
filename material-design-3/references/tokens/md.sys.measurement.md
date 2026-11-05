@@ -1,0 +1,20 @@
+# md.sys.measurement tokens
+
+- md.sys.measurement.space0: 0dp
+- md.sys.measurement.space100: 8dp
+- md.sys.measurement.space125: 10dp
+- md.sys.measurement.space150: 12dp
+- md.sys.measurement.space175: 14dp
+- md.sys.measurement.space200: 16dp
+- md.sys.measurement.space25: 2dp
+- md.sys.measurement.space250: 20dp
+- md.sys.measurement.space300: 24dp
+- md.sys.measurement.space400: 32dp
+- md.sys.measurement.space450: 36dp
+- md.sys.measurement.space50: 4dp
+- md.sys.measurement.space500: 40dp
+- md.sys.measurement.space600: 48dp
+- md.sys.measurement.space700: 56dp
+- md.sys.measurement.space75: 6dp
+- md.sys.measurement.space800: 64dp
+- md.sys.measurement.space900: 72dp

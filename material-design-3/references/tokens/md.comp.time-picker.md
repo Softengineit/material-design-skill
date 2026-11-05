@@ -1,0 +1,101 @@
+# md.comp.time-picker tokens
+
+- md.comp.time-picker.clock-dial.color: → md.sys.color.surface-container-highest
+- md.comp.time-picker.clock-dial.color.ignore: → md.sys.color.on-surface-variant
+- md.comp.time-picker.clock-dial.container.size: 256dp
+- md.comp.time-picker.clock-dial.label-text.font: → md.sys.typescale.body-large.font
+- md.comp.time-picker.clock-dial.label-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.time-picker.clock-dial.label-text.size: → md.sys.typescale.body-large.size
+- md.comp.time-picker.clock-dial.label-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.time-picker.clock-dial.label-text.type: composite(fontName=md.comp.time-picker.clock-dial.label-text.font, fontWeight=md.comp.time-picker.clock-dial.label-text.weight, fontSize=md.comp.time-picker.clock-dial.label-text.size, fontTracking=md.comp.time-picker.clock-dial.label-text.tracking, lineHeight=md.comp.time-picker.clock-dial.label-text.line-height)
+- md.comp.time-picker.clock-dial.label-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.time-picker.clock-dial.selected.label-text.color: → md.sys.color.on-primary
+- md.comp.time-picker.clock-dial.selector.center.container.color: → md.sys.color.primary
+- md.comp.time-picker.clock-dial.selector.center.container.shape: → md.sys.shape.corner.full
+- md.comp.time-picker.clock-dial.selector.center.container.size: 8dp
+- md.comp.time-picker.clock-dial.selector.handle.container.color: → md.sys.color.primary
+- md.comp.time-picker.clock-dial.selector.handle.container.shape: → md.sys.shape.corner.full
+- md.comp.time-picker.clock-dial.selector.handle.container.size: 48dp
+- md.comp.time-picker.clock-dial.selector.track.container.color: → md.sys.color.primary
+- md.comp.time-picker.clock-dial.selector.track.container.width: 2dp
+- md.comp.time-picker.clock-dial.shape: → md.sys.shape.corner.full
+- md.comp.time-picker.clock-dial.shape.ignore: → md.sys.shape.corner.full
+- md.comp.time-picker.clock-dial.unselected.label-text.color: → md.sys.color.on-surface
+- md.comp.time-picker.container.color: → md.sys.color.surface-container-high
+- md.comp.time-picker.container.elevation: → md.sys.elevation.level3
+- md.comp.time-picker.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.time-picker.headline.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.headline.font: → md.sys.typescale.label-medium.font
+- md.comp.time-picker.headline.line-height: → md.sys.typescale.label-medium.line-height
+- md.comp.time-picker.headline.size: → md.sys.typescale.label-medium.size
+- md.comp.time-picker.headline.tracking: → md.sys.typescale.label-medium.tracking
+- md.comp.time-picker.headline.type: composite(fontName=md.comp.time-picker.headline.font, fontWeight=md.comp.time-picker.headline.weight, fontSize=md.comp.time-picker.headline.size, fontTracking=md.comp.time-picker.headline.tracking, lineHeight=md.comp.time-picker.headline.line-height)
+- md.comp.time-picker.headline.weight: → md.sys.typescale.label-medium.weight
+- md.comp.time-picker.period-selector.container.shape: → md.sys.shape.corner.small
+- md.comp.time-picker.period-selector.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.time-picker.period-selector.horizontal.container.height: 38dp
+- md.comp.time-picker.period-selector.horizontal.container.width: 216dp
+- md.comp.time-picker.period-selector.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.time-picker.period-selector.label-text.font: → md.sys.typescale.title-medium.font
+- md.comp.time-picker.period-selector.label-text.line-height: → md.sys.typescale.title-medium.line-height
+- md.comp.time-picker.period-selector.label-text.size: → md.sys.typescale.title-medium.size
+- md.comp.time-picker.period-selector.label-text.tracking: → md.sys.typescale.title-medium.tracking
+- md.comp.time-picker.period-selector.label-text.type: composite(fontName=md.comp.time-picker.period-selector.label-text.font, fontWeight=md.comp.time-picker.period-selector.label-text.weight, fontSize=md.comp.time-picker.period-selector.label-text.size, fontTracking=md.comp.time-picker.period-selector.label-text.tracking, lineHeight=md.comp.time-picker.period-selector.label-text.line-height)
+- md.comp.time-picker.period-selector.label-text.weight: → md.sys.typescale.title-medium.weight
+- md.comp.time-picker.period-selector.outline.color: → md.sys.color.outline
+- md.comp.time-picker.period-selector.outline.width: 1dp
+- md.comp.time-picker.period-selector.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.time-picker.period-selector.selected.container.color: → md.sys.color.tertiary-container
+- md.comp.time-picker.period-selector.selected.focus.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.focus.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.hover.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.hover.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.pressed.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.selected.pressed.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-picker.period-selector.unselected.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.unselected.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-picker.period-selector.vertical.container.height: 80dp
+- md.comp.time-picker.period-selector.vertical.container.width: 52dp
+- md.comp.time-picker.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.time-picker.time-selector.24h-vertical.container.width: 114dp
+- md.comp.time-picker.time-selector.container.height: 80dp
+- md.comp.time-picker.time-selector.container.shape: → md.sys.shape.corner.small
+- md.comp.time-picker.time-selector.container.width: 96dp
+- md.comp.time-picker.time-selector.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.time-picker.time-selector.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.time-picker.time-selector.label-text.font: → md.sys.typescale.display-large.font
+- md.comp.time-picker.time-selector.label-text.line-height: → md.sys.typescale.display-large.line-height
+- md.comp.time-picker.time-selector.label-text.size: → md.sys.typescale.display-large.size
+- md.comp.time-picker.time-selector.label-text.tracking: → md.sys.typescale.display-large.tracking
+- md.comp.time-picker.time-selector.label-text.type: composite(fontName=md.comp.time-picker.time-selector.label-text.font, fontWeight=md.comp.time-picker.time-selector.label-text.weight, fontSize=md.comp.time-picker.time-selector.label-text.size, fontTracking=md.comp.time-picker.time-selector.label-text.tracking, lineHeight=md.comp.time-picker.time-selector.label-text.line-height)
+- md.comp.time-picker.time-selector.label-text.weight: → md.sys.typescale.display-large.weight
+- md.comp.time-picker.time-selector.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.time-picker.time-selector.selected.container.color: → md.sys.color.primary-container
+- md.comp.time-picker.time-selector.selected.focus.label-text.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.focus.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.hover.label-text.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.hover.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.label-text.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.pressed.label-text.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.selected.pressed.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.time-picker.time-selector.separator.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.separator.font: → md.sys.typescale.display-large.font
+- md.comp.time-picker.time-selector.separator.line-height: → md.sys.typescale.display-large.line-height
+- md.comp.time-picker.time-selector.separator.size: → md.sys.typescale.display-large.size
+- md.comp.time-picker.time-selector.separator.tracking: → md.sys.typescale.display-large.tracking
+- md.comp.time-picker.time-selector.separator.type: composite(fontName=md.comp.time-picker.time-selector.separator.font, fontWeight=md.comp.time-picker.time-selector.separator.weight, fontSize=md.comp.time-picker.time-selector.separator.size, fontTracking=md.comp.time-picker.time-selector.separator.tracking, lineHeight=md.comp.time-picker.time-selector.separator.line-height)
+- md.comp.time-picker.time-selector.separator.weight: → md.sys.typescale.display-large.weight
+- md.comp.time-picker.time-selector.unselected.container.color: → md.sys.color.surface-container-highest
+- md.comp.time-picker.time-selector.unselected.focus.label-text.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.label-text.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.time-picker.time-selector.unselected.pressed.state-layer.color: → md.sys.color.on-surface

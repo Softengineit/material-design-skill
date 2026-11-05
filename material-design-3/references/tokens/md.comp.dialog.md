@@ -1,0 +1,47 @@
+# md.comp.dialog tokens
+
+- md.comp.dialog.action.focus.label-text.color: → md.sys.color.primary
+- md.comp.dialog.action.focus.state-layer.color: → md.sys.color.primary
+- md.comp.dialog.action.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.dialog.action.hover.label-text.color: → md.sys.color.primary
+- md.comp.dialog.action.hover.state-layer.color: → md.sys.color.primary
+- md.comp.dialog.action.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.dialog.action.label-text.color: → md.sys.color.primary
+- md.comp.dialog.action.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.dialog.action.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.dialog.action.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.dialog.action.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.dialog.action.label-text.type: composite(fontName=md.comp.dialog.action.label-text.font, fontWeight=md.comp.dialog.action.label-text.weight, fontSize=md.comp.dialog.action.label-text.size, fontTracking=md.comp.dialog.action.label-text.tracking, lineHeight=md.comp.dialog.action.label-text.line-height)
+- md.comp.dialog.action.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.dialog.action.pressed.label-text.color: → md.sys.color.primary
+- md.comp.dialog.action.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.dialog.action.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.dialog.container.color: → md.sys.color.surface-container-high
+- md.comp.dialog.container.elevation: → md.sys.elevation.level3
+- md.comp.dialog.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.dialog.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.dialog.headline.color: → md.sys.color.on-surface
+- md.comp.dialog.headline.font: → md.sys.typescale.headline-small.font
+- md.comp.dialog.headline.line-height: → md.sys.typescale.headline-small.line-height
+- md.comp.dialog.headline.size: → md.sys.typescale.headline-small.size
+- md.comp.dialog.headline.tracking: → md.sys.typescale.headline-small.tracking
+- md.comp.dialog.headline.type: composite(fontName=md.comp.dialog.headline.font, fontWeight=md.comp.dialog.headline.weight, fontSize=md.comp.dialog.headline.size, fontTracking=md.comp.dialog.headline.tracking, lineHeight=md.comp.dialog.headline.line-height)
+- md.comp.dialog.headline.weight: → md.sys.typescale.headline-small.weight
+- md.comp.dialog.subhead.color: → md.sys.color.on-surface
+- md.comp.dialog.subhead.font: → md.sys.typescale.headline-small.font
+- md.comp.dialog.subhead.line-height: → md.sys.typescale.headline-small.line-height
+- md.comp.dialog.subhead.size: → md.sys.typescale.headline-small.size
+- md.comp.dialog.subhead.tracking: → md.sys.typescale.headline-small.tracking
+- md.comp.dialog.subhead.type: composite(fontName=md.comp.dialog.subhead.font, fontWeight=md.comp.dialog.subhead.weight, fontSize=md.comp.dialog.subhead.size, fontTracking=md.comp.dialog.subhead.tracking, lineHeight=md.comp.dialog.subhead.line-height)
+- md.comp.dialog.subhead.weight: → md.sys.typescale.headline-small.weight
+- md.comp.dialog.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.dialog.supporting-text.font: → md.sys.typescale.body-medium.font
+- md.comp.dialog.supporting-text.line-height: → md.sys.typescale.body-medium.line-height
+- md.comp.dialog.supporting-text.size: → md.sys.typescale.body-medium.size
+- md.comp.dialog.supporting-text.tracking: → md.sys.typescale.body-medium.tracking
+- md.comp.dialog.supporting-text.type: composite(fontName=md.comp.dialog.supporting-text.font, fontWeight=md.comp.dialog.supporting-text.weight, fontSize=md.comp.dialog.supporting-text.size, fontTracking=md.comp.dialog.supporting-text.tracking, lineHeight=md.comp.dialog.supporting-text.line-height)
+- md.comp.dialog.supporting-text.weight: → md.sys.typescale.body-medium.weight
+- md.comp.dialog.with-divider.divider.color: → md.sys.color.outline
+- md.comp.dialog.with-divider.divider.height: 1dp
+- md.comp.dialog.with-icon.icon.color: → md.sys.color.secondary
+- md.comp.dialog.with-icon.icon.size: 24dp

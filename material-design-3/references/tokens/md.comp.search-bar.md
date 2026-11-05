@@ -1,0 +1,51 @@
+# md.comp.search-bar tokens
+
+- md.comp.search-bar.avatar.shape: → md.sys.shape.corner.full
+- md.comp.search-bar.avatar.size: 30dp
+- md.comp.search-bar.contained.avatar.target-size: 48dp
+- md.comp.search-bar.contained.icon-label.gap: → md.sys.measurement.space50
+- md.comp.search-bar.contained.leading-margin: → md.sys.measurement.space300
+- md.comp.search-bar.contained.leading-space: → md.sys.measurement.space50
+- md.comp.search-bar.contained.motion.spring: → md.sys.motion.spring.fast.spatial
+- md.comp.search-bar.contained.no-actions.leading-space: → md.sys.measurement.space200
+- md.comp.search-bar.contained.no-actions.trailing-space: → md.sys.measurement.space200
+- md.comp.search-bar.contained.trailing-actions.gap: → md.sys.measurement.space0
+- md.comp.search-bar.contained.trailing-actions.leading-space: → md.sys.measurement.space50
+- md.comp.search-bar.contained.trailing-actions.trailing-space: → md.sys.measurement.space50
+- md.comp.search-bar.contained.trailing-margin: → md.sys.measurement.space300
+- md.comp.search-bar.contained.trailing-space: → md.sys.measurement.space50
+- md.comp.search-bar.container.color: → md.sys.color.surface-container-high
+- md.comp.search-bar.container.elevation: → md.sys.elevation.level3
+- md.comp.search-bar.container.height: 56dp
+- md.comp.search-bar.container.shape: → md.sys.shape.corner.full
+- md.comp.search-bar.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.search-bar.focus.indicator.color: → md.sys.color.secondary
+- md.comp.search-bar.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.search-bar.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.search-bar.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.search-bar.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.search-bar.hover.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.search-bar.icon.size: 24dp
+- md.comp.search-bar.input-text.color: → md.sys.color.on-surface
+- md.comp.search-bar.input-text.font: → md.sys.typescale.body-large.font
+- md.comp.search-bar.input-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.search-bar.input-text.size: → md.sys.typescale.body-large.size
+- md.comp.search-bar.input-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.search-bar.input-text.type: composite(fontName=md.comp.search-bar.input-text.font, fontWeight=md.comp.search-bar.input-text.weight, fontSize=md.comp.search-bar.input-text.size, fontTracking=md.comp.search-bar.input-text.tracking, lineHeight=md.comp.search-bar.input-text.line-height)
+- md.comp.search-bar.input-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.search-bar.leading-icon.color: → md.sys.color.on-surface
+- md.comp.search-bar.leading-icon.leading-icon-label-space: → md.sys.measurement.space200
+- md.comp.search-bar.leading-space: → md.sys.measurement.space200
+- md.comp.search-bar.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.search-bar.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.search-bar.pressed.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.search-bar.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.search-bar.supporting-text.font: → md.sys.typescale.body-large.font
+- md.comp.search-bar.supporting-text.line-height: → md.sys.typescale.body-large.line-height
+- md.comp.search-bar.supporting-text.size: → md.sys.typescale.body-large.size
+- md.comp.search-bar.supporting-text.tracking: → md.sys.typescale.body-large.tracking
+- md.comp.search-bar.supporting-text.type: composite(fontName=md.comp.search-bar.supporting-text.font, fontWeight=md.comp.search-bar.supporting-text.weight, fontSize=md.comp.search-bar.supporting-text.size, fontTracking=md.comp.search-bar.supporting-text.tracking, lineHeight=md.comp.search-bar.supporting-text.line-height)
+- md.comp.search-bar.supporting-text.weight: → md.sys.typescale.body-large.weight
+- md.comp.search-bar.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.search-bar.trailing-icon.label-trailing-icon-space: → md.sys.measurement.space200
+- md.comp.search-bar.trailing-space: → md.sys.measurement.space200

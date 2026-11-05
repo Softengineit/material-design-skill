@@ -1,0 +1,26 @@
+# md.sys.shape tokens
+
+- md.sys.shape.corner-value.extra-extra-large: 48dp
+- md.sys.shape.corner-value.extra-large: 28dp
+- md.sys.shape.corner-value.extra-large-increased: 32dp
+- md.sys.shape.corner-value.extra-small: 4dp
+- md.sys.shape.corner-value.large: 16dp
+- md.sys.shape.corner-value.large-increased: 20dp
+- md.sys.shape.corner-value.medium: 12dp
+- md.sys.shape.corner-value.none: 0dp
+- md.sys.shape.corner-value.small: 8dp
+- md.sys.shape.corner.extra-extra-large: rounded_corners 48dp
+- md.sys.shape.corner.extra-large: rounded_corners 28dp
+- md.sys.shape.corner.extra-large-increased: rounded_corners 32dp
+- md.sys.shape.corner.extra-large.top: rounded_corners 0dp topLeft=28 topRight=28
+- md.sys.shape.corner.extra-small: rounded_corners 4dp
+- md.sys.shape.corner.extra-small.top: rounded_corners 0dp topLeft=4 topRight=4
+- md.sys.shape.corner.full: circular
+- md.sys.shape.corner.large: rounded_corners 16dp
+- md.sys.shape.corner.large-increased: rounded_corners 20dp
+- md.sys.shape.corner.large.end: rounded_corners 0dp topRight=16 bottomRight=16
+- md.sys.shape.corner.large.start: rounded_corners 0dp topLeft=16 bottomLeft=16
+- md.sys.shape.corner.large.top: rounded_corners 0dp topLeft=16 topRight=16
+- md.sys.shape.corner.medium: rounded_corners 12dp
+- md.sys.shape.corner.none: rounded_corners 0dp
+- md.sys.shape.corner.small: rounded_corners 8dp

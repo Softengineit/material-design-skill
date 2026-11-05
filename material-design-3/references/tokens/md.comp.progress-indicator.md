@@ -1,0 +1,40 @@
+# md.comp.progress-indicator tokens
+
+- md.comp.progress-indicator.active-indicator-track-space: 4dp
+- md.comp.progress-indicator.active-indicator.color: → md.sys.color.primary
+- md.comp.progress-indicator.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.progress-indicator.active-indicator.thickness: 4dp
+- md.comp.progress-indicator.circular.active-indicator.thickness: 4dp
+- md.comp.progress-indicator.circular.active-indicator.wave.amplitude: 1.6dp
+- md.comp.progress-indicator.circular.active-indicator.wave.wavelength: 15dp
+- md.comp.progress-indicator.circular.size: 40dp
+- md.comp.progress-indicator.circular.thick.active-indicator.thickness: 8dp
+- md.comp.progress-indicator.circular.thick.size: 52dp
+- md.comp.progress-indicator.circular.thick.track-active-indicator-space: 4dp
+- md.comp.progress-indicator.circular.thick.track.thickness: 8dp
+- md.comp.progress-indicator.circular.track-active-indicator-space: → md.sys.measurement.space50
+- md.comp.progress-indicator.circular.track.thickness: 4dp
+- md.comp.progress-indicator.circular.with-wave.size: 48dp
+- md.comp.progress-indicator.linear.active-indicator.thickness: 4dp
+- md.comp.progress-indicator.linear.active-indicator.wave.amplitude: 3dp
+- md.comp.progress-indicator.linear.active-indicator.wave.wavelength: 40dp
+- md.comp.progress-indicator.linear.height: 4dp
+- md.comp.progress-indicator.linear.indeterminate.active-indicator.wave.wavelength: 20dp
+- md.comp.progress-indicator.linear.stop-indicator.size: 4dp
+- md.comp.progress-indicator.linear.stop-indicator.trailing-space: → md.sys.measurement.space0
+- md.comp.progress-indicator.linear.thick.active-indicator.thickness: 8dp
+- md.comp.progress-indicator.linear.thick.height: 8dp
+- md.comp.progress-indicator.linear.thick.stop-indicator.size: 4dp
+- md.comp.progress-indicator.linear.thick.stop-indicator.trailing-space: 2dp
+- md.comp.progress-indicator.linear.thick.track-active-indicator-space: 4dp
+- md.comp.progress-indicator.linear.thick.track.thickness: 8dp
+- md.comp.progress-indicator.linear.thick.with-wave.height: 14dp
+- md.comp.progress-indicator.linear.track-active-indicator-space: → md.sys.measurement.space50
+- md.comp.progress-indicator.linear.track.thickness: 4dp
+- md.comp.progress-indicator.linear.with-wave.height: 10dp
+- md.comp.progress-indicator.stop-indicator.color: → md.sys.color.primary
+- md.comp.progress-indicator.stop-indicator.shape: → md.sys.shape.corner.full
+- md.comp.progress-indicator.stop-indicator.size: 4dp
+- md.comp.progress-indicator.track.color: → md.sys.color.secondary-container
+- md.comp.progress-indicator.track.shape: → md.sys.shape.corner.full
+- md.comp.progress-indicator.track.thickness: 4dp

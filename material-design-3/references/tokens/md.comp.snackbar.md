@@ -1,0 +1,42 @@
+# md.comp.snackbar tokens
+
+- md.comp.snackbar.action.focus.label-text.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.focus.state-layer.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.snackbar.action.hover.label-text.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.hover.state-layer.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.snackbar.action.label-text.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.snackbar.action.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.snackbar.action.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.snackbar.action.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.snackbar.action.label-text.type: composite(fontName=md.comp.snackbar.action.label-text.font, fontWeight=md.comp.snackbar.action.label-text.weight, fontSize=md.comp.snackbar.action.label-text.size, fontTracking=md.comp.snackbar.action.label-text.tracking, lineHeight=md.comp.snackbar.action.label-text.line-height)
+- md.comp.snackbar.action.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.snackbar.action.pressed.label-text.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.pressed.state-layer.color: → md.sys.color.inverse-primary
+- md.comp.snackbar.action.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.snackbar.container.color: → md.sys.color.inverse-surface
+- md.comp.snackbar.container.elevation: → md.sys.elevation.level3
+- md.comp.snackbar.container.shadow-color: → md.sys.color.shadow
+- md.comp.snackbar.container.shape: → md.sys.shape.corner.extra-small
+- md.comp.snackbar.icon.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.focus.icon.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.focus.state-layer.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.snackbar.icon.hover.icon.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.hover.state-layer.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.snackbar.icon.pressed.icon.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.pressed.state-layer.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.icon.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.snackbar.icon.size: 24dp
+- md.comp.snackbar.supporting-text.color: → md.sys.color.inverse-on-surface
+- md.comp.snackbar.supporting-text.font: → md.sys.typescale.body-medium.font
+- md.comp.snackbar.supporting-text.line-height: → md.sys.typescale.body-medium.line-height
+- md.comp.snackbar.supporting-text.size: → md.sys.typescale.body-medium.size
+- md.comp.snackbar.supporting-text.tracking: → md.sys.typescale.body-medium.tracking
+- md.comp.snackbar.supporting-text.type: composite(fontName=md.comp.snackbar.supporting-text.font, fontWeight=md.comp.snackbar.supporting-text.weight, fontSize=md.comp.snackbar.supporting-text.size, fontTracking=md.comp.snackbar.supporting-text.tracking, lineHeight=md.comp.snackbar.supporting-text.line-height)
+- md.comp.snackbar.supporting-text.weight: → md.sys.typescale.body-medium.weight
+- md.comp.snackbar.with-single-line.container.height: 48dp
+- md.comp.snackbar.with-two-lines.container.height: 68dp

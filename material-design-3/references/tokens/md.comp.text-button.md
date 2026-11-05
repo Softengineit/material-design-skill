@@ -1,0 +1,33 @@
+# md.comp.text-button tokens
+
+- md.comp.text-button.container.elevation: → md.sys.elevation.level0
+- md.comp.text-button.container.height: 40dp
+- md.comp.text-button.container.shape: → md.sys.shape.corner.full
+- md.comp.text-button.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.text-button.disabled.label-text.opacity: 0.38
+- md.comp.text-button.focus.indicator.color: → md.sys.color.secondary
+- md.comp.text-button.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.text-button.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.text-button.focus.label-text.color: → md.sys.color.primary
+- md.comp.text-button.focus.state-layer.color: → md.sys.color.primary
+- md.comp.text-button.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.text-button.hover.label-text.color: → md.sys.color.primary
+- md.comp.text-button.hover.state-layer.color: → md.sys.color.primary
+- md.comp.text-button.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.text-button.label-text.color: → md.sys.color.primary
+- md.comp.text-button.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.text-button.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.text-button.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.text-button.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.text-button.label-text.type: composite(fontName=md.comp.text-button.label-text.font, fontWeight=md.comp.text-button.label-text.weight, fontSize=md.comp.text-button.label-text.size, fontTracking=md.comp.text-button.label-text.tracking, lineHeight=md.comp.text-button.label-text.line-height)
+- md.comp.text-button.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.text-button.pressed.label-text.color: → md.sys.color.primary
+- md.comp.text-button.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.text-button.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.text-button.with-icon.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.text-button.with-icon.disabled.icon.opacity: 0.38
+- md.comp.text-button.with-icon.focus.icon.color: → md.sys.color.primary
+- md.comp.text-button.with-icon.hover.icon.color: → md.sys.color.primary
+- md.comp.text-button.with-icon.icon.color: → md.sys.color.primary
+- md.comp.text-button.with-icon.icon.size: 18dp
+- md.comp.text-button.with-icon.pressed.icon.color: → md.sys.color.primary

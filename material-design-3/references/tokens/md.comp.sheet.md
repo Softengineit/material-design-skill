@@ -1,0 +1,46 @@
+# md.comp.sheet tokens
+
+- md.comp.sheet.bottom.docked.container.color: → md.sys.color.surface-container-low
+- md.comp.sheet.bottom.docked.container.shape: → md.sys.shape.corner.extra-large.top
+- md.comp.sheet.bottom.docked.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.sheet.bottom.docked.drag-handle.color: → md.sys.color.on-surface-variant
+- md.comp.sheet.bottom.docked.drag-handle.height: 4dp
+- md.comp.sheet.bottom.docked.drag-handle.opacity: 0.4
+- md.comp.sheet.bottom.docked.drag-handle.width: 32dp
+- md.comp.sheet.bottom.docked.minimized.container.shape: → md.sys.shape.corner.none
+- md.comp.sheet.bottom.docked.modal.container.elevation: → md.sys.elevation.level1
+- md.comp.sheet.bottom.docked.standard.container.elevation: → md.sys.elevation.level1
+- md.comp.sheet.bottom.focus.indicator.color: → md.sys.color.secondary
+- md.comp.sheet.bottom.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.sheet.bottom.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.sheet.side.detached.container.shape: → md.sys.shape.corner.large
+- md.comp.sheet.side.docked.action.focus.label-text.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.focus.state-layer.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.sheet.side.docked.action.hover.label-text.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.hover.state-layer.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.sheet.side.docked.action.pressed.label-text.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.sheet.side.docked.action.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.sheet.side.docked.container.color: → md.sys.color.surface
+- md.comp.sheet.side.docked.container.height: 100%
+- md.comp.sheet.side.docked.container.shape: → md.sys.shape.corner.none
+- md.comp.sheet.side.docked.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.sheet.side.docked.container.width: 256dp
+- md.comp.sheet.side.docked.divider.color: → md.sys.color.outline
+- md.comp.sheet.side.docked.focus.indicator.color: → md.sys.color.secondary
+- md.comp.sheet.side.docked.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.sheet.side.docked.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.sheet.side.docked.headline.color: → md.sys.color.on-surface-variant
+- md.comp.sheet.side.docked.headline.font: → md.sys.typescale.title-large.font
+- md.comp.sheet.side.docked.headline.line-height: → md.sys.typescale.title-large.line-height
+- md.comp.sheet.side.docked.headline.size: → md.sys.typescale.title-large.size
+- md.comp.sheet.side.docked.headline.tracking: → md.sys.typescale.title-large.tracking
+- md.comp.sheet.side.docked.headline.type: composite(fontName=md.comp.sheet.side.docked.headline.font, fontWeight=md.comp.sheet.side.docked.headline.weight, fontSize=md.comp.sheet.side.docked.headline.size, fontTracking=md.comp.sheet.side.docked.headline.tracking, lineHeight=md.comp.sheet.side.docked.headline.line-height)
+- md.comp.sheet.side.docked.headline.weight: → md.sys.typescale.title-large.weight
+- md.comp.sheet.side.docked.modal.container.color: → md.sys.color.surface-container-low
+- md.comp.sheet.side.docked.modal.container.elevation: → md.sys.elevation.level1
+- md.comp.sheet.side.docked.modal.container.shape: → md.sys.shape.corner.large.start
+- md.comp.sheet.side.docked.standard.container.color: → md.sys.color.surface
+- md.comp.sheet.side.docked.standard.container.elevation: → md.sys.elevation.level0

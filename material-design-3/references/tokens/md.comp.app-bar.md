@@ -1,0 +1,44 @@
+# md.comp.app-bar tokens
+
+- md.comp.app-bar.avatar.size: 32dp
+- md.comp.app-bar.container.color: → md.sys.color.surface
+- md.comp.app-bar.container.elevation: → md.sys.elevation.level0
+- md.comp.app-bar.container.shape: → md.sys.shape.corner.none
+- md.comp.app-bar.icon-button-space: → md.sys.measurement.space0
+- md.comp.app-bar.icon.size: 24dp
+- md.comp.app-bar.large-flexible.container.height: 120dp
+- md.comp.app-bar.large-flexible.subtitle.font: → md.sys.typescale.title-medium
+- md.comp.app-bar.large-flexible.title.font: → md.sys.typescale.display-small
+- md.comp.app-bar.large-flexible.with-subtitle.container.height: 152dp
+- md.comp.app-bar.large.container.height: 152dp
+- md.comp.app-bar.large.icon.size: 24dp
+- md.comp.app-bar.large.subtitle.font: → md.sys.typescale.title-medium
+- md.comp.app-bar.large.title.font: → md.sys.typescale.headline-medium
+- md.comp.app-bar.leading-icon.color: → md.sys.color.on-surface
+- md.comp.app-bar.leading-space: → md.sys.measurement.space50
+- md.comp.app-bar.medium-flexible.container.height: 112dp
+- md.comp.app-bar.medium-flexible.subtitle.font: → md.sys.typescale.label-large
+- md.comp.app-bar.medium-flexible.title.font: → md.sys.typescale.headline-medium
+- md.comp.app-bar.medium-flexible.with-subtitle.container.height: 136dp
+- md.comp.app-bar.medium.container.height: 112dp
+- md.comp.app-bar.medium.icon.size: 24dp
+- md.comp.app-bar.medium.subtitle.font: → md.sys.typescale.label-large
+- md.comp.app-bar.medium.title.font: → md.sys.typescale.headline-small
+- md.comp.app-bar.on-scroll.container.color: → md.sys.color.surface-container
+- md.comp.app-bar.on-scroll.container.elevation: → md.sys.elevation.level2
+- md.comp.app-bar.search.container.color: → md.sys.color.surface-container
+- md.comp.app-bar.search.label.color: → md.sys.color.on-surface-variant
+- md.comp.app-bar.search.leading-space: → md.sys.measurement.space100
+- md.comp.app-bar.search.on-scroll.container.color: → md.sys.color.surface-container-highest
+- md.comp.app-bar.search.trailing-space: → md.sys.measurement.space100
+- md.comp.app-bar.small.container.height: 64dp
+- md.comp.app-bar.small.icon.size: 24dp
+- md.comp.app-bar.small.search.container.height: 56dp
+- md.comp.app-bar.small.search.container.shape: → md.sys.shape.corner.full
+- md.comp.app-bar.small.search.label-text.font: → md.sys.typescale.body-large
+- md.comp.app-bar.small.subtitle.font: → md.sys.typescale.label-medium
+- md.comp.app-bar.small.title.font: → md.sys.typescale.title-large
+- md.comp.app-bar.subtitle.color: → md.sys.color.on-surface-variant
+- md.comp.app-bar.title.color: → md.sys.color.on-surface
+- md.comp.app-bar.trailing-icon.color: → md.sys.color.on-surface-variant
+- md.comp.app-bar.trailing-space: → md.sys.measurement.space50

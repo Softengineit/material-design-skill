@@ -1,0 +1,40 @@
+# md.comp.outlined-button tokens
+
+- md.comp.outlined-button.container.elevation: → md.sys.elevation.level0
+- md.comp.outlined-button.container.height: 40dp
+- md.comp.outlined-button.container.shape: → md.sys.shape.corner.full
+- md.comp.outlined-button.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.outlined-button.disabled.label-text.opacity: 0.38
+- md.comp.outlined-button.disabled.outline.color: → md.sys.color.on-surface
+- md.comp.outlined-button.disabled.outline.opacity: 0.12
+- md.comp.outlined-button.focus.indicator.color: → md.sys.color.secondary
+- md.comp.outlined-button.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.outlined-button.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.outlined-button.focus.label-text.color: → md.sys.color.primary
+- md.comp.outlined-button.focus.outline.color: → md.sys.color.primary
+- md.comp.outlined-button.focus.state-layer.color: → md.sys.color.primary
+- md.comp.outlined-button.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.outlined-button.hover.label-text.color: → md.sys.color.primary
+- md.comp.outlined-button.hover.outline.color: → md.sys.color.outline
+- md.comp.outlined-button.hover.state-layer.color: → md.sys.color.primary
+- md.comp.outlined-button.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.outlined-button.label-text.color: → md.sys.color.primary
+- md.comp.outlined-button.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.outlined-button.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.outlined-button.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.outlined-button.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.outlined-button.label-text.type: composite(fontName=md.comp.outlined-button.label-text.font, fontWeight=md.comp.outlined-button.label-text.weight, fontSize=md.comp.outlined-button.label-text.size, fontTracking=md.comp.outlined-button.label-text.tracking, lineHeight=md.comp.outlined-button.label-text.line-height)
+- md.comp.outlined-button.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.outlined-button.outline.color: → md.sys.color.outline
+- md.comp.outlined-button.outline.width: 1dp
+- md.comp.outlined-button.pressed.label-text.color: → md.sys.color.primary
+- md.comp.outlined-button.pressed.outline.color: → md.sys.color.outline
+- md.comp.outlined-button.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.outlined-button.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.outlined-button.with-icon.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.outlined-button.with-icon.disabled.icon.opacity: 0.38
+- md.comp.outlined-button.with-icon.focus.icon.color: → md.sys.color.primary
+- md.comp.outlined-button.with-icon.hover.icon.color: → md.sys.color.primary
+- md.comp.outlined-button.with-icon.icon.color: → md.sys.color.primary
+- md.comp.outlined-button.with-icon.icon.size: 18dp
+- md.comp.outlined-button.with-icon.pressed.icon.color: → md.sys.color.primary

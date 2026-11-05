@@ -1,0 +1,77 @@
+# md.comp.time-input tokens
+
+- md.comp.time-input.container.color: → md.sys.color.surface-container-high
+- md.comp.time-input.container.elevation: → md.sys.elevation.level3
+- md.comp.time-input.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.time-input.focus.indicator.color: → md.sys.color.secondary
+- md.comp.time-input.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.time-input.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.time-input.headline.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.headline.font: → md.sys.typescale.label-medium.font
+- md.comp.time-input.headline.line-height: → md.sys.typescale.label-medium.line-height
+- md.comp.time-input.headline.size: → md.sys.typescale.label-medium.size
+- md.comp.time-input.headline.tracking: → md.sys.typescale.label-medium.tracking
+- md.comp.time-input.headline.type: composite(fontName=md.comp.time-input.headline.font, fontWeight=md.comp.time-input.headline.weight, fontSize=md.comp.time-input.headline.size, fontTracking=md.comp.time-input.headline.tracking, lineHeight=md.comp.time-input.headline.line-height)
+- md.comp.time-input.headline.weight: → md.sys.typescale.label-medium.weight
+- md.comp.time-input.period-selector.container.height: 72dp
+- md.comp.time-input.period-selector.container.shape: → md.sys.shape.corner.small
+- md.comp.time-input.period-selector.container.width: 52dp
+- md.comp.time-input.period-selector.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.time-input.period-selector.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.time-input.period-selector.label-text.font: → md.sys.typescale.title-medium.font
+- md.comp.time-input.period-selector.label-text.line-height: → md.sys.typescale.title-medium.line-height
+- md.comp.time-input.period-selector.label-text.size: → md.sys.typescale.title-medium.size
+- md.comp.time-input.period-selector.label-text.tracking: → md.sys.typescale.title-medium.tracking
+- md.comp.time-input.period-selector.label-text.type: composite(fontName=md.comp.time-input.period-selector.label-text.font, fontWeight=md.comp.time-input.period-selector.label-text.weight, fontSize=md.comp.time-input.period-selector.label-text.size, fontTracking=md.comp.time-input.period-selector.label-text.tracking, lineHeight=md.comp.time-input.period-selector.label-text.line-height)
+- md.comp.time-input.period-selector.label-text.weight: → md.sys.typescale.title-medium.weight
+- md.comp.time-input.period-selector.outline.color: → md.sys.color.outline
+- md.comp.time-input.period-selector.outline.width: 1dp
+- md.comp.time-input.period-selector.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.time-input.period-selector.selected.container.color: → md.sys.color.tertiary-container
+- md.comp.time-input.period-selector.selected.focus.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.focus.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.hover.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.hover.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.pressed.label-text.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.selected.pressed.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.time-input.period-selector.unselected.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.period-selector.unselected.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.time-input.time-input-field.container.color: → md.sys.color.surface-container-highest
+- md.comp.time-input.time-input-field.container.height: 72dp
+- md.comp.time-input.time-input-field.container.shape: → md.sys.shape.corner.small
+- md.comp.time-input.time-input-field.container.width: 96dp
+- md.comp.time-input.time-input-field.focus.container.color: → md.sys.color.primary-container
+- md.comp.time-input.time-input-field.focus.label-text.color: → md.sys.color.on-primary-container
+- md.comp.time-input.time-input-field.focus.outline.color: → md.sys.color.primary
+- md.comp.time-input.time-input-field.focus.outline.width: 2dp
+- md.comp.time-input.time-input-field.hover.label-text.color: → md.sys.color.on-surface
+- md.comp.time-input.time-input-field.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.time-input.time-input-field.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.time-input.time-input-field.label-text.color: → md.sys.color.on-surface
+- md.comp.time-input.time-input-field.label-text.font: → md.sys.typescale.display-medium.font
+- md.comp.time-input.time-input-field.label-text.line-height: → md.sys.typescale.display-medium.line-height
+- md.comp.time-input.time-input-field.label-text.size: → md.sys.typescale.display-medium.size
+- md.comp.time-input.time-input-field.label-text.tracking: → md.sys.typescale.display-medium.tracking
+- md.comp.time-input.time-input-field.label-text.type: composite(fontName=md.comp.time-input.time-input-field.label-text.font, fontWeight=md.comp.time-input.time-input-field.label-text.weight, fontSize=md.comp.time-input.time-input-field.label-text.size, fontTracking=md.comp.time-input.time-input-field.label-text.tracking, lineHeight=md.comp.time-input.time-input-field.label-text.line-height)
+- md.comp.time-input.time-input-field.label-text.weight: → md.sys.typescale.display-medium.weight
+- md.comp.time-input.time-input-field.separator.color: → md.sys.color.on-surface
+- md.comp.time-input.time-input-field.separator.font: → md.sys.typescale.display-large.font
+- md.comp.time-input.time-input-field.separator.line-height: → md.sys.typescale.display-large.line-height
+- md.comp.time-input.time-input-field.separator.size: → md.sys.typescale.display-large.size
+- md.comp.time-input.time-input-field.separator.tracking: → md.sys.typescale.display-large.tracking
+- md.comp.time-input.time-input-field.separator.type: composite(fontName=md.comp.time-input.time-input-field.separator.font, fontWeight=md.comp.time-input.time-input-field.separator.weight, fontSize=md.comp.time-input.time-input-field.separator.size, fontTracking=md.comp.time-input.time-input-field.separator.tracking, lineHeight=md.comp.time-input.time-input-field.separator.line-height)
+- md.comp.time-input.time-input-field.separator.weight: → md.sys.typescale.display-large.weight
+- md.comp.time-input.time-input-field.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.time-input.time-input-field.supporting-text.font: → md.sys.typescale.body-small.font
+- md.comp.time-input.time-input-field.supporting-text.line-height: → md.sys.typescale.body-small.line-height
+- md.comp.time-input.time-input-field.supporting-text.size: → md.sys.typescale.body-small.size
+- md.comp.time-input.time-input-field.supporting-text.tracking: → md.sys.typescale.body-small.tracking
+- md.comp.time-input.time-input-field.supporting-text.type: composite(fontName=md.comp.time-input.time-input-field.supporting-text.font, fontWeight=md.comp.time-input.time-input-field.supporting-text.weight, fontSize=md.comp.time-input.time-input-field.supporting-text.size, fontTracking=md.comp.time-input.time-input-field.supporting-text.tracking, lineHeight=md.comp.time-input.time-input-field.supporting-text.line-height)
+- md.comp.time-input.time-input-field.supporting-text.weight: → md.sys.typescale.body-small.weight

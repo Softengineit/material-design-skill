@@ -1,0 +1,108 @@
+# md.comp.toolbar tokens
+
+- md.comp.toolbar.docked.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.docked.container.height: 64dp
+- md.comp.toolbar.docked.container.leading-space: → md.sys.measurement.space200
+- md.comp.toolbar.docked.container.max-spacing: 32dp
+- md.comp.toolbar.docked.container.min-spacing: 4dp
+- md.comp.toolbar.docked.container.shape: → md.sys.shape.corner.none
+- md.comp.toolbar.docked.container.trailing-space: → md.sys.measurement.space200
+- md.comp.toolbar.floating.container.between-space: → md.sys.measurement.space50
+- md.comp.toolbar.floating.container.elevation: → md.sys.elevation.level3
+- md.comp.toolbar.floating.container.external-padding: 16dp
+- md.comp.toolbar.floating.container.height: 64dp
+- md.comp.toolbar.floating.container.leading-space: → md.sys.measurement.space100
+- md.comp.toolbar.floating.container.shape: → md.sys.shape.corner.full
+- md.comp.toolbar.floating.container.trailing-space: → md.sys.measurement.space100
+- md.comp.toolbar.floating.fab.between-space: → md.sys.measurement.space100
+- md.comp.toolbar.floating.fab.container.elevation: → md.sys.elevation.level1
+- md.comp.toolbar.floating.fab.container.height: 56dp
+- md.comp.toolbar.floating.fab.container.shape: → md.sys.shape.corner.large
+- md.comp.toolbar.floating.fab.container.width: 56dp
+- md.comp.toolbar.floating.fab.icon.size: 24dp
+- md.comp.toolbar.floating.fab.medium.container.elevation: → md.sys.elevation.level2
+- md.comp.toolbar.floating.fab.medium.container.height: 80dp
+- md.comp.toolbar.floating.fab.medium.container.shape: → md.sys.shape.corner.large-increased
+- md.comp.toolbar.floating.fab.medium.container.width: 80dp
+- md.comp.toolbar.floating.fab.medium.icon.size: 28dp
+- md.comp.toolbar.floating.fab.standard.container.color: → md.sys.color.secondary-container
+- md.comp.toolbar.floating.fab.standard.icon.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.floating.fab.vibrant.container.color: → md.sys.color.tertiary-container
+- md.comp.toolbar.floating.fab.vibrant.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.toolbar.floating.horizontal.container.external-space: → md.sys.measurement.space200
+- md.comp.toolbar.floating.horizontal.container.height: 64dp
+- md.comp.toolbar.floating.standard.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.floating.vertical.container.external-space: → md.sys.measurement.space300
+- md.comp.toolbar.floating.vertical.container.width: 64dp
+- md.comp.toolbar.floating.vibrant.button.selected.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.floating.vibrant.button.selected.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.floating.vibrant.button.selected.text.color: → md.sys.color.on-surface
+- md.comp.toolbar.floating.vibrant.button.unselected.icon.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.floating.vibrant.button.unselected.text.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.floating.vibrant.container.color: → md.sys.color.primary-container
+- md.comp.toolbar.standard.button.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.standard.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.standard.container.shape: → md.sys.shape.corner.full
+- md.comp.toolbar.standard.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.standard.disabled.icon.opacity: 0.38
+- md.comp.toolbar.standard.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.standard.disabled.label-text.opacity: 0.38
+- md.comp.toolbar.standard.focused.icon.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.focused.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.focused.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.toolbar.standard.hovered.icon.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.hovered.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.hovered.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.toolbar.standard.icon.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.pressed.icon.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.toolbar.standard.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.toolbar.standard.selected.button.container.color: → md.sys.color.secondary-container
+- md.comp.toolbar.standard.selected.focused.icon.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.focused.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.hovered.icon.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.hovered.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.icon.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.pressed.label-text.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.standard.selected.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.toolbar.vibrant.button.container.color: → md.sys.color.primary-container
+- md.comp.toolbar.vibrant.container.color: → md.sys.color.primary-container
+- md.comp.toolbar.vibrant.container.shape: → md.sys.shape.corner.full
+- md.comp.toolbar.vibrant.disabled.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.disabled.icon.opacity: 0.38
+- md.comp.toolbar.vibrant.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.disabled.label-text.opacity: 0.38
+- md.comp.toolbar.vibrant.focused.icon.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.focused.label-text.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.focused.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.toolbar.vibrant.hovered.icon.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.hovered.label-text.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.hovered.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.toolbar.vibrant.icon.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.label-text.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.pressed.icon.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.pressed.label-text.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.pressed.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.toolbar.vibrant.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.toolbar.vibrant.selected.button.container.color: → md.sys.color.surface-container
+- md.comp.toolbar.vibrant.selected.focused.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.focused.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.focused.state-layer.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.hovered.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.hovered.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.hovered.state-layer.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.pressed.icon.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.pressed.label-text.color: → md.sys.color.on-surface
+- md.comp.toolbar.vibrant.selected.pressed.state-layer.color: → md.sys.color.on-surface

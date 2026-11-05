@@ -1,0 +1,58 @@
+# md.comp.full-screen-dialog tokens
+
+- md.comp.full-screen-dialog.action-bar.container.color: → md.sys.color.surface
+- md.comp.full-screen-dialog.action-bar.container.elevation: → md.sys.elevation.level0
+- md.comp.full-screen-dialog.action-bar.container.height: 56dp
+- md.comp.full-screen-dialog.action-bar.focus.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.focus.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.full-screen-dialog.action-bar.hover.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.hover.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.full-screen-dialog.action-bar.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.full-screen-dialog.action-bar.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.full-screen-dialog.action-bar.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.full-screen-dialog.action-bar.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.full-screen-dialog.action-bar.label-text.type: composite(fontName=md.comp.full-screen-dialog.action-bar.label-text.font, fontWeight=md.comp.full-screen-dialog.action-bar.label-text.weight, fontSize=md.comp.full-screen-dialog.action-bar.label-text.size, fontTracking=md.comp.full-screen-dialog.action-bar.label-text.tracking, lineHeight=md.comp.full-screen-dialog.action-bar.label-text.line-height)
+- md.comp.full-screen-dialog.action-bar.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.full-screen-dialog.action-bar.on-scroll.container.elevation: → md.sys.elevation.level2
+- md.comp.full-screen-dialog.action-bar.pressed.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.action-bar.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.full-screen-dialog.container.color: → md.sys.color.surface
+- md.comp.full-screen-dialog.container.elevation: → md.sys.elevation.level0
+- md.comp.full-screen-dialog.container.shape: → md.sys.shape.corner.none
+- md.comp.full-screen-dialog.header.action.focus.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.focus.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.full-screen-dialog.header.action.hover.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.hover.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.full-screen-dialog.header.action.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.full-screen-dialog.header.action.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.full-screen-dialog.header.action.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.full-screen-dialog.header.action.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.full-screen-dialog.header.action.label-text.type: composite(fontName=md.comp.full-screen-dialog.header.action.label-text.font, fontWeight=md.comp.full-screen-dialog.header.action.label-text.weight, fontSize=md.comp.full-screen-dialog.header.action.label-text.size, fontTracking=md.comp.full-screen-dialog.header.action.label-text.tracking, lineHeight=md.comp.full-screen-dialog.header.action.label-text.line-height)
+- md.comp.full-screen-dialog.header.action.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.full-screen-dialog.header.action.pressed.label-text.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.full-screen-dialog.header.action.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.full-screen-dialog.header.container.color: → md.sys.color.surface
+- md.comp.full-screen-dialog.header.container.elevation: → md.sys.elevation.level0
+- md.comp.full-screen-dialog.header.container.height: 56dp
+- md.comp.full-screen-dialog.header.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.full-screen-dialog.header.headline.color: → md.sys.color.on-surface
+- md.comp.full-screen-dialog.header.headline.font: → md.sys.typescale.title-large.font
+- md.comp.full-screen-dialog.header.headline.line-height: → md.sys.typescale.title-large.line-height
+- md.comp.full-screen-dialog.header.headline.size: → md.sys.typescale.title-large.size
+- md.comp.full-screen-dialog.header.headline.tracking: → md.sys.typescale.title-large.tracking
+- md.comp.full-screen-dialog.header.headline.type: composite(fontName=md.comp.full-screen-dialog.header.headline.font, fontWeight=md.comp.full-screen-dialog.header.headline.weight, fontSize=md.comp.full-screen-dialog.header.headline.size, fontTracking=md.comp.full-screen-dialog.header.headline.tracking, lineHeight=md.comp.full-screen-dialog.header.headline.line-height)
+- md.comp.full-screen-dialog.header.headline.weight: → md.sys.typescale.title-large.weight
+- md.comp.full-screen-dialog.header.icon.color: → md.sys.color.on-surface
+- md.comp.full-screen-dialog.header.icon.size: 24dp
+- md.comp.full-screen-dialog.header.on-scroll.container.color: → md.sys.color.surface-container
+- md.comp.full-screen-dialog.header.on-scroll.container.elevation: → md.sys.elevation.level2
+- md.comp.full-screen-dialog.with-divider.divider.color: → md.sys.color.surface-variant
+- md.comp.full-screen-dialog.with-divider.divider.height: 1dp

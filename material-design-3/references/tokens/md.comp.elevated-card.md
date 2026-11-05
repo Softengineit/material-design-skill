@@ -1,0 +1,27 @@
+# md.comp.elevated-card tokens
+
+- md.comp.elevated-card.container.color: → md.sys.color.surface-container-low
+- md.comp.elevated-card.container.elevation: → md.sys.elevation.level1
+- md.comp.elevated-card.container.shadow-color: → md.sys.color.shadow
+- md.comp.elevated-card.container.shape: → md.sys.shape.corner.medium
+- md.comp.elevated-card.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.elevated-card.disabled.container.color: → md.sys.color.surface
+- md.comp.elevated-card.disabled.container.elevation: → md.sys.elevation.level1
+- md.comp.elevated-card.disabled.container.opacity: 0.38
+- md.comp.elevated-card.dragged.container.elevation: → md.sys.elevation.level4
+- md.comp.elevated-card.dragged.state-layer.color: → md.sys.color.on-surface
+- md.comp.elevated-card.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.elevated-card.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.elevated-card.focus.indicator.color: → md.sys.color.secondary
+- md.comp.elevated-card.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.elevated-card.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.elevated-card.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.elevated-card.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.elevated-card.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.elevated-card.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.elevated-card.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.elevated-card.icon.color: → md.sys.color.primary
+- md.comp.elevated-card.icon.size: 24dp
+- md.comp.elevated-card.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.elevated-card.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.elevated-card.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

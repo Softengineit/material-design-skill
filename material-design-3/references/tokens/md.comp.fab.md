@@ -1,0 +1,442 @@
+# md.comp.fab tokens
+
+- md.comp.fab.branded.container.color: → md.sys.color.surface-container-high
+- md.comp.fab.branded.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.container.height: 56dp
+- md.comp.fab.branded.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.branded.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.branded.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.fab.branded.container.width: 56dp
+- md.comp.fab.branded.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.branded.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.branded.focus.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.branded.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.branded.hover.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.branded.icon.size: 36dp
+- md.comp.fab.branded.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.branded.large.container.color: → md.sys.color.surface-container-high
+- md.comp.fab.branded.large.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.large.container.height: 96dp
+- md.comp.fab.branded.large.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.branded.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.branded.large.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.fab.branded.large.container.width: 96dp
+- md.comp.fab.branded.large.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.large.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.branded.large.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.branded.large.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.branded.large.focus.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.large.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.branded.large.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.branded.large.hover.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.large.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.branded.large.icon.color: → md.sys.color.on-secondary
+- md.comp.fab.branded.large.icon.size: 48dp
+- md.comp.fab.branded.large.lowered.container.color: → md.sys.color.surface-container-low
+- md.comp.fab.branded.large.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.large.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.large.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.branded.large.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.large.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.large.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.large.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.branded.lowered.container.color: → md.sys.color.surface-container-low
+- md.comp.fab.branded.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.branded.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.branded.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.branded.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.fab.branded.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.container.height: 56dp
+- md.comp.fab.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.container.width: 56dp
+- md.comp.fab.icon.size: 24dp
+- md.comp.fab.large.container.height: 96dp
+- md.comp.fab.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.large.container.width: 96dp
+- md.comp.fab.large.icon.size: 36dp
+- md.comp.fab.medium.container.height: 80dp
+- md.comp.fab.medium.container.shape: → md.sys.shape.corner.large-increased
+- md.comp.fab.medium.container.width: 80dp
+- md.comp.fab.medium.icon.size: 28dp
+- md.comp.fab.primary-container.container.color: → md.sys.color.primary-container
+- md.comp.fab.primary-container.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary-container.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.primary-container.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary-container.focused.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.focused.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.primary-container.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.primary-container.hovered.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.hovered.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.primary-container.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary-container.pressed.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.pressed.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary-container.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.primary.container.color: → md.sys.color.primary
+- md.comp.fab.primary.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.container.height: 56dp
+- md.comp.fab.primary.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.primary.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.primary.container.width: 56dp
+- md.comp.fab.primary.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.focus.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.primary.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.primary.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.primary.focus.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.primary.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.focused.icon.color: → md.sys.color.on-primary
+- md.comp.fab.primary.focused.state-layer.color: → md.sys.color.on-primary
+- md.comp.fab.primary.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.primary.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.primary.hover.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.hover.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.primary.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.primary.hovered.icon.color: → md.sys.color.on-primary
+- md.comp.fab.primary.hovered.state-layer.color: → md.sys.color.on-primary
+- md.comp.fab.primary.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.primary.icon.color: → md.sys.color.on-primary
+- md.comp.fab.primary.icon.size: 24dp
+- md.comp.fab.primary.large.container.color: → md.sys.color.primary-container
+- md.comp.fab.primary.large.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.large.container.height: 96dp
+- md.comp.fab.primary.large.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.primary.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.primary.large.container.width: 96dp
+- md.comp.fab.primary.large.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.large.focus.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.primary.large.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.primary.large.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.primary.large.focus.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.primary.large.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.primary.large.hover.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.hover.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.primary.large.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.icon.size: 36dp
+- md.comp.fab.primary.large.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.large.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.large.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.primary.large.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.large.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.large.pressed.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.pressed.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.large.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.primary.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.primary.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.pressed.icon.color: → md.sys.color.on-primary
+- md.comp.fab.primary.pressed.state-layer.color: → md.sys.color.on-primary
+- md.comp.fab.primary.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.primary.small.container.color: → md.sys.color.primary-container
+- md.comp.fab.primary.small.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.small.container.height: 40dp
+- md.comp.fab.primary.small.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.primary.small.container.shape: → md.sys.shape.corner.medium
+- md.comp.fab.primary.small.container.width: 40dp
+- md.comp.fab.primary.small.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.small.focus.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.primary.small.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.primary.small.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.primary.small.focus.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.primary.small.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.primary.small.hover.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.hover.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.primary.small.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.icon.size: 24dp
+- md.comp.fab.primary.small.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.small.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.small.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.primary.small.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.primary.small.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.primary.small.pressed.icon.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.pressed.state-layer.color: → md.sys.color.on-primary-container
+- md.comp.fab.primary.small.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.secondary-container.container.color: → md.sys.color.secondary-container
+- md.comp.fab.secondary-container.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary-container.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.secondary-container.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary-container.focused.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.secondary-container.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.secondary-container.hovered.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.secondary-container.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary-container.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary-container.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.secondary.container.color: → md.sys.color.secondary
+- md.comp.fab.secondary.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.container.height: 56dp
+- md.comp.fab.secondary.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.secondary.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.secondary.container.width: 56dp
+- md.comp.fab.secondary.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.secondary.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.secondary.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.secondary.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.secondary.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.focused.icon.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.focused.state-layer.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.secondary.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.secondary.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.secondary.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.secondary.hovered.icon.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.hovered.state-layer.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.secondary.icon.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.icon.size: 24dp
+- md.comp.fab.secondary.large.container.color: → md.sys.color.secondary-container
+- md.comp.fab.secondary.large.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.large.container.height: 96dp
+- md.comp.fab.secondary.large.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.secondary.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.secondary.large.container.width: 96dp
+- md.comp.fab.secondary.large.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.large.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.secondary.large.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.secondary.large.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.secondary.large.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.secondary.large.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.secondary.large.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.secondary.large.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.icon.size: 36dp
+- md.comp.fab.secondary.large.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.large.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.large.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.secondary.large.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.large.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.large.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.large.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.secondary.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.secondary.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.pressed.icon.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.pressed.state-layer.color: → md.sys.color.on-secondary
+- md.comp.fab.secondary.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.secondary.small.container.color: → md.sys.color.secondary-container
+- md.comp.fab.secondary.small.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.small.container.height: 40dp
+- md.comp.fab.secondary.small.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.secondary.small.container.shape: → md.sys.shape.corner.medium
+- md.comp.fab.secondary.small.container.width: 40dp
+- md.comp.fab.secondary.small.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.small.focus.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.secondary.small.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.secondary.small.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.secondary.small.focus.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.secondary.small.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.secondary.small.hover.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.hover.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.secondary.small.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.icon.size: 24dp
+- md.comp.fab.secondary.small.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.small.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.small.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.secondary.small.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.secondary.small.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.secondary.small.pressed.icon.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.fab.secondary.small.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.small.container.height: 40dp
+- md.comp.fab.small.container.shape: → md.sys.shape.corner.medium
+- md.comp.fab.small.container.width: 40dp
+- md.comp.fab.small.icon.size: 24dp
+- md.comp.fab.surface.container.color: → md.sys.color.surface-container-high
+- md.comp.fab.surface.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.container.height: 56dp
+- md.comp.fab.surface.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.surface.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.surface.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.fab.surface.container.width: 56dp
+- md.comp.fab.surface.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.focus.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.surface.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.surface.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.surface.focus.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.surface.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.surface.hover.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.hover.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.surface.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.icon.size: 24dp
+- md.comp.fab.surface.large.container.color: → md.sys.color.surface-container-high
+- md.comp.fab.surface.large.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.large.container.height: 96dp
+- md.comp.fab.surface.large.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.surface.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.surface.large.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.fab.surface.large.container.width: 96dp
+- md.comp.fab.surface.large.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.large.focus.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.large.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.surface.large.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.surface.large.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.surface.large.focus.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.large.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.surface.large.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.surface.large.hover.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.large.hover.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.large.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.surface.large.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.large.icon.size: 36dp
+- md.comp.fab.surface.large.lowered.container.color: → md.sys.color.surface-container-low
+- md.comp.fab.surface.large.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.large.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.large.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.surface.large.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.large.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.large.pressed.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.large.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.large.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.surface.lowered.container.color: → md.sys.color.surface-container-low
+- md.comp.fab.surface.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.surface.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.surface.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.surface.pressed.icon.color: → md.sys.color.primary
+- md.comp.fab.surface.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.fab.surface.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.tertiary-container.container.color: → md.sys.color.tertiary-container
+- md.comp.fab.tertiary-container.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary-container.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.tertiary-container.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary-container.focused.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.focused.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.tertiary-container.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.tertiary-container.hovered.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.hovered.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.tertiary-container.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary-container.pressed.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.pressed.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary-container.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.tertiary.container.color: → md.sys.color.tertiary
+- md.comp.fab.tertiary.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.container.height: 56dp
+- md.comp.fab.tertiary.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.tertiary.container.shape: → md.sys.shape.corner.large
+- md.comp.fab.tertiary.container.width: 56dp
+- md.comp.fab.tertiary.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.focus.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.tertiary.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.tertiary.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.tertiary.focus.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.tertiary.focused.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.focused.icon.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.focused.state-layer.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.tertiary.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.tertiary.hover.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.hover.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.tertiary.hovered.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.tertiary.hovered.icon.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.hovered.state-layer.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.tertiary.icon.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.icon.size: 24dp
+- md.comp.fab.tertiary.large.container.color: → md.sys.color.tertiary-container
+- md.comp.fab.tertiary.large.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.large.container.height: 96dp
+- md.comp.fab.tertiary.large.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.tertiary.large.container.shape: → md.sys.shape.corner.extra-large
+- md.comp.fab.tertiary.large.container.width: 96dp
+- md.comp.fab.tertiary.large.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.large.focus.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.tertiary.large.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.tertiary.large.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.tertiary.large.focus.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.tertiary.large.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.tertiary.large.hover.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.hover.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.tertiary.large.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.icon.size: 36dp
+- md.comp.fab.tertiary.large.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.large.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.large.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.tertiary.large.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.large.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.large.pressed.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.pressed.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.large.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.tertiary.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.tertiary.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.pressed.icon.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.pressed.state-layer.color: → md.sys.color.on-tertiary
+- md.comp.fab.tertiary.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.fab.tertiary.small.container.color: → md.sys.color.tertiary-container
+- md.comp.fab.tertiary.small.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.small.container.height: 40dp
+- md.comp.fab.tertiary.small.container.shadow-color: → md.sys.color.shadow
+- md.comp.fab.tertiary.small.container.shape: → md.sys.shape.corner.medium
+- md.comp.fab.tertiary.small.container.width: 40dp
+- md.comp.fab.tertiary.small.focus.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.small.focus.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.focus.indicator.color: → md.sys.color.secondary
+- md.comp.fab.tertiary.small.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.fab.tertiary.small.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.fab.tertiary.small.focus.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.fab.tertiary.small.hover.container.elevation: → md.sys.elevation.level4
+- md.comp.fab.tertiary.small.hover.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.hover.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.fab.tertiary.small.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.icon.size: 24dp
+- md.comp.fab.tertiary.small.lowered.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.small.lowered.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.small.lowered.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.fab.tertiary.small.lowered.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.fab.tertiary.small.pressed.container.elevation: → md.sys.elevation.level3
+- md.comp.fab.tertiary.small.pressed.icon.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.pressed.state-layer.color: → md.sys.color.on-tertiary-container
+- md.comp.fab.tertiary.small.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

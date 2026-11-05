@@ -1,0 +1,55 @@
+# md.comp.nav-rail tokens
+
+- md.comp.nav-rail.collapsed.container.color: → md.sys.color.surface
+- md.comp.nav-rail.collapsed.container.elevation: → md.sys.elevation.level0
+- md.comp.nav-rail.collapsed.container.shape: → md.sys.shape.corner.none
+- md.comp.nav-rail.collapsed.container.width: 96dp
+- md.comp.nav-rail.collapsed.item.vertical-space: → md.sys.measurement.space50
+- md.comp.nav-rail.collapsed.narrow.container.width: 80dp
+- md.comp.nav-rail.collapsed.top-space: 44dp
+- md.comp.nav-rail.expanded.between-item-space: 0dp
+- md.comp.nav-rail.expanded.container.color: → md.sys.color.surface
+- md.comp.nav-rail.expanded.container.elevation: → md.sys.elevation.level0
+- md.comp.nav-rail.expanded.container.shape: → md.sys.shape.corner.none
+- md.comp.nav-rail.expanded.container.width.maximum: 360dp
+- md.comp.nav-rail.expanded.container.width.minimum: 220dp
+- md.comp.nav-rail.expanded.modal.container.color: → md.sys.color.surface-container
+- md.comp.nav-rail.expanded.modal.container.elevation: → md.sys.elevation.level2
+- md.comp.nav-rail.expanded.modal.container.shape: → md.sys.shape.corner.large
+- md.comp.nav-rail.expanded.top-space: 44dp
+- md.comp.nav-rail.expanded.vertical.trailing-space: 20dp
+- md.comp.nav-rail.item.active-indicator.icon-label-space: → md.sys.measurement.space100
+- md.comp.nav-rail.item.active-indicator.leading-space: → md.sys.measurement.space200
+- md.comp.nav-rail.item.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.nav-rail.item.active-indicator.trailing-space: → md.sys.measurement.space200
+- md.comp.nav-rail.item.active.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.active.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.nav-rail.item.active.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.active.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.nav-rail.item.active.icon.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.active.indicator.color: → md.sys.color.secondary-container
+- md.comp.nav-rail.item.active.label-text.color: → md.sys.color.secondary
+- md.comp.nav-rail.item.active.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.active.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.nav-rail.item.container.height: 64dp
+- md.comp.nav-rail.item.container.shape: → md.sys.shape.corner.none
+- md.comp.nav-rail.item.container.vertical-space: → md.sys.measurement.space75
+- md.comp.nav-rail.item.header-space-minimum: → md.sys.measurement.space500
+- md.comp.nav-rail.item.horizontal.active-indicator.height: 56dp
+- md.comp.nav-rail.item.horizontal.full-width.leading-space: → md.sys.measurement.space200
+- md.comp.nav-rail.item.horizontal.full-width.trailing-space: → md.sys.measurement.space200
+- md.comp.nav-rail.item.horizontal.icon-label-space: → md.sys.measurement.space100
+- md.comp.nav-rail.item.horizontal.label-text.font: → md.sys.typescale.label-large
+- md.comp.nav-rail.item.icon.size: 24dp
+- md.comp.nav-rail.item.inactive.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.inactive.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.inactive.icon.color: → md.sys.color.on-surface-variant
+- md.comp.nav-rail.item.inactive.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.nav-rail.item.inactive.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-rail.item.short.container.height: 56dp
+- md.comp.nav-rail.item.vertical.active-indicator.height: 32dp
+- md.comp.nav-rail.item.vertical.active-indicator.width: 56dp
+- md.comp.nav-rail.item.vertical.icon-label-space: → md.sys.measurement.space50
+- md.comp.nav-rail.item.vertical.label-text.font: → md.sys.typescale.label-medium
+- md.comp.nav-rail.item.vertical.leading-space: → md.sys.measurement.space200
+- md.comp.nav-rail.item.vertical.trailing-space: → md.sys.measurement.space200

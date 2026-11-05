@@ -1,0 +1,33 @@
+# md.comp.outlined-card tokens
+
+- md.comp.outlined-card.container.color: → md.sys.color.surface
+- md.comp.outlined-card.container.elevation: → md.sys.elevation.level0
+- md.comp.outlined-card.container.shadow-color: → md.sys.color.shadow
+- md.comp.outlined-card.container.shape: → md.sys.shape.corner.medium
+- md.comp.outlined-card.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.outlined-card.disabled.container.elevation: → md.sys.elevation.level0
+- md.comp.outlined-card.disabled.outline.color: → md.sys.color.outline
+- md.comp.outlined-card.disabled.outline.opacity: 0.12
+- md.comp.outlined-card.dragged.container.elevation: → md.sys.elevation.level3
+- md.comp.outlined-card.dragged.outline.color: → md.sys.color.outline-variant
+- md.comp.outlined-card.dragged.state-layer.color: → md.sys.color.on-surface
+- md.comp.outlined-card.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.outlined-card.focus.container.elevation: → md.sys.elevation.level0
+- md.comp.outlined-card.focus.indicator.color: → md.sys.color.secondary
+- md.comp.outlined-card.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.outlined-card.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.outlined-card.focus.outline.color: → md.sys.color.on-surface
+- md.comp.outlined-card.focus.state-layer.color: → md.sys.color.on-surface
+- md.comp.outlined-card.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.outlined-card.hover.container.elevation: → md.sys.elevation.level1
+- md.comp.outlined-card.hover.outline.color: → md.sys.color.outline-variant
+- md.comp.outlined-card.hover.state-layer.color: → md.sys.color.on-surface
+- md.comp.outlined-card.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.outlined-card.icon.color: → md.sys.color.primary
+- md.comp.outlined-card.icon.size: 24dp
+- md.comp.outlined-card.outline.color: → md.sys.color.outline-variant
+- md.comp.outlined-card.outline.width: 1dp
+- md.comp.outlined-card.pressed.container.elevation: → md.sys.elevation.level0
+- md.comp.outlined-card.pressed.outline.color: → md.sys.color.outline-variant
+- md.comp.outlined-card.pressed.state-layer.color: → md.sys.color.on-surface
+- md.comp.outlined-card.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity

@@ -1,0 +1,37 @@
+# md.comp.rich-tooltip tokens
+
+- md.comp.rich-tooltip.action.focus.label-text.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.focus.state-layer.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.rich-tooltip.action.hover.label-text.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.hover.state-layer.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.rich-tooltip.action.label-text.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.rich-tooltip.action.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.rich-tooltip.action.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.rich-tooltip.action.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.rich-tooltip.action.label-text.type: composite(fontName=md.comp.rich-tooltip.action.label-text.font, fontWeight=md.comp.rich-tooltip.action.label-text.weight, fontSize=md.comp.rich-tooltip.action.label-text.size, fontTracking=md.comp.rich-tooltip.action.label-text.tracking, lineHeight=md.comp.rich-tooltip.action.label-text.line-height)
+- md.comp.rich-tooltip.action.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.rich-tooltip.action.pressed.label-text.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.pressed.state-layer.color: → md.sys.color.primary
+- md.comp.rich-tooltip.action.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.rich-tooltip.container.color: → md.sys.color.surface-container
+- md.comp.rich-tooltip.container.elevation: → md.sys.elevation.level2
+- md.comp.rich-tooltip.container.shadow-color: → md.sys.color.shadow
+- md.comp.rich-tooltip.container.shape: → md.sys.shape.corner.medium
+- md.comp.rich-tooltip.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.rich-tooltip.subhead.color: → md.sys.color.on-surface-variant
+- md.comp.rich-tooltip.subhead.font: → md.sys.typescale.title-small.font
+- md.comp.rich-tooltip.subhead.line-height: → md.sys.typescale.title-small.line-height
+- md.comp.rich-tooltip.subhead.size: → md.sys.typescale.title-small.size
+- md.comp.rich-tooltip.subhead.tracking: → md.sys.typescale.title-small.tracking
+- md.comp.rich-tooltip.subhead.type: composite(fontName=md.comp.rich-tooltip.subhead.font, fontWeight=md.comp.rich-tooltip.subhead.weight, fontSize=md.comp.rich-tooltip.subhead.size, fontTracking=md.comp.rich-tooltip.subhead.tracking, lineHeight=md.comp.rich-tooltip.subhead.line-height)
+- md.comp.rich-tooltip.subhead.weight: → md.sys.typescale.title-small.weight
+- md.comp.rich-tooltip.supporting-text.color: → md.sys.color.on-surface-variant
+- md.comp.rich-tooltip.supporting-text.font: → md.sys.typescale.body-medium.font
+- md.comp.rich-tooltip.supporting-text.line-height: → md.sys.typescale.body-medium.line-height
+- md.comp.rich-tooltip.supporting-text.size: → md.sys.typescale.body-medium.size
+- md.comp.rich-tooltip.supporting-text.tracking: → md.sys.typescale.body-medium.tracking
+- md.comp.rich-tooltip.supporting-text.type: composite(fontName=md.comp.rich-tooltip.supporting-text.font, fontWeight=md.comp.rich-tooltip.supporting-text.weight, fontSize=md.comp.rich-tooltip.supporting-text.size, fontTracking=md.comp.rich-tooltip.supporting-text.tracking, lineHeight=md.comp.rich-tooltip.supporting-text.line-height)
+- md.comp.rich-tooltip.supporting-text.weight: → md.sys.typescale.body-medium.weight

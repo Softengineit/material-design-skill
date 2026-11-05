@@ -1,0 +1,35 @@
+# md.comp.nav-bar tokens
+
+- md.comp.nav-bar.container.color: → md.sys.color.surface-container
+- md.comp.nav-bar.container.elevation: → md.sys.elevation.level2
+- md.comp.nav-bar.container.height: 64dp
+- md.comp.nav-bar.container.shadow-color: → md.sys.color.shadow
+- md.comp.nav-bar.container.shape: → md.sys.shape.corner.none
+- md.comp.nav-bar.item.active-indicator.icon-label-space: 4dp
+- md.comp.nav-bar.item.active-indicator.shape: → md.sys.shape.corner.full
+- md.comp.nav-bar.item.active.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.active.focused.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.nav-bar.item.active.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.active.hovered.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.nav-bar.item.active.icon.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.active.indicator.color: → md.sys.color.secondary-container
+- md.comp.nav-bar.item.active.label-text.color: → md.sys.color.secondary
+- md.comp.nav-bar.item.active.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.active.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.nav-bar.item.between-space: → md.sys.measurement.space0
+- md.comp.nav-bar.item.horizontal.active-indicator.height: 40dp
+- md.comp.nav-bar.item.horizontal.active-indicator.icon-label-space: → md.sys.measurement.space50
+- md.comp.nav-bar.item.horizontal.active-indicator.leading-space: → md.sys.measurement.space200
+- md.comp.nav-bar.item.horizontal.active-indicator.trailing-space: → md.sys.measurement.space200
+- md.comp.nav-bar.item.horizontal.label-text.font: → md.sys.typescale.label-medium
+- md.comp.nav-bar.item.icon.size: 24dp
+- md.comp.nav-bar.item.inactive.focused.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.inactive.hovered.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.inactive.icon.color: → md.sys.color.on-surface-variant
+- md.comp.nav-bar.item.inactive.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.nav-bar.item.inactive.pressed.state-layer.color: → md.sys.color.on-secondary-container
+- md.comp.nav-bar.item.vertical.active-indicator.height: 32dp
+- md.comp.nav-bar.item.vertical.active-indicator.icon-label-space: → md.sys.measurement.space50
+- md.comp.nav-bar.item.vertical.active-indicator.width: 56dp
+- md.comp.nav-bar.item.vertical.container.between-space: → md.sys.measurement.space75
+- md.comp.nav-bar.item.vertical.label-text.font: → md.sys.typescale.label-medium

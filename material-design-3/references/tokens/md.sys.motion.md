@@ -1,0 +1,71 @@
+# md.sys.motion tokens
+
+- md.sys.motion.duration.extra-long1: {"durationMs": 700}
+- md.sys.motion.duration.extra-long2: {"durationMs": 800}
+- md.sys.motion.duration.extra-long3: {"durationMs": 900}
+- md.sys.motion.duration.extra-long4: {"durationMs": 1000}
+- md.sys.motion.duration.long1: {"durationMs": 450}
+- md.sys.motion.duration.long2: {"durationMs": 500}
+- md.sys.motion.duration.long3: {"durationMs": 550}
+- md.sys.motion.duration.long4: {"durationMs": 600}
+- md.sys.motion.duration.medium1: {"durationMs": 250}
+- md.sys.motion.duration.medium2: {"durationMs": 300}
+- md.sys.motion.duration.medium3: {"durationMs": 350}
+- md.sys.motion.duration.medium4: {"durationMs": 400}
+- md.sys.motion.duration.short1: {"durationMs": 50}
+- md.sys.motion.duration.short2: {"durationMs": 100}
+- md.sys.motion.duration.short3: {"durationMs": 150}
+- md.sys.motion.duration.short4: {"durationMs": 200}
+- md.sys.motion.easing.emphasized: → md.sys.motion.easing.standard
+- md.sys.motion.easing.emphasized.accelerate: {"cubicBezier": {"x0": 0.3, "x1": 0.8, "y1": 0.15}}
+- md.sys.motion.easing.emphasized.decelerate: {"cubicBezier": {"x0": 0.05, "y0": 0.7, "x1": 0.1, "y1": 1}}
+- md.sys.motion.easing.legacy: {"cubicBezier": {"x0": 0.4, "x1": 0.2, "y1": 1}}
+- md.sys.motion.easing.legacy.accelerate: {"cubicBezier": {"x0": 0.4, "x1": 1, "y1": 1}}
+- md.sys.motion.easing.legacy.decelerate: {"cubicBezier": {"x1": 0.2, "y1": 1}}
+- md.sys.motion.easing.linear: {"cubicBezier": {"x1": 1, "y1": 1}}
+- md.sys.motion.easing.standard: {"cubicBezier": {"x0": 0.2, "y1": 1}}
+- md.sys.motion.easing.standard.accelerate: {"cubicBezier": {"x0": 0.3, "x1": 1, "y1": 1}}
+- md.sys.motion.easing.standard.decelerate: {"cubicBezier": {"y1": 1}}
+- md.sys.motion.path: {"motionPath": {"standardPath": "LINEAR"}}
+- md.sys.motion.spring.default.effects: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.default.effects.damping"}, "stiffness
+- md.sys.motion.spring.default.effects.damping:
+    - 1  [Motion scheme: Expressive]
+    - 1  [Motion scheme: Standard]
+- md.sys.motion.spring.default.effects.stiffness:
+    - 1600  [Motion scheme: Expressive]
+    - 1600  [Motion scheme: Standard]
+- md.sys.motion.spring.default.spatial: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.default.spatial.damping"}, "stiffness
+- md.sys.motion.spring.default.spatial.damping:
+    - 0.8  [Motion scheme: Expressive]
+    - 0.9  [Motion scheme: Standard]
+- md.sys.motion.spring.default.spatial.stiffness:
+    - 380  [Motion scheme: Expressive]
+    - 700  [Motion scheme: Standard]
+- md.sys.motion.spring.fast.effects: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.fast.effects.damping"}, "stiffness": 
+- md.sys.motion.spring.fast.effects.damping:
+    - 1  [Motion scheme: Expressive]
+    - 1  [Motion scheme: Standard]
+- md.sys.motion.spring.fast.effects.stiffness:
+    - 3800  [Motion scheme: Expressive]
+    - 3800  [Motion scheme: Standard]
+- md.sys.motion.spring.fast.spatial: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.fast.spatial.damping"}, "stiffness": 
+- md.sys.motion.spring.fast.spatial.damping:
+    - 0.6  [Motion scheme: Expressive]
+    - 0.9  [Motion scheme: Standard]
+- md.sys.motion.spring.fast.spatial.stiffness:
+    - 800  [Motion scheme: Expressive]
+    - 1400  [Motion scheme: Standard]
+- md.sys.motion.spring.slow.effects: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.slow.effects.damping"}, "stiffness": 
+- md.sys.motion.spring.slow.effects.damping:
+    - 1  [Motion scheme: Expressive]
+    - 1  [Motion scheme: Standard]
+- md.sys.motion.spring.slow.effects.stiffness:
+    - 800  [Motion scheme: Expressive]
+    - 800  [Motion scheme: Standard]
+- md.sys.motion.spring.slow.spatial: {"customComposite": {"properties": {"damping": {"tokenName": "md.sys.motion.spring.slow.spatial.damping"}, "stiffness": 
+- md.sys.motion.spring.slow.spatial.damping:
+    - 0.8  [Motion scheme: Expressive]
+    - 0.9  [Motion scheme: Standard]
+- md.sys.motion.spring.slow.spatial.stiffness:
+    - 200  [Motion scheme: Expressive]
+    - 300  [Motion scheme: Standard]

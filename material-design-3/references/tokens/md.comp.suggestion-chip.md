@@ -1,0 +1,53 @@
+# md.comp.suggestion-chip tokens
+
+- md.comp.suggestion-chip.container.height: 32dp
+- md.comp.suggestion-chip.container.shape: → md.sys.shape.corner.small
+- md.comp.suggestion-chip.container.surface-tint-layer.color: → md.sys.color.surface-tint
+- md.comp.suggestion-chip.disabled.label-text.color: → md.sys.color.on-surface
+- md.comp.suggestion-chip.disabled.label-text.opacity: 0.38
+- md.comp.suggestion-chip.dragged.container.elevation: → md.sys.elevation.level4
+- md.comp.suggestion-chip.dragged.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.dragged.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.dragged.state-layer.opacity: → md.sys.state.dragged.state-layer-opacity
+- md.comp.suggestion-chip.elevated.container.color: → md.sys.color.surface-container-low
+- md.comp.suggestion-chip.elevated.container.elevation: → md.sys.elevation.level1
+- md.comp.suggestion-chip.elevated.container.shadow-color: → md.sys.color.shadow
+- md.comp.suggestion-chip.elevated.disabled.container.color: → md.sys.color.on-surface
+- md.comp.suggestion-chip.elevated.disabled.container.elevation: → md.sys.elevation.level0
+- md.comp.suggestion-chip.elevated.disabled.container.opacity: 0.12
+- md.comp.suggestion-chip.elevated.focus.container.elevation: → md.sys.elevation.level1
+- md.comp.suggestion-chip.elevated.hover.container.elevation: → md.sys.elevation.level2
+- md.comp.suggestion-chip.elevated.pressed.container.elevation: → md.sys.elevation.level1
+- md.comp.suggestion-chip.flat.container.elevation: → md.sys.elevation.level0
+- md.comp.suggestion-chip.flat.disabled.outline.color: → md.sys.color.on-surface
+- md.comp.suggestion-chip.flat.disabled.outline.opacity: 0.12
+- md.comp.suggestion-chip.flat.focus.outline.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.flat.outline.color: → md.sys.color.outline-variant
+- md.comp.suggestion-chip.flat.outline.width: 1dp
+- md.comp.suggestion-chip.focus.indicator.color: → md.sys.color.secondary
+- md.comp.suggestion-chip.focus.indicator.outline.offset: → md.sys.state.focus-indicator.outer-offset
+- md.comp.suggestion-chip.focus.indicator.thickness: → md.sys.state.focus-indicator.thickness
+- md.comp.suggestion-chip.focus.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.focus.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.focus.state-layer.opacity: → md.sys.state.focus.state-layer-opacity
+- md.comp.suggestion-chip.hover.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.hover.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.hover.state-layer.opacity: → md.sys.state.hover.state-layer-opacity
+- md.comp.suggestion-chip.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.label-text.font: → md.sys.typescale.label-large.font
+- md.comp.suggestion-chip.label-text.line-height: → md.sys.typescale.label-large.line-height
+- md.comp.suggestion-chip.label-text.size: → md.sys.typescale.label-large.size
+- md.comp.suggestion-chip.label-text.tracking: → md.sys.typescale.label-large.tracking
+- md.comp.suggestion-chip.label-text.type: composite(fontName=md.comp.suggestion-chip.label-text.font, fontWeight=md.comp.suggestion-chip.label-text.weight, fontSize=md.comp.suggestion-chip.label-text.size, fontTracking=md.comp.suggestion-chip.label-text.tracking, lineHeight=md.comp.suggestion-chip.label-text.line-height)
+- md.comp.suggestion-chip.label-text.weight: → md.sys.typescale.label-large.weight
+- md.comp.suggestion-chip.pressed.label-text.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.pressed.state-layer.color: → md.sys.color.on-surface-variant
+- md.comp.suggestion-chip.pressed.state-layer.opacity: → md.sys.state.pressed.state-layer-opacity
+- md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.color: → md.sys.color.on-surface
+- md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.opacity: 0.38
+- md.comp.suggestion-chip.with-leading-icon.dragged.leading-icon.color: → md.sys.color.primary
+- md.comp.suggestion-chip.with-leading-icon.focus.leading-icon.color: → md.sys.color.primary
+- md.comp.suggestion-chip.with-leading-icon.hover.leading-icon.color: → md.sys.color.primary
+- md.comp.suggestion-chip.with-leading-icon.leading-icon.color: → md.sys.color.primary
+- md.comp.suggestion-chip.with-leading-icon.leading-icon.size: 18dp
+- md.comp.suggestion-chip.with-leading-icon.pressed.leading-icon.color: → md.sys.color.primary
