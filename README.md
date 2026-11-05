@@ -1,6 +1,6 @@
 # material-design-3 skill for Claude
 
-A skill that lets Claude write front-end code following Google's Material Design 3 guidelines (including the 2025 Material 3 Expressive update) in any web language or framework: plain HTML/CSS/JS, React, Vue, Angular, Svelte, Solid, Web Components, Lit, Tailwind, Flutter web, server-rendered templates.
+A skill that lets Claude write production-grade front-end code following Google's Material Design 3 guidelines (including the 2025 Material 3 Expressive update) in any web language or framework: plain HTML/CSS/JS, React, Vue, Angular, Svelte, Solid, Web Components, Lit, Tailwind, Flutter web, server-rendered templates. Beyond the visual rules it carries the engineering layer a senior reviewer expects: reusable component architecture, layouts, performance budgets, head metadata, JSON-LD, semantic HTML and a delivery checklist, so a junior developer gets a result that passes review.
 
 It was built by reading all 91 pages of https://m3.material.io (foundations, styles, components, develop) and the design-system token data behind them (6 400 tokens, version 38.2.9), then condensing the rules into reference files Claude reads on demand.
 
@@ -13,6 +13,7 @@ material-design-3/
     components/                one file per component (36) plus _overview.md (need -> component)
     styles/                    color, typography, shape, elevation, motion, icons, spacing
     foundations/               layout, interaction-states, accessibility, design-tokens, content-design
+    engineering/               architecture, performance, metadata, structured-data, semantic-html, quality
     frameworks.md              how to apply the tokens in each framework
     tokens/                    the full token lists: md.ref.*, md.sys.*, md.comp.* (83 files)
   assets/
