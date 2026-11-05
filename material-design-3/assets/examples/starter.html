@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Head order: charset, viewport, title and description, preconnect, fonts, tokens, page CSS. See references/engineering/metadata.md -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Material 3 starter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Material 3 starter - Example app</title>
+  <meta name="description" content="A complete Material Design 3 page built with plain HTML and CSS: app bar, navigation, cards, buttons, text field, dialog and snackbar, light and dark.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fef7ff">
+  <meta name="theme-color" content="#141218" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%236750a4'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+  <!-- Material Symbols: load only the icons the page uses (icon_names=, alphabetical), never the whole font -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0..1,0&icon_names=add,check,dark_mode,edit,home,light_mode,menu,more_vert,search,settings&display=swap" rel="stylesheet">
   <!-- 1. Tokens first (copy ../material-tokens.css next to this file) -->
   <link rel="stylesheet" href="../material-tokens.css">
   <style>
@@ -38,6 +47,9 @@
     .state-layer:active::before { opacity: var(--md-sys-state-pressed-state-layer-opacity); }
     /* Focus indicator: 3px ring, 2px outside the element */
     :focus-visible { outline: var(--md-sys-state-focus-indicator-thickness) solid var(--md-sys-color-secondary); outline-offset: var(--md-sys-state-focus-indicator-outer-offset); }
+
+    .skip-link { position: absolute; left: 16px; top: -48px; z-index: 10; padding: 8px 16px; border-radius: var(--md-sys-shape-corner-full); background: var(--md-sys-color-inverse-surface); color: var(--md-sys-color-inverse-on-surface); }
+    .skip-link:focus { top: 16px; }
 
     /* ---------- 3. Scaffold ---------- */
     .scaffold { display: grid; min-height: 100dvh; grid-template-rows: auto 1fr auto; grid-template-areas: "top" "body" "nav"; }
@@ -149,6 +161,7 @@
   </style>
 </head>
 <body>
+<a class="skip-link type-label-large" href="#main">Skip to content</a>
 <div class="scaffold">
   <header class="top-app-bar" id="topbar">
     <button class="icon-button state-layer" aria-label="Open navigation menu"><span class="material-symbols-outlined" aria-hidden="true">menu</span></button>
@@ -163,7 +176,7 @@
     <button class="nav-item state-layer"><span class="indicator"><span class="material-symbols-outlined" aria-hidden="true">settings</span></span><span class="type-label-medium">Settings</span></button>
   </nav>
 
-  <main class="body">
+  <main class="body" id="main" tabindex="-1">
     <section class="card card--elevated">
       <div class="card__media" role="img" aria-label="Placeholder image"></div>
       <div class="card__body">

@@ -1,6 +1,6 @@
 ---
 name: material-design-3
-description: Build front-end UI that follows Google's Material Design 3 (M3) guidelines in any web language or framework (plain HTML/CSS/JS, React, Vue, Angular, Svelte, Solid, Web Components, Lit, Tailwind, Flutter web, Blazor, PHP or Django templates). Use this skill whenever the user asks for a Material, Material Design, Material You, M3, MD3, Material 3 Expressive, "Google style" or "Android style" interface, mentions a Material component by name (FAB, app bar, navigation rail, chips, snackbar, bottom sheet, text field, segmented buttons), asks for a design system with color roles, tokens, type scale, elevation or dynamic color, or wants to review, fix or theme existing code against Material Design rules. Also use it when the user wants Material-looking components built by hand without a library, or wants to choose and configure a Material library (Material Web, Angular Material, MUI, Vuetify, material-color-utilities).
+description: Build production-grade front-end UI that follows Google's Material Design 3 (M3) guidelines in any web language or framework (plain HTML/CSS/JS, React, Vue, Angular, Svelte, Solid, Web Components, Lit, Tailwind, Flutter web, Blazor, PHP or Django templates), with the engineering layer large tech companies expect: reusable component architecture, layouts, performance budgets, head metadata, JSON-LD structured data, semantic HTML and a delivery checklist. Use this skill whenever the user asks for a Material, Material Design, Material You, M3, MD3, Material 3 Expressive, "Google style" or "Android style" interface, mentions a Material component by name (FAB, app bar, navigation rail, chips, snackbar, bottom sheet, text field, segmented buttons), asks for a design system with color roles, tokens, type scale, elevation or dynamic color, wants a front-end that is "pro", fast, SEO-ready or accessible, or wants to review, fix or theme existing code against Material Design rules. Also use it when the user wants Material-looking components built by hand without a library, or wants to choose and configure a Material library (Material Web, Angular Material, MUI, Vuetify, material-color-utilities).
 ---
 
 # Material Design 3 for web front-end code
@@ -10,10 +10,15 @@ This skill turns the guidelines published at https://m3.material.io into rules y
 1. **Foundations**: layout, accessibility, interaction states, design tokens, content writing.
 2. **Styles**: color, typography, shape, elevation, motion, icons, spacing.
 3. **Components**: 36 component families, each with variants, anatomy, specs, states and a minimal implementation.
+4. **Engineering**: how to turn that into production code: project structure and reusable components, performance budgets, head metadata, structured data, semantic HTML, and the quality bar before shipping. Material does not cover this layer; large tech companies expect it, so this skill does.
 
 Everything is expressed through **design tokens** (`md.sys.color.primary`, `md.sys.shape.corner.medium`, `md.comp.filled-button.container.height`). In CSS the same tokens become custom properties (`--md-sys-color-primary`). Every file in this skill refers to these names, so code written from it stays themeable and recognisable as Material.
 
 ## Workflow
+
+### 0. Set up the project structure once
+
+Before the first component, lay out the project as `references/engineering/architecture.md` describes: `tokens/` (the token CSS and the theme override), `components/` (one folder per Material component, variants as props, scoped styles), `layouts/` (an AppShell with the app bar and the navigation that switches bar, rail and drawer by breakpoint; list-detail and supporting-pane templates; one dialog host and one snackbar host), `pages/` that only compose layouts and components. A page never carries component CSS and a component is never copied into a page with small changes. This is what keeps a ten-page app consistent and lets a junior ship a new page in an hour.
 
 ### 1. Load the tokens first
 
@@ -73,15 +78,23 @@ Use the window size classes from `references/foundations/layout.md`:
 
 Margins are 16px on compact and 24px elsewhere; the content area uses a scaffold with top app bar, navigation region, body and optional supporting pane. Canonical layouts (list-detail, supporting pane, feed) are described there with the CSS grid needed to build them.
 
-### 6. Check before delivering
+### 6. Make the page complete, not only pretty
 
-Run `scripts/check_material.py <file or folder>` on the CSS, HTML, JSX, Vue, Svelte or TS files you produced. It reports hard-coded colors, font sizes, corner radii, durations and shadows that should be tokens, touch targets below 48px, and interactive elements without a focus style or label. Fix what it reports, then re-read the component's Do / Don't list once.
+A Material page that ships also needs what the user never sees. Do these for every page, following `references/engineering/`:
 
-Also confirm by eye:
-- light and dark theme both work (toggle `data-theme="dark"` on `<html>`)
+- **Head and identity** (`metadata.md`): `lang`, charset, viewport with `viewport-fit=cover`, a `<title>` under 60 characters, a meta description, `theme-color` for light and dark set to the surface color, favicon and web manifest, canonical and Open Graph on public pages, `noindex` on back-office pages. Copy the head template from that file.
+- **Structured data** (`structured-data.md`): one JSON-LD script on public pages (Organization or LocalBusiness, WebPage, BreadcrumbList, Article, Product, FAQ...) that matches what is visible on the page.
+- **Semantic skeleton** (`semantic-html.md`): skip link, one `<header>`, `<nav aria-label>`, one `<main>`, one `h1`, headings in order, native `<button>`, `<a>`, `<dialog>`, `<label for>` on every control with `autocomplete` and `inputmode`.
+- **Performance** (`performance.md`): fonts with `display=swap` and preconnect, Material Symbols loaded as a subset (`icon_names=`), images with `width`, `height`, `loading="lazy"` and `srcset`, no JS for what CSS does, code split by route. Budget: Lighthouse 90 or more on mobile, LCP under 2.5 s, CLS under 0.1, first-load JS under 200 KB gzipped.
+
+### 7. Check before delivering
+
+Run `scripts/check_material.py <file or folder>` on everything you produced (add `--app` for an authenticated app, where canonical, Open Graph and JSON-LD are not required). It reports hard-coded colors, font sizes, corner radii, durations and shadows that should be tokens, touch targets below 48px, interactive elements without a focus style or label, divs used as buttons, unlabelled inputs, inline styles, and on full documents the missing head metadata, heading structure, landmarks, image attributes, font loading and skip link. Fix what it reports, then re-read the component's Do / Don't list once.
+
+Then run the delivery checklist in `references/engineering/quality.md`: Lighthouse on the four scores, axe with zero violations, HTML validation, a keyboard walkthrough (tab order, focus visible, Escape closes, arrow keys in tabs, chips and radio groups), light and dark, 400 px and 1280 px, 200 % zoom, `prefers-reduced-motion`. Also confirm by eye:
 - text over every colored container uses the matching `on-` role
 - nothing is only distinguished by color (icons or text labels accompany it)
-- the page still reads at 200% zoom and at compact width
+- every list has a loading, an empty and an error state
 
 ## Language and framework notes
 
@@ -114,6 +127,12 @@ Also confirm by eye:
 | Token system and naming | `references/foundations/design-tokens.md` |
 | UI text: tone, capitalization, labels, errors | `references/foundations/content-design.md` |
 | Framework-specific guidance | `references/frameworks.md` |
+| Project tree, reusable components, AppShell and layout templates | `references/engineering/architecture.md` |
+| Budgets, fonts, images, JS, caching, Lighthouse | `references/engineering/performance.md` |
+| Head template, favicon, manifest, Open Graph, robots | `references/engineering/metadata.md` |
+| JSON-LD types and examples, microdata | `references/engineering/structured-data.md` |
+| Landmarks, headings, forms, links, page skeleton | `references/engineering/semantic-html.md` |
+| Definition of done, tooling, tests, review checklist, i18n | `references/engineering/quality.md` |
 | Full token lists (6 400 tokens, 83 files) | `references/tokens/md.<ref|sys|comp>.<group>.md` |
 | CSS custom properties, light and dark | `assets/material-tokens.css` |
 | Complete starter page and framework examples | `assets/examples/` |
